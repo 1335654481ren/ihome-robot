@@ -2,8 +2,8 @@
 #include<sys/types.h>
 #include<sys/socket.h>
 #include<netinet/in.h>
-#define SERVPORT "5555"
-#define DEST_IP "192.168.66.134"
+#define SERVPORT "3000"
+#define DEST_IP "127.0.0.1"
 
 int main(int argc, char **argv)
 {
