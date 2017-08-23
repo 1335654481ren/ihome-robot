@@ -1,0 +1,1 @@
+cmd_/home/renxl/share/github/web/airkiss/ndiswrapper-1.61/driver/crt_exports.h := /bin/sh /home/renxl/share/github/web/airkiss/ndiswrapper-1.61/driver/mkexport.sh /home/renxl/share/github/web/airkiss/ndiswrapper-1.61/driver/crt.c /home/renxl/share/github/web/airkiss/ndiswrapper-1.61/driver/crt_exports.h

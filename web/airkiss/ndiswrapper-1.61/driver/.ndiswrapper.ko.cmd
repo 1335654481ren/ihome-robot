@@ -1,0 +1,1 @@
+cmd_/home/renxl/share/github/web/airkiss/ndiswrapper-1.61/driver/ndiswrapper.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/renxl/share/github/web/airkiss/ndiswrapper-1.61/driver/ndiswrapper.ko /home/renxl/share/github/web/airkiss/ndiswrapper-1.61/driver/ndiswrapper.o /home/renxl/share/github/web/airkiss/ndiswrapper-1.61/driver/ndiswrapper.mod.o

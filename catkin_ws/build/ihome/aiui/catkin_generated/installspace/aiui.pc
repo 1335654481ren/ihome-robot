@@ -1,0 +1,8 @@
+prefix=/home/renxl/share/catkin_ws/install
+
+Name: aiui
+Description: Description of aiui
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/renxl/share/catkin_ws/install/lib 
+Requires: 

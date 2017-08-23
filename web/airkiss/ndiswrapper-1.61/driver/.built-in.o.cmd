@@ -1,0 +1,1 @@
+cmd_/home/renxl/share/github/web/airkiss/ndiswrapper-1.61/driver/built-in.o :=  rm -f /home/renxl/share/github/web/airkiss/ndiswrapper-1.61/driver/built-in.o; ar rcsD /home/renxl/share/github/web/airkiss/ndiswrapper-1.61/driver/built-in.o

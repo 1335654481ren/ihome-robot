@@ -1,0 +1,6 @@
+uint8 id
+uint8 type
+string arg1
+string arg2
+---
+uint32 code

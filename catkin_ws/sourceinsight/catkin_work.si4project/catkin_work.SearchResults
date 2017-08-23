@@ -1,0 +1,4 @@
+---- s_addr_client Matches (3 in 1 files) ----
+main in socket.cpp (W:\catkin_ws\src\ihome\aiui\src) : 	struct sockaddr_in s_addr_client;
+main in socket.cpp (W:\catkin_ws\src\ihome\aiui\src) : 		client_length = sizeof(s_addr_client);
+main in socket.cpp (W:\catkin_ws\src\ihome\aiui\src) : 		sockfd = accept(sockfd_server,(struct sockaddr_*)(&s_addr_client),(socklen_t *)(&client_length));
