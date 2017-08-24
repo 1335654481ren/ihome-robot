@@ -5,7 +5,7 @@ import re
 import urllib2
 from PyQt5 import QtWidgets, QtGui  
 from bs4 import BeautifulSoup  
-def search(key,limit=10):
+def search(key,limit=5):
     search_url='http://www.baidu.com/s?wd=key&rsv_bp=0&rsv_spt=3&rsv_n=2&inputT=6391'
     #search_url='https://www.google.com.hk/?gws_rd=cr,ssl#safe=active&q=key'   
     req=urllib2.urlopen(search_url.replace('key',key))   
@@ -27,9 +27,11 @@ def search(key,limit=10):
 
 if __name__=='__main__':
     while True:
-        app = QtWidgets.QApplication(sys.argv)
-        window = QtWidgets.QWidget();
-        window.show()
-        sys.exit(app.exec_())
-        key=raw_input('input key word:')  
-        search(key)
+       # app = QtWidgets.QApplication(sys.argv)
+       # window = QtWidgets.QWidget();
+       # window.show()
+       # sys.exit(app.exec_())
+       	key=raw_input('input key word:')  
+        if key != "":
+           search(key)
+

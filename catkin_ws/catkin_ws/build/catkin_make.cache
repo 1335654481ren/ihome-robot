@@ -1,0 +1,2 @@
+ihome/airkiss:ihome/aiui:ihome/brain:ihome/robot_msgs
+-DCATKIN_DEVEL_PREFIX=/home/renxl/share/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/renxl/share/catkin_ws/install -G Unix Makefiles
