@@ -6,46 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/renxl/share/catkin_ws/devel/include/robot_msgs/Speek.h
-ros/service_traits.h
--
-robot_msgs/SpeekRequest.h
--
-robot_msgs/SpeekResponse.h
--
-
-/home/renxl/share/catkin_ws/devel/include/robot_msgs/SpeekRequest.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
-/home/renxl/share/catkin_ws/devel/include/robot_msgs/SpeekResponse.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
 /home/renxl/share/catkin_ws/src/ihome/aiui/./include/aiui/aiui.h
 
 /home/renxl/share/catkin_ws/src/ihome/aiui/src/nodejs_socket.cpp
@@ -292,10 +252,6 @@ boost/make_shared.hpp
 cstddef
 -
 memory
--
-
-/opt/ros/kinetic/include/ros/message_operations.h
-ostream
 -
 
 /opt/ros/kinetic/include/ros/message_traits.h

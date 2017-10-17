@@ -70,8 +70,8 @@ install/fast: preinstall/fast
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -270,6 +270,19 @@ robot_msgs_genpy/fast:
 .PHONY : robot_msgs_genpy/fast
 
 #=============================================================================
+# Target rules for targets named robot_msgs_gennodejs
+
+# Build rule for target.
+robot_msgs_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot_msgs_gennodejs
+.PHONY : robot_msgs_gennodejs
+
+# fast build rule for target.
+robot_msgs_gennodejs/fast:
+	$(MAKE) -f ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/build.make ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/build
+.PHONY : robot_msgs_gennodejs/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -294,19 +307,6 @@ std_msgs_generate_messages_py: cmake_check_build_system
 std_msgs_generate_messages_py/fast:
 	$(MAKE) -f ihome/robot_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ihome/robot_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named _robot_msgs_generate_messages_check_deps_Speek
-
-# Build rule for target.
-_robot_msgs_generate_messages_check_deps_Speek: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _robot_msgs_generate_messages_check_deps_Speek
-.PHONY : _robot_msgs_generate_messages_check_deps_Speek
-
-# fast build rule for target.
-_robot_msgs_generate_messages_check_deps_Speek/fast:
-	$(MAKE) -f ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speek.dir/build.make ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speek.dir/build
-.PHONY : _robot_msgs_generate_messages_check_deps_Speek/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_nodejs
@@ -411,6 +411,19 @@ std_msgs_generate_messages_eus: cmake_check_build_system
 std_msgs_generate_messages_eus/fast:
 	$(MAKE) -f ihome/robot_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make ihome/robot_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named _robot_msgs_generate_messages_check_deps_Head
+
+# Build rule for target.
+_robot_msgs_generate_messages_check_deps_Head: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _robot_msgs_generate_messages_check_deps_Head
+.PHONY : _robot_msgs_generate_messages_check_deps_Head
+
+# fast build rule for target.
+_robot_msgs_generate_messages_check_deps_Head/fast:
+	$(MAKE) -f ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Head.dir/build.make ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Head.dir/build
+.PHONY : _robot_msgs_generate_messages_check_deps_Head/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_lisp
@@ -530,6 +543,19 @@ robot_msgs_geneus/fast:
 .PHONY : robot_msgs_geneus/fast
 
 #=============================================================================
+# Target rules for targets named _robot_msgs_generate_messages_check_deps_Speak
+
+# Build rule for target.
+_robot_msgs_generate_messages_check_deps_Speak: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _robot_msgs_generate_messages_check_deps_Speak
+.PHONY : _robot_msgs_generate_messages_check_deps_Speak
+
+# fast build rule for target.
+_robot_msgs_generate_messages_check_deps_Speak/fast:
+	$(MAKE) -f ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speak.dir/build.make ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speak.dir/build
+.PHONY : _robot_msgs_generate_messages_check_deps_Speak/fast
+
+#=============================================================================
 # Target rules for targets named robot_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -554,19 +580,6 @@ robot_msgs_generate_messages_nodejs: cmake_check_build_system
 robot_msgs_generate_messages_nodejs/fast:
 	$(MAKE) -f ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_nodejs.dir/build.make ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_nodejs.dir/build
 .PHONY : robot_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named robot_msgs_gennodejs
-
-# Build rule for target.
-robot_msgs_gennodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 robot_msgs_gennodejs
-.PHONY : robot_msgs_gennodejs
-
-# fast build rule for target.
-robot_msgs_gennodejs/fast:
-	$(MAKE) -f ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/build.make ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/build
-.PHONY : robot_msgs_gennodejs/fast
 
 #=============================================================================
 # Target rules for targets named airkiss
@@ -763,6 +776,136 @@ aiui/fast:
 	$(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/build
 .PHONY : aiui/fast
 
+#=============================================================================
+# Target rules for targets named brain
+
+# Build rule for target.
+brain: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 brain
+.PHONY : brain
+
+# fast build rule for target.
+brain/fast:
+	$(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/build
+.PHONY : brain/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_nodejs
+
+# Build rule for target.
+sensor_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_nodejs
+.PHONY : sensor_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+sensor_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f ihome/eye/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make ihome/eye/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+.PHONY : sensor_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_eus
+
+# Build rule for target.
+sensor_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_eus
+.PHONY : sensor_msgs_generate_messages_eus
+
+# fast build rule for target.
+sensor_msgs_generate_messages_eus/fast:
+	$(MAKE) -f ihome/eye/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make ihome/eye/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+.PHONY : sensor_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_lisp
+
+# Build rule for target.
+sensor_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f ihome/eye/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make ihome/eye/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_cpp
+
+# Build rule for target.
+sensor_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f ihome/eye/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make ihome/eye/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named eye
+
+# Build rule for target.
+eye: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eye
+.PHONY : eye
+
+# fast build rule for target.
+eye/fast:
+	$(MAKE) -f ihome/eye/CMakeFiles/eye.dir/build.make ihome/eye/CMakeFiles/eye.dir/build
+.PHONY : eye/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_py
+
+# Build rule for target.
+sensor_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_py
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	$(MAKE) -f ihome/eye/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make ihome/eye/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named face_tracker
+
+# Build rule for target.
+face_tracker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 face_tracker
+.PHONY : face_tracker
+
+# fast build rule for target.
+face_tracker/fast:
+	$(MAKE) -f ihome/eye/CMakeFiles/face_tracker.dir/build.make ihome/eye/CMakeFiles/face_tracker.dir/build
+.PHONY : face_tracker/fast
+
+#=============================================================================
+# Target rules for targets named ptz-ctl
+
+# Build rule for target.
+ptz-ctl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ptz-ctl
+.PHONY : ptz-ctl
+
+# fast build rule for target.
+ptz-ctl/fast:
+	$(MAKE) -f ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build.make ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build
+.PHONY : ptz-ctl/fast
+
+#=============================================================================
+# Target rules for targets named wechat
+
+# Build rule for target.
+wechat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wechat
+.PHONY : wechat
+
+# fast build rule for target.
+wechat/fast:
+	$(MAKE) -f ihome/wechat/CMakeFiles/wechat.dir/build.make ihome/wechat/CMakeFiles/wechat.dir/build
+.PHONY : wechat/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -784,9 +927,9 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... robot_msgs_genpy"
+	@echo "... robot_msgs_gennodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... _robot_msgs_generate_messages_check_deps_Speek"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... robot_msgs_generate_messages_py"
@@ -795,6 +938,7 @@ help:
 	@echo "... _catkin_empty_exported_target"
 	@echo "... robot_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_eus"
+	@echo "... _robot_msgs_generate_messages_check_deps_Head"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
@@ -804,9 +948,9 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... _robot_msgs_generate_messages_check_deps_Ear"
 	@echo "... robot_msgs_geneus"
+	@echo "... _robot_msgs_generate_messages_check_deps_Speak"
 	@echo "... robot_msgs_generate_messages_lisp"
 	@echo "... robot_msgs_generate_messages_nodejs"
-	@echo "... robot_msgs_gennodejs"
 	@echo "... airkiss"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_nodejs"
@@ -822,6 +966,16 @@ help:
 	@echo "... ear"
 	@echo "... nodejs_socket"
 	@echo "... aiui"
+	@echo "... brain"
+	@echo "... sensor_msgs_generate_messages_nodejs"
+	@echo "... sensor_msgs_generate_messages_eus"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... eye"
+	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... face_tracker"
+	@echo "... ptz-ctl"
+	@echo "... wechat"
 .PHONY : help
 
 

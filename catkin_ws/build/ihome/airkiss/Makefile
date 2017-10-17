@@ -124,8 +124,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -357,6 +357,33 @@ src/airkiss.cpp.s:
 	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f ihome/airkiss/CMakeFiles/airkiss.dir/build.make ihome/airkiss/CMakeFiles/airkiss.dir/src/airkiss.cpp.s
 .PHONY : src/airkiss.cpp.s
 
+src/app.o: src/app.cpp.o
+
+.PHONY : src/app.o
+
+# target to build an object file
+src/app.cpp.o:
+	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f ihome/airkiss/CMakeFiles/airkiss.dir/build.make ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.o
+.PHONY : src/app.cpp.o
+
+src/app.i: src/app.cpp.i
+
+.PHONY : src/app.i
+
+# target to preprocess a source file
+src/app.cpp.i:
+	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f ihome/airkiss/CMakeFiles/airkiss.dir/build.make ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.i
+.PHONY : src/app.cpp.i
+
+src/app.s: src/app.cpp.s
+
+.PHONY : src/app.s
+
+# target to generate assembly for a file
+src/app.cpp.s:
+	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f ihome/airkiss/CMakeFiles/airkiss.dir/build.make ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.s
+.PHONY : src/app.cpp.s
+
 src/common.o: src/common.cpp.o
 
 .PHONY : src/common.o
@@ -546,6 +573,9 @@ help:
 	@echo "... src/airkiss.o"
 	@echo "... src/airkiss.i"
 	@echo "... src/airkiss.s"
+	@echo "... src/app.o"
+	@echo "... src/app.i"
+	@echo "... src/app.s"
 	@echo "... src/common.o"
 	@echo "... src/common.i"
 	@echo "... src/common.s"

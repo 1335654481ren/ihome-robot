@@ -76,9 +76,9 @@ ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o: /home/renxl/share/catkin_ws
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o: /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.cpp
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o: /home/renxl/share/catkin_ws/devel/include/robot_msgs/Ear.h
-ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o: /home/renxl/share/catkin_ws/devel/include/robot_msgs/Speek.h
-ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o: /home/renxl/share/catkin_ws/devel/include/robot_msgs/SpeekRequest.h
-ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o: /home/renxl/share/catkin_ws/devel/include/robot_msgs/SpeekResponse.h
+ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o: /home/renxl/share/catkin_ws/devel/include/robot_msgs/Speak.h
+ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o: /home/renxl/share/catkin_ws/devel/include/robot_msgs/SpeakRequest.h
+ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o: /home/renxl/share/catkin_ws/devel/include/robot_msgs/SpeakResponse.h
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o: /home/renxl/share/catkin_ws/src/ihome/aiui/./include/aiui/aiui.h
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o: /home/renxl/share/catkin_ws/src/ihome/aiui/./include/aiui/cJSON.h
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o: /home/renxl/share/catkin_ws/src/ihome/aiui/./include/aiui/uart.h

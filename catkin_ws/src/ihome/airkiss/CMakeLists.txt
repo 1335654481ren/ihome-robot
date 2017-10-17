@@ -118,6 +118,7 @@ catkin_package(
 # include_directories(include)
 include_directories(
   ${catkin_INCLUDE_DIRS}
+  ../aiui/include/aiui/
 )
 
 ## Declare a C++ library
@@ -133,6 +134,7 @@ include_directories(
 ## Declare a C++ executable
 add_executable(airkiss 
 	 src/main.cpp
+	 src/app.cpp
 	 src/airkiss.cpp
 	 src/common.cpp
 	 src/osdep.cpp

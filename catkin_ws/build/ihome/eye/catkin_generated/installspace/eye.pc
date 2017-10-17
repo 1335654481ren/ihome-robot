@@ -1,0 +1,8 @@
+prefix=/home/renxl/share/catkin_ws/install
+
+Name: eye
+Description: Description of eye
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/renxl/share/catkin_ws/install/lib 
+Requires: 

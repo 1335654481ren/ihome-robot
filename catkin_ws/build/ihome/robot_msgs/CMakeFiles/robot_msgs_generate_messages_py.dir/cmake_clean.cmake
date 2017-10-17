@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/robot_msgs_generate_messages_py"
   "/home/renxl/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py"
-  "/home/renxl/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Speek.py"
+  "/home/renxl/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Speak.py"
+  "/home/renxl/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Head.py"
   "/home/renxl/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/__init__.py"
   "/home/renxl/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/__init__.py"
 )

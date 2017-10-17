@@ -37,7 +37,10 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_msgs/srv" TYPE FILE FILES "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_msgs/srv" TYPE FILE FILES
+    "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv"
+    "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv"
+    )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

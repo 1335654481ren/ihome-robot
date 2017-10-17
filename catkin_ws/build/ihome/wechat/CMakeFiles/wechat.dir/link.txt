@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/wechat.dir/src/wechat.cpp.o  -o /home/renxl/share/catkin_ws/devel/lib/wechat/wechat -rdynamic 

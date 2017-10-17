@@ -54,7 +54,8 @@ CMAKE_BINARY_DIR = /home/renxl/share/catkin_ws/build
 include ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_eus.dir/progress.make
 
 ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_eus: /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/msg/Ear.l
-ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_eus: /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Speek.l
+ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_eus: /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Speak.l
+ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_eus: /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Head.l
 ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_eus: /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/manifest.l
 
 
@@ -64,18 +65,24 @@ ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_eus: /home/renxl/share/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from robot_msgs/Ear.msg"
 	cd /home/renxl/share/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg -Irobot_msgs:/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p robot_msgs -o /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/msg
 
-/home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Speek.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Speek.l: /home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from robot_msgs/Speek.srv"
-	cd /home/renxl/share/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv -Irobot_msgs:/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p robot_msgs -o /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv
+/home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Speak.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Speak.l: /home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from robot_msgs/Speak.srv"
+	cd /home/renxl/share/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv -Irobot_msgs:/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p robot_msgs -o /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv
+
+/home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Head.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Head.l: /home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from robot_msgs/Head.srv"
+	cd /home/renxl/share/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv -Irobot_msgs:/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p robot_msgs -o /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv
 
 /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for robot_msgs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for robot_msgs"
 	cd /home/renxl/share/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs robot_msgs std_msgs geometry_msgs
 
 robot_msgs_generate_messages_eus: ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_eus
 robot_msgs_generate_messages_eus: /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/msg/Ear.l
-robot_msgs_generate_messages_eus: /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Speek.l
+robot_msgs_generate_messages_eus: /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Speak.l
+robot_msgs_generate_messages_eus: /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Head.l
 robot_msgs_generate_messages_eus: /home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/manifest.l
 robot_msgs_generate_messages_eus: ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_eus.dir/build.make
 

@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg"
-services_str = "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv"
+services_str = "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv;/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv"
 pkg_name = "robot_msgs"
 dependencies_str = "std_msgs;geometry_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

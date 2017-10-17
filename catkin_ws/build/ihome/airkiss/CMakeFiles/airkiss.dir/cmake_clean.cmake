@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/airkiss.dir/src/main.cpp.o"
+  "CMakeFiles/airkiss.dir/src/app.cpp.o"
   "CMakeFiles/airkiss.dir/src/airkiss.cpp.o"
   "CMakeFiles/airkiss.dir/src/common.cpp.o"
   "CMakeFiles/airkiss.dir/src/osdep.cpp.o"

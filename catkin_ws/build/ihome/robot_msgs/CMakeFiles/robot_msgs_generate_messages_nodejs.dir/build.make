@@ -54,7 +54,8 @@ CMAKE_BINARY_DIR = /home/renxl/share/catkin_ws/build
 include ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_nodejs.dir/progress.make
 
 ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_nodejs: /home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/msg/Ear.js
-ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_nodejs: /home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Speek.js
+ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_nodejs: /home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Speak.js
+ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_nodejs: /home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Head.js
 
 
 /home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/msg/Ear.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
@@ -63,14 +64,20 @@ ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_nodejs: /home/renxl/sha
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from robot_msgs/Ear.msg"
 	cd /home/renxl/share/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg -Irobot_msgs:/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p robot_msgs -o /home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/msg
 
-/home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Speek.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Speek.js: /home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from robot_msgs/Speek.srv"
-	cd /home/renxl/share/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv -Irobot_msgs:/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p robot_msgs -o /home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv
+/home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Speak.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Speak.js: /home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from robot_msgs/Speak.srv"
+	cd /home/renxl/share/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv -Irobot_msgs:/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p robot_msgs -o /home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv
+
+/home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Head.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Head.js: /home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from robot_msgs/Head.srv"
+	cd /home/renxl/share/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv -Irobot_msgs:/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p robot_msgs -o /home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv
 
 robot_msgs_generate_messages_nodejs: ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_nodejs
 robot_msgs_generate_messages_nodejs: /home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/msg/Ear.js
-robot_msgs_generate_messages_nodejs: /home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Speek.js
+robot_msgs_generate_messages_nodejs: /home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Speak.js
+robot_msgs_generate_messages_nodejs: /home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Head.js
 robot_msgs_generate_messages_nodejs: ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_nodejs.dir/build.make
 
 .PHONY : robot_msgs_generate_messages_nodejs

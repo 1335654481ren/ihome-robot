@@ -1,0 +1,2 @@
+---- SR_DWORD Matches (1 in 1 files) ----
+tts_local.cpp (W:\share\catkin_ws\src\ihome\aiui\src\tts_local) line 22 : typedef int SR_DWORD;

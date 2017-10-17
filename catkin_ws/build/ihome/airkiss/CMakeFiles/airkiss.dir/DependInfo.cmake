@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/renxl/share/catkin_ws/src/ihome/airkiss/src/airkiss.cpp" "/home/renxl/share/catkin_ws/build/ihome/airkiss/CMakeFiles/airkiss.dir/src/airkiss.cpp.o"
+  "/home/renxl/share/catkin_ws/src/ihome/airkiss/src/app.cpp" "/home/renxl/share/catkin_ws/build/ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.o"
   "/home/renxl/share/catkin_ws/src/ihome/airkiss/src/common.cpp" "/home/renxl/share/catkin_ws/build/ihome/airkiss/CMakeFiles/airkiss.dir/src/common.cpp.o"
   "/home/renxl/share/catkin_ws/src/ihome/airkiss/src/linux.cpp" "/home/renxl/share/catkin_ws/build/ihome/airkiss/CMakeFiles/airkiss.dir/src/linux.cpp.o"
   "/home/renxl/share/catkin_ws/src/ihome/airkiss/src/main.cpp" "/home/renxl/share/catkin_ws/build/ihome/airkiss/CMakeFiles/airkiss.dir/src/main.cpp.o"
@@ -26,6 +27,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/renxl/share/catkin_ws/devel/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/home/renxl/share/catkin_ws/src/ihome/airkiss/../aiui/include/aiui"
   )
 
 # Targets to which this target links.

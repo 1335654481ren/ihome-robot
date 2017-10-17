@@ -312,8 +312,6 @@ void process_recv(unsigned char* buf, int len)
 int ask_aiui_todo(unsigned char type,const char *arg1,const char *arg2)
 {
 	int err = 0;
-	char *ssid = (char *) arg1;
-	char *passwd = (char *) arg2;
 	switch(type)
 	{
 		case TODO_TTS_START:
@@ -332,7 +330,7 @@ int ask_aiui_todo(unsigned char type,const char *arg1,const char *arg2)
 			err = AiuiCtrl_get_wifi_status();//ok
 		break;
 		case TODO_CONFIG_WIFI:
-			err = AiuiCtrl_Config_wifi(ssid,passwd);//ok
+			err = AiuiCtrl_Config_wifi((char*)arg1,(char*)arg2);//(ssid,passwd);//ok
 		break;
 		case TODO_VOICE_OPEN:
 			err = AiuiCtrl_Voice_EN(ENABLE);//ok
@@ -346,11 +344,14 @@ int ask_aiui_todo(unsigned char type,const char *arg1,const char *arg2)
 		case TODO_SMART_CNF_STOP:
 			err = AiuiCtrl_smartconfig(false);//ok
 		break;
-		case TODO_LOCAL_TTS:
-			err = local_tts_engine((char*)arg2,(char*)arg1);
+		case TODO_LOCAL_TTS://arg1: name arg2: test
+			err = local_tts_engine((char*)arg1,(char*)arg2);
 		break;
-		case TODO_EKHO_TTS:
-			err = local_tts_ekho((char*)arg2,(char*)arg1);
+		case TODO_CLOUD_TTS://arg1: name arg2: test
+			err = cloud_tts_engine((char*)arg1,(char*)arg2);
+		break;
+		case TODO_EKHO_TTS://arg1: name arg2: test
+			err = local_tts_ekho((char*)arg1,(char*)arg2);
 		break;
 		default:break;
 	}

@@ -120,6 +120,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/renxl/share/catkin_ws/build/ihome/robot_msgs/cmake_install.cmake")
   include("/home/renxl/share/catkin_ws/build/ihome/airkiss/cmake_install.cmake")
   include("/home/renxl/share/catkin_ws/build/ihome/aiui/cmake_install.cmake")
+  include("/home/renxl/share/catkin_ws/build/ihome/brain/cmake_install.cmake")
+  include("/home/renxl/share/catkin_ws/build/ihome/eye/cmake_install.cmake")
+  include("/home/renxl/share/catkin_ws/build/ihome/ptz-ctl/cmake_install.cmake")
+  include("/home/renxl/share/catkin_ws/build/ihome/wechat/cmake_install.cmake")
 
 endif()
 

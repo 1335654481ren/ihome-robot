@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/robot_msgs_generate_messages_nodejs"
   "/home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/msg/Ear.js"
-  "/home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Speek.js"
+  "/home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Speak.js"
+  "/home/renxl/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs/srv/Head.js"
 )
 
 # Per-language clean rules from dependency scanning.

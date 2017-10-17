@@ -1,0 +1,125 @@
+2017-09-24 01:27:02,288 - /usr/local/lib/python2.7/dist-packages/werkzeug/_internal.py:87 - werkzeug - INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+2017-09-24 01:33:54,529 - /usr/local/lib/python2.7/dist-packages/flask/app.py:1560 - __main__ - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 58, in index
+    def index():
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: index.html
+2017-09-24 01:33:54,541 - /usr/local/lib/python2.7/dist-packages/werkzeug/_internal.py:87 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2017 01:33:54] "GET / HTTP/1.1" 500 -
+2017-09-24 01:33:54,653 - /usr/local/lib/python2.7/dist-packages/werkzeug/_internal.py:87 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2017 01:33:54] "GET /favicon.ico HTTP/1.1" 404 -
+2017-09-24 01:33:54,660 - /usr/local/lib/python2.7/dist-packages/werkzeug/_internal.py:87 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2017 01:33:54] "GET /favicon.ico HTTP/1.1" 404 -
+2017-09-24 02:47:56,059 - /usr/local/lib/python2.7/dist-packages/werkzeug/_internal.py:87 - werkzeug - INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+2017-09-24 02:48:25,666 - /usr/local/lib/python2.7/dist-packages/flask/app.py:1560 - __main__ - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 59, in index
+    return render_template(Constant.SERVER_PAGE_INDEX)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: index.html
+2017-09-24 02:48:25,669 - /usr/local/lib/python2.7/dist-packages/werkzeug/_internal.py:87 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2017 02:48:25] "GET / HTTP/1.1" 500 -
+2017-09-24 02:48:28,967 - /usr/local/lib/python2.7/dist-packages/flask/app.py:1560 - __main__ - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 59, in index
+    return render_template(Constant.SERVER_PAGE_INDEX)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: index.html
+2017-09-24 02:48:28,968 - /usr/local/lib/python2.7/dist-packages/werkzeug/_internal.py:87 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2017 02:48:28] "GET / HTTP/1.1" 500 -
+2017-09-24 02:48:29,894 - /usr/local/lib/python2.7/dist-packages/flask/app.py:1560 - __main__ - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 59, in index
+    return render_template(Constant.SERVER_PAGE_INDEX)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: index.html
+2017-09-24 02:48:29,895 - /usr/local/lib/python2.7/dist-packages/werkzeug/_internal.py:87 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2017 02:48:29] "GET / HTTP/1.1" 500 -
+2017-09-24 03:30:17,420 - /usr/local/lib/python2.7/dist-packages/werkzeug/_internal.py:87 - werkzeug - INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)

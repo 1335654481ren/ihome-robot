@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/robot_msgs_generate_messages_eus"
   "/home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/msg/Ear.l"
-  "/home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Speek.l"
+  "/home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Speak.l"
+  "/home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Head.l"
   "/home/renxl/share/catkin_ws/devel/share/roseus/ros/robot_msgs/manifest.l"
 )
 

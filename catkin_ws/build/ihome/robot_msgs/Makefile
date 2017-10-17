@@ -68,21 +68,10 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -133,6 +122,17 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /home/renxl/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/share/catkin_ws/build/CMakeFiles /home/renxl/share/catkin_ws/build/ihome/robot_msgs/CMakeFiles/progress.marks
@@ -181,6 +181,21 @@ robot_msgs_genpy/fast:
 .PHONY : robot_msgs_genpy/fast
 
 # Convenience name for target.
+ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/rule:
+	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/rule
+.PHONY : ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/rule
+
+# Convenience name for target.
+robot_msgs_gennodejs: ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/rule
+
+.PHONY : robot_msgs_gennodejs
+
+# fast build rule for target.
+robot_msgs_gennodejs/fast:
+	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/build.make ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/build
+.PHONY : robot_msgs_gennodejs/fast
+
+# Convenience name for target.
 ihome/robot_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
 	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/robot_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 .PHONY : ihome/robot_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
@@ -209,21 +224,6 @@ std_msgs_generate_messages_py: ihome/robot_msgs/CMakeFiles/std_msgs_generate_mes
 std_msgs_generate_messages_py/fast:
 	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f ihome/robot_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ihome/robot_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speek.dir/rule:
-	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speek.dir/rule
-.PHONY : ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speek.dir/rule
-
-# Convenience name for target.
-_robot_msgs_generate_messages_check_deps_Speek: ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speek.dir/rule
-
-.PHONY : _robot_msgs_generate_messages_check_deps_Speek
-
-# fast build rule for target.
-_robot_msgs_generate_messages_check_deps_Speek/fast:
-	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speek.dir/build.make ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speek.dir/build
-.PHONY : _robot_msgs_generate_messages_check_deps_Speek/fast
 
 # Convenience name for target.
 ihome/robot_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
@@ -344,6 +344,21 @@ std_msgs_generate_messages_eus: ihome/robot_msgs/CMakeFiles/std_msgs_generate_me
 std_msgs_generate_messages_eus/fast:
 	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f ihome/robot_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make ihome/robot_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Head.dir/rule:
+	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Head.dir/rule
+.PHONY : ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Head.dir/rule
+
+# Convenience name for target.
+_robot_msgs_generate_messages_check_deps_Head: ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Head.dir/rule
+
+.PHONY : _robot_msgs_generate_messages_check_deps_Head
+
+# fast build rule for target.
+_robot_msgs_generate_messages_check_deps_Head/fast:
+	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Head.dir/build.make ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Head.dir/build
+.PHONY : _robot_msgs_generate_messages_check_deps_Head/fast
 
 # Convenience name for target.
 ihome/robot_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
@@ -481,6 +496,21 @@ robot_msgs_geneus/fast:
 .PHONY : robot_msgs_geneus/fast
 
 # Convenience name for target.
+ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speak.dir/rule:
+	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speak.dir/rule
+.PHONY : ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speak.dir/rule
+
+# Convenience name for target.
+_robot_msgs_generate_messages_check_deps_Speak: ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speak.dir/rule
+
+.PHONY : _robot_msgs_generate_messages_check_deps_Speak
+
+# fast build rule for target.
+_robot_msgs_generate_messages_check_deps_Speak/fast:
+	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speak.dir/build.make ihome/robot_msgs/CMakeFiles/_robot_msgs_generate_messages_check_deps_Speak.dir/build
+.PHONY : _robot_msgs_generate_messages_check_deps_Speak/fast
+
+# Convenience name for target.
 ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_lisp.dir/rule:
 	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_lisp.dir/rule
 .PHONY : ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_lisp.dir/rule
@@ -510,21 +540,6 @@ robot_msgs_generate_messages_nodejs/fast:
 	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_nodejs.dir/build.make ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_nodejs.dir/build
 .PHONY : robot_msgs_generate_messages_nodejs/fast
 
-# Convenience name for target.
-ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/rule:
-	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/rule
-.PHONY : ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/rule
-
-# Convenience name for target.
-robot_msgs_gennodejs: ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/rule
-
-.PHONY : robot_msgs_gennodejs
-
-# fast build rule for target.
-robot_msgs_gennodejs/fast:
-	cd /home/renxl/share/catkin_ws/build && $(MAKE) -f ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/build.make ihome/robot_msgs/CMakeFiles/robot_msgs_gennodejs.dir/build
-.PHONY : robot_msgs_gennodejs/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -532,14 +547,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... install/strip"
 	@echo "... robot_msgs_genpy"
+	@echo "... robot_msgs_gennodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... _robot_msgs_generate_messages_check_deps_Speek"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... robot_msgs_generate_messages_py"
@@ -550,6 +564,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... robot_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_eus"
+	@echo "... _robot_msgs_generate_messages_check_deps_Head"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
@@ -559,9 +574,10 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... _robot_msgs_generate_messages_check_deps_Ear"
 	@echo "... robot_msgs_geneus"
+	@echo "... rebuild_cache"
+	@echo "... _robot_msgs_generate_messages_check_deps_Speak"
 	@echo "... robot_msgs_generate_messages_lisp"
 	@echo "... robot_msgs_generate_messages_nodejs"
-	@echo "... robot_msgs_gennodejs"
 .PHONY : help
 
 

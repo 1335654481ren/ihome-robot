@@ -1,8 +1,10 @@
 
 "use strict";
 
-let Speek = require('./Speek.js')
+let Speak = require('./Speak.js')
+let Head = require('./Head.js')
 
 module.exports = {
-  Speek: Speek,
+  Speak: Speak,
+  Head: Head,
 };

@@ -104,7 +104,8 @@ extern "C"
 #define TODO_SMART_CNF_STOP		10
 #define TODO_LOCAL_TTS			11
 #define TODO_EKHO_TTS			12
-#define TODO_ESPEAK_TTS			13
+#define TODO_CLOUD_TTS			13
+#define TODO_ESPEAK_TTS			14
 
 //发音人类型
 #define XIAOFENG	"xiaofeng"
@@ -134,6 +135,7 @@ extern int ask_aiui_todo(unsigned char type,const char *arg1,const char *arg2);
 extern int get_aiui_status(unsigned char cmd);
 //locat_tts.cpp
 extern int local_tts_engine(char *name,char *text);
+extern int cloud_tts_engine(char *name,char *text);
 extern int local_tts_ekho(char *name, char *text);
 
 #ifdef __cplusplus

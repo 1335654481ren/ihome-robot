@@ -307,12 +307,13 @@ int local_tts_engine(char *name,char *text)
     FILE *fp;
 	system("rm ./msc/4320f99a640fa1796de3bb25c7dd8c05/* -rf");
 	char session_begin_params[500] ={0,0};
+	//char* session_begin_params = "voice_name = nannan, text_encoding = utf8, sample_rate = 16000, speed = 90, volume = 50, pitch = 50, rdn = 2";
 	sprintf(session_begin_params,"engine_type = local, text_encoding = UTF8,voice_name=%s,tts_res_path = fo|res/tts/%s.jet;fo|res/tts/common.jet, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2",name,name);
 	//小燕 女
 //	const char* session_begin_params = "engine_type = local, text_encoding = UTF8,voice_name=xiaoyan,tts_res_path = fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2";
 	//小峰 男
 //	const char* session_begin_params = "engine_type = local, text_encoding = UTF8,voice_name=xiaofeng,tts_res_path = fo|res/tts/xiaofeng.jet;fo|res/tts/common.jet, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2";
-	const char* filename             = "tts.wav"; //合成的语音文件名称
+	const char* filename             = "./data/tts.wav"; //合成的语音文件名称
 	/* login */
 	ret = MSPLogin(NULL, NULL, login_params); //第一个参数是用户名，第二个参数是密码，第三个参数是登录参数，用户名和密码可在http://www.xfyun.cn注册获取
 	if (MSP_SUCCESS != ret)
@@ -328,7 +329,7 @@ int local_tts_engine(char *name,char *text)
 	}
 	else
 	{
-		fp=fopen("./tts.wav","rb");
+		fp=fopen("./data/tts.wav","rb");
 	    if(fp==NULL)
 	    {
 	        perror("open file failed:\n");
@@ -340,3 +341,54 @@ int local_tts_engine(char *name,char *text)
 	MSPLogout(); //退出登录
 	return 0;
 }
+
+int cloud_tts_engine(char *name,char *text)
+{
+	int         ret                  = MSP_SUCCESS;
+	const char* login_params         = "appid = 54a61231, work_dir = .";//登录参数,appid与msc库绑定,请勿随意改动
+	/*
+	* rdn:           合成音频数字发音方式
+	* volume:        合成音频的音量
+	* pitch:         合成音频的音调
+	* speed:         合成音频对应的语速
+	* voice_name:    合成发音人
+	* sample_rate:   合成音频采样率
+	* text_encoding: 合成文本编码格式
+	*
+	*/
+    int nread;
+    FILE *fp;
+	system("rm ./msc/4320f99a640fa1796de3bb25c7dd8c05/* -rf");
+	char session_begin_params[500] ={0,0};
+	//char* session_begin_params = "voice_name = nannan, text_encoding = utf8, sample_rate = 16000, speed = 90, volume = 50, pitch = 50, rdn = 2";
+	sprintf(session_begin_params,"voice_name = %s, text_encoding = utf8, sample_rate = 16000, speed = 90, volume = 50, pitch = 50, rdn = 2",name);
+	
+	const char* filename             = "./data/tts.wav"; //合成的语音文件名称
+	/* login */
+	ret = MSPLogin(NULL, NULL, login_params); //第一个参数是用户名，第二个参数是密码，第三个参数是登录参数，用户名和密码可在http://www.xfyun.cn注册获取
+	if (MSP_SUCCESS != ret)
+	{
+		printf("MSPLogin failed, error code: %d.\n", ret);
+		return -1;
+	}
+	/* tts start */
+	ret = text_to_speech(text, filename, session_begin_params);
+	if (MSP_SUCCESS != ret)
+	{
+		printf("text_to_speech failed, error code: %d.\n", ret);
+	}
+	else
+	{
+		fp=fopen("./data/tts.wav","rb");
+	    if(fp==NULL)
+	    {
+	        perror("open file failed:\n");
+	        return -1;
+	    }
+	    nread=fread(&wav_header,1,sizeof(wav_header),fp);
+		set_pcm_play(fp);		
+	}
+	MSPLogout(); //退出登录
+	return 0;
+}
+

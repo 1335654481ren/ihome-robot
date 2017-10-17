@@ -105,7 +105,7 @@ int main(int argc,char **argv)
 		exit(1);
 	}
 
-	while(1)
+	while(ros::ok())
 	{
 		printf("waiting for new connection...\n");
 		client_length = sizeof(s_addr_client);
@@ -116,7 +116,7 @@ int main(int argc,char **argv)
 			fprintf(stderr,"Accept error!\n");
 			continue;                               //ignore current socket ,continue while loop.
 		}
-		while(1)
+		while(ros::ok())
 		{
 			int recv_length;
 			usleep(1000*100);

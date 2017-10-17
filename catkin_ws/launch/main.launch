@@ -1,0 +1,31 @@
+<!-- Starts up everything needed to run this launch. -->
+<launch>
+  <!-- The main node will publish a service message. -->
+  <node pkg="aiui" type="aiui" name="aiui" respawn="true" output="log">
+  </node>
+  <!-- The ear node is to publish the  message that  is from ear. -->
+  <node pkg="aiui" type="ear" name="ear" respawn="true" output="log">
+  </node>
+  <!-- The nodejs_socket node is to connect nodejs web service -->
+  <node pkg="aiui" type="nodejs_socket" name="nodejs_socket" respawn="true" output="log">
+  </node>
+  <!-- The brain node is to connect tujing robot brain -->
+  <node pkg="brain" type="brain" name="brain" respawn="true" output="log">
+  </node>
+  <!-- The ptz-ctl node is to control head camera move catch face -->
+  <node pkg="ptz-ctl" type="ptz-ctl" name="ptz-ctl" respawn="true" output="log">
+  </node>
+  <!-- The eye node is a camera to get image -->
+  <node pkg="eye" type="eye" name="eye" respawn="true" output="log">
+  </node>
+  <!-- The face_tracker node is face_tracker from image -->
+  <node pkg="eye" type="face_tracker" name="face_tracker" respawn="true" output="log">
+  </node>
+  <!-- The face++. node is reconginze face by face++ web service -->
+  <node pkg="eye" type="face++.py" name="face++" respawn="true" output="log">
+  </node>
+  <!-- The airkiss node is to get wifi passwd by wireless -->
+  <node pkg="airkiss" type="airkiss" name="airkiss" respawn="true" output="log">
+  </node>
+  <!--include file="$(find node_example)/launch/tools.launch"/ -->
+</launch>

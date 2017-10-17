@@ -16,7 +16,7 @@
 #include "ros/ros.h"
 #include <ros/time.h>
 #include <robot_msgs/Ear.h>
-#include <robot_msgs/Speek.h>
+#include <robot_msgs/Speak.h>
 #include "cJSON.h"
 #include "aiui.h"
 #include "uart.h"
@@ -30,7 +30,7 @@ extern UART_HANDLE uart_hd;
 ros::Publisher pub_ear;
 ros::ServiceServer service;
 
-bool speek_service(robot_msgs::Speek::Request  &req,robot_msgs::Speek::Response &res)  
+bool speak_service(robot_msgs::Speak::Request  &req,robot_msgs::Speak::Response &res)  
 {  
   unsigned int err = 0;
   switch(req.id)
@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
 	ros::init(argc, argv, "aiui");
 	ros::NodeHandle nh_;
 	pub_ear = nh_.advertise<robot_msgs::Ear>("/aiui_ear", 1);
-	service = nh_.advertiseService("/speek", speek_service);
+	service = nh_.advertiseService("/speak", speak_service);
 
 	char bugff[4096] = {"start system!"};
 

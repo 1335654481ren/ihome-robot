@@ -77,9 +77,9 @@ ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o
  /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.cpp
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o
  /home/renxl/share/catkin_ws/devel/include/robot_msgs/Ear.h
- /home/renxl/share/catkin_ws/devel/include/robot_msgs/Speek.h
- /home/renxl/share/catkin_ws/devel/include/robot_msgs/SpeekRequest.h
- /home/renxl/share/catkin_ws/devel/include/robot_msgs/SpeekResponse.h
+ /home/renxl/share/catkin_ws/devel/include/robot_msgs/Speak.h
+ /home/renxl/share/catkin_ws/devel/include/robot_msgs/SpeakRequest.h
+ /home/renxl/share/catkin_ws/devel/include/robot_msgs/SpeakResponse.h
  /home/renxl/share/catkin_ws/src/ihome/aiui/./include/aiui/aiui.h
  /home/renxl/share/catkin_ws/src/ihome/aiui/./include/aiui/cJSON.h
  /home/renxl/share/catkin_ws/src/ihome/aiui/./include/aiui/uart.h

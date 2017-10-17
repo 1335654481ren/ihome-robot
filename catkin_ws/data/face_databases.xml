@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+   <faceset>renxl</faceset>
+    <nubmer id='001'>
+        <face_token>320e0dda717639a654539167dc5a860a</face_token>
+        <name>任晓亮</name>
+        <remark>老公</remark>
+    </nubmer>
+
+    <nubmer id='002'>
+        <face_token>8f2af41889432c1af6938cb6491854ab</face_token>
+        <name>肖东红</name>
+        <remark>媳妇</remark>
+    </nubmer>
+
+</info>

@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "robot_msgs: 1 messages, 1 services")
+message(STATUS "robot_msgs: 1 messages, 2 services")
 
 set(MSG_I_FLAGS "-Irobot_msgs:/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg")
 
@@ -22,9 +22,14 @@ add_custom_target(_robot_msgs_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robot_msgs" "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv" NAME_WE)
+get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv" NAME_WE)
 add_custom_target(_robot_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robot_msgs" "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robot_msgs" "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv" ""
+)
+
+get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv" NAME_WE)
+add_custom_target(_robot_msgs_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robot_msgs" "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv" ""
 )
 
 #
@@ -42,7 +47,13 @@ _generate_msg_cpp(robot_msgs
 
 ### Generating Services
 _generate_srv_cpp(robot_msgs
-  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv"
+  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/robot_msgs
+)
+_generate_srv_cpp(robot_msgs
+  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/robot_msgs
@@ -62,7 +73,9 @@ add_dependencies(robot_msgs_generate_messages robot_msgs_generate_messages_cpp)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg" NAME_WE)
 add_dependencies(robot_msgs_generate_messages_cpp _robot_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv" NAME_WE)
+get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv" NAME_WE)
+add_dependencies(robot_msgs_generate_messages_cpp _robot_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv" NAME_WE)
 add_dependencies(robot_msgs_generate_messages_cpp _robot_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -83,7 +96,13 @@ _generate_msg_eus(robot_msgs
 
 ### Generating Services
 _generate_srv_eus(robot_msgs
-  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv"
+  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/robot_msgs
+)
+_generate_srv_eus(robot_msgs
+  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/robot_msgs
@@ -103,7 +122,9 @@ add_dependencies(robot_msgs_generate_messages robot_msgs_generate_messages_eus)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg" NAME_WE)
 add_dependencies(robot_msgs_generate_messages_eus _robot_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv" NAME_WE)
+get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv" NAME_WE)
+add_dependencies(robot_msgs_generate_messages_eus _robot_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv" NAME_WE)
 add_dependencies(robot_msgs_generate_messages_eus _robot_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -124,7 +145,13 @@ _generate_msg_lisp(robot_msgs
 
 ### Generating Services
 _generate_srv_lisp(robot_msgs
-  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv"
+  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/robot_msgs
+)
+_generate_srv_lisp(robot_msgs
+  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/robot_msgs
@@ -144,7 +171,9 @@ add_dependencies(robot_msgs_generate_messages robot_msgs_generate_messages_lisp)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg" NAME_WE)
 add_dependencies(robot_msgs_generate_messages_lisp _robot_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv" NAME_WE)
+get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv" NAME_WE)
+add_dependencies(robot_msgs_generate_messages_lisp _robot_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv" NAME_WE)
 add_dependencies(robot_msgs_generate_messages_lisp _robot_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -165,7 +194,13 @@ _generate_msg_nodejs(robot_msgs
 
 ### Generating Services
 _generate_srv_nodejs(robot_msgs
-  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv"
+  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/robot_msgs
+)
+_generate_srv_nodejs(robot_msgs
+  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/robot_msgs
@@ -185,7 +220,9 @@ add_dependencies(robot_msgs_generate_messages robot_msgs_generate_messages_nodej
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg" NAME_WE)
 add_dependencies(robot_msgs_generate_messages_nodejs _robot_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv" NAME_WE)
+get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv" NAME_WE)
+add_dependencies(robot_msgs_generate_messages_nodejs _robot_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv" NAME_WE)
 add_dependencies(robot_msgs_generate_messages_nodejs _robot_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -206,7 +243,13 @@ _generate_msg_py(robot_msgs
 
 ### Generating Services
 _generate_srv_py(robot_msgs
-  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv"
+  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/robot_msgs
+)
+_generate_srv_py(robot_msgs
+  "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/robot_msgs
@@ -226,7 +269,9 @@ add_dependencies(robot_msgs_generate_messages robot_msgs_generate_messages_py)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg" NAME_WE)
 add_dependencies(robot_msgs_generate_messages_py _robot_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speek.srv" NAME_WE)
+get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv" NAME_WE)
+add_dependencies(robot_msgs_generate_messages_py _robot_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/renxl/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv" NAME_WE)
 add_dependencies(robot_msgs_generate_messages_py _robot_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
