@@ -1,1 +1,1 @@
-gzlib.o: /home/renxl/work/linux/cjson/src/gzlib.c
+gzlib.o: /home/renxl/share/ihome-robot/cjson/src/gzlib.c

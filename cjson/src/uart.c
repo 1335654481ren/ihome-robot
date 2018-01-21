@@ -56,7 +56,7 @@ void* uart_recv(void* arg)
 		if((revlen = read(uart->fd,revbuff,sizeof(revbuff))) == -1){
 			continue;
 		}else{
-			printf("read data len = %d\n",revlen);
+			;//printf("read data len = %d\n",revlen);
 		}
 		uart->uart_rec_cb(revbuff, revlen, uart->user_data);
 	}

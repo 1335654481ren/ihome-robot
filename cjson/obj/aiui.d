@@ -1,4 +1,4 @@
-aiui.o: /home/renxl/work/linux/cjson/src/aiui.c \
- /home/renxl/work/linux/cjson/src/uart.h \
- /home/renxl/work/linux/cjson/src/aiui.h \
- /home/renxl/work/linux/cjson/src/cJSON.h
+aiui.o: /home/renxl/share/ihome-robot/cjson/src/aiui.c \
+ /home/renxl/share/ihome-robot/cjson/src/uart.h \
+ /home/renxl/share/ihome-robot/cjson/src/aiui.h \
+ /home/renxl/share/ihome-robot/cjson/src/cJSON.h

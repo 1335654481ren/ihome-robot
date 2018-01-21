@@ -284,8 +284,8 @@ int json_pasre(char * jsonStr)
     }
     else
     {
-//        printf("%s\n", "有格式的方式打印Json:");           
-//       printf("%s\n\n", cJSON_Print(pRoot));
+       printf("%s\n", "有格式的方式打印Json:");           
+       printf("%s\n\n", cJSON_Print(pRoot));
  //     printf("%s\n", "获取content下的cjson对象:");
  		pContent = cJSON_GetObjectItem(pRoot, "content");//
  		pType = cJSON_GetObjectItem(pRoot, "type");//
