@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/renxl/share/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/renxl/work/share/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/renxl/share/catkin_ws/build
+CMAKE_BINARY_DIR = /home/renxl/work/share/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include ihome/aiui/CMakeFiles/aiui.dir/depend.make
@@ -58,17 +58,17 @@ include ihome/aiui/CMakeFiles/aiui.dir/progress.make
 include ihome/aiui/CMakeFiles/aiui.dir/flags.make
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o: ihome/aiui/CMakeFiles/aiui.dir/flags.make
-ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o: /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/aiui/main.cpp.o -c /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/main.cpp
+ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o"
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/aiui/main.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/main.cpp
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aiui.dir/src/aiui/main.cpp.i"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/main.cpp > CMakeFiles/aiui.dir/src/aiui/main.cpp.i
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/main.cpp > CMakeFiles/aiui.dir/src/aiui/main.cpp.i
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aiui.dir/src/aiui/main.cpp.s"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/main.cpp -o CMakeFiles/aiui.dir/src/aiui/main.cpp.s
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/main.cpp -o CMakeFiles/aiui.dir/src/aiui/main.cpp.s
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o.requires:
 
@@ -82,17 +82,17 @@ ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o.provides.build: ihome/aiui/CM
 
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.o: ihome/aiui/CMakeFiles/aiui.dir/flags.make
-ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.o: /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.o"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/aiui/aiui.cpp.o -c /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.cpp
+ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.o"
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/aiui/aiui.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.cpp
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aiui.dir/src/aiui/aiui.cpp.i"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.cpp > CMakeFiles/aiui.dir/src/aiui/aiui.cpp.i
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.cpp > CMakeFiles/aiui.dir/src/aiui/aiui.cpp.i
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aiui.dir/src/aiui/aiui.cpp.s"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.cpp -o CMakeFiles/aiui.dir/src/aiui/aiui.cpp.s
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.cpp -o CMakeFiles/aiui.dir/src/aiui/aiui.cpp.s
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.o.requires:
 
@@ -106,17 +106,17 @@ ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.o.provides.build: ihome/aiui/CM
 
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.o: ihome/aiui/CMakeFiles/aiui.dir/flags.make
-ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.o: /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.o"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.o -c /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.cpp
+ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.o"
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.cpp
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.i"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.cpp > CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.i
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.cpp > CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.i
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.s"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.cpp -o CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.s
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.cpp -o CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.s
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.o.requires:
 
@@ -130,17 +130,17 @@ ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.o.provides.build: ihome/aiui/C
 
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o: ihome/aiui/CMakeFiles/aiui.dir/flags.make
-ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o: /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o -c /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.cpp
+ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o"
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.cpp
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.i"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.cpp > CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.i
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.cpp > CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.i
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.s"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.cpp -o CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.s
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.cpp -o CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.s
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o.requires:
 
@@ -154,17 +154,17 @@ ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o.provides.build: ihome/aiui/C
 
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.o: ihome/aiui/CMakeFiles/aiui.dir/flags.make
-ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.o: /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/aiui2json.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.o"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.o -c /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/aiui2json.cpp
+ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/aiui2json.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.o"
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/aiui2json.cpp
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.i"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/aiui2json.cpp > CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.i
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/aiui2json.cpp > CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.i
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.s"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/aiui2json.cpp -o CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.s
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/aiui2json.cpp -o CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.s
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.o.requires:
 
@@ -178,17 +178,17 @@ ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.o.provides.build: ihome/ai
 
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.o: ihome/aiui/CMakeFiles/aiui.dir/flags.make
-ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.o: /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/uart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.o"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/aiui/uart.cpp.o -c /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/uart.cpp
+ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/uart.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.o"
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/aiui/uart.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/uart.cpp
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aiui.dir/src/aiui/uart.cpp.i"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/uart.cpp > CMakeFiles/aiui.dir/src/aiui/uart.cpp.i
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/uart.cpp > CMakeFiles/aiui.dir/src/aiui/uart.cpp.i
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aiui.dir/src/aiui/uart.cpp.s"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/uart.cpp -o CMakeFiles/aiui.dir/src/aiui/uart.cpp.s
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/uart.cpp -o CMakeFiles/aiui.dir/src/aiui/uart.cpp.s
 
 ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.o.requires:
 
@@ -202,17 +202,17 @@ ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.o.provides.build: ihome/aiui/CM
 
 
 ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.o: ihome/aiui/CMakeFiles/aiui.dir/flags.make
-ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.o: /home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/tts_local.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.o"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.o -c /home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/tts_local.cpp
+ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/tts_local.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.o"
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/tts_local.cpp
 
 ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.i"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/tts_local.cpp > CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.i
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/tts_local.cpp > CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.i
 
 ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.s"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/tts_local.cpp -o CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.s
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/tts_local.cpp -o CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.s
 
 ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.o.requires:
 
@@ -226,17 +226,17 @@ ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.o.provides.build: iho
 
 
 ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.o: ihome/aiui/CMakeFiles/aiui.dir/flags.make
-ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.o: /home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/ekho.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.o"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.o -c /home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/ekho.cpp
+ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/ekho.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.o"
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/ekho.cpp
 
 ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.i"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/ekho.cpp > CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.i
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/ekho.cpp > CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.i
 
 ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.s"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/ekho.cpp -o CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.s
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/ekho.cpp -o CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.s
 
 ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.o.requires:
 
@@ -263,40 +263,40 @@ aiui_OBJECTS = \
 # External object files for target aiui
 aiui_EXTERNAL_OBJECTS =
 
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.o
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.o
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.o
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.o
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.o
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.o
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/build.make
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/libroscpp.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/librosconsole.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/librostime.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/libcpp_common.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/renxl/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/renxl/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable /home/renxl/share/catkin_ws/devel/lib/aiui/aiui"
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aiui.dir/link.txt --verbose=$(VERBOSE)
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.o
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.o
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.o
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.o
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.o
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.o
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/build.make
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/libroscpp.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/librosconsole.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/librostime.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /opt/ros/kinetic/lib/libcpp_common.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui: ihome/aiui/CMakeFiles/aiui.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable /home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui"
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aiui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ihome/aiui/CMakeFiles/aiui.dir/build: /home/renxl/share/catkin_ws/devel/lib/aiui/aiui
+ihome/aiui/CMakeFiles/aiui.dir/build: /home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui
 
 .PHONY : ihome/aiui/CMakeFiles/aiui.dir/build
 
@@ -312,10 +312,10 @@ ihome/aiui/CMakeFiles/aiui.dir/requires: ihome/aiui/CMakeFiles/aiui.dir/src/tts_
 .PHONY : ihome/aiui/CMakeFiles/aiui.dir/requires
 
 ihome/aiui/CMakeFiles/aiui.dir/clean:
-	cd /home/renxl/share/catkin_ws/build/ihome/aiui && $(CMAKE_COMMAND) -P CMakeFiles/aiui.dir/cmake_clean.cmake
+	cd /home/renxl/work/share/catkin_ws/build/ihome/aiui && $(CMAKE_COMMAND) -P CMakeFiles/aiui.dir/cmake_clean.cmake
 .PHONY : ihome/aiui/CMakeFiles/aiui.dir/clean
 
 ihome/aiui/CMakeFiles/aiui.dir/depend:
-	cd /home/renxl/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renxl/share/catkin_ws/src /home/renxl/share/catkin_ws/src/ihome/aiui /home/renxl/share/catkin_ws/build /home/renxl/share/catkin_ws/build/ihome/aiui /home/renxl/share/catkin_ws/build/ihome/aiui/CMakeFiles/aiui.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renxl/work/share/catkin_ws/src /home/renxl/work/share/catkin_ws/src/ihome/aiui /home/renxl/work/share/catkin_ws/build /home/renxl/work/share/catkin_ws/build/ihome/aiui /home/renxl/work/share/catkin_ws/build/ihome/aiui/CMakeFiles/aiui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ihome/aiui/CMakeFiles/aiui.dir/depend
 

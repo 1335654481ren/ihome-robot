@@ -1,0 +1,66 @@
+{
+"camera" : {
+            "image_width" : 1280,
+            "image_height" : 1024,
+            "focal_u" : 2298.98,
+            "focal_v" : 2307.32,
+            "center_u" : 681.503,
+            "center_v" : 537.088,
+            "camera_x" :  -0.00359868,
+            "camera_y" : -1.59246,
+            "camera_z" : -2.2953,
+            "pitch" : 0.0722865,
+            "yaw" : -0.00164746,
+            "roll" : -0.0395
+           },
+"detector": {
+            "network": "mobilenet",
+            "prefix": "./models/fpn_complete_mobilenet",
+            "epoch": 240,
+            "image_shape": 608,
+            "num_class": 3,
+            "rgb_mean": "123",
+            "nms_thresh": 0.45,
+            "nms_topk": 400,
+            "score_threshs": "0.4,0.5,0.4",
+            "upsample_type": "deconv",
+            "fusion_type": "add",
+            "use_res_unit": 1,
+            "use_predict_module": 1,
+            "gpus": "0"
+            },
+                
+"cls_mode": "cnn", 
+
+"cnn": {
+        "preprocessing"    : "cpu",
+        "checkpoint"       : "./models/1394_train123-0080.params",
+        "gpus"             : "0",
+        "num_classes"      : 2,
+        "network"          : "resnet",
+        "use_cifar"        : false,
+        "num_layers"       : 18,
+        "alpha"            : 1,
+        "image_shape"      : "3,184,320"
+        },
+            
+"rnn": {
+        "preprocessing"    : "cpu",
+        "checkpoint"       : "./models/1671_joint_training-0050.params",
+        "gpus"             : "0",
+        "num_classes"      : 2,
+        "network"          : "resnet",
+        "use_cifar"        : false,
+        "num_layers"       : 18,
+        "alpha"            : 0.5,
+        "image_shape"      : "3,184,320",
+        "num_lstm_layers"  : 2,
+        "num_lstm_filters" : 64
+        },
+
+"mode": "render",
+"sender": {
+ "host": "127.0.0.1",
+ "port": 5000
+}
+}

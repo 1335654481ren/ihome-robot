@@ -6,9 +6,49 @@
 
 #IncludeRegexTransform: 
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/aiui/aiui.h
+/home/renxl/work/share/catkin_ws/devel/include/robot_msgs/Speak.h
+ros/service_traits.h
+-
+robot_msgs/SpeakRequest.h
+-
+robot_msgs/SpeakResponse.h
+-
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/nodejs_socket.cpp
+/home/renxl/work/share/catkin_ws/devel/include/robot_msgs/SpeakRequest.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
+/home/renxl/work/share/catkin_ws/devel/include/robot_msgs/SpeakResponse.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/aiui/aiui.h
+
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/nodejs_socket.cpp
 stdlib.h
 -
 sys/socket.h
@@ -40,11 +80,11 @@ cstdlib
 iostream
 -
 ros/ros.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/ros/ros.h
-robot_msgs/Speek.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/ros/ros.h
+robot_msgs/Speak.h
 -
 aiui.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui.h
 
 /opt/ros/kinetic/include/ros/advertise_options.h
 ros/forwards.h
@@ -252,6 +292,10 @@ boost/make_shared.hpp
 cstddef
 -
 memory
+-
+
+/opt/ros/kinetic/include/ros/message_operations.h
+ostream
 -
 
 /opt/ros/kinetic/include/ros/message_traits.h

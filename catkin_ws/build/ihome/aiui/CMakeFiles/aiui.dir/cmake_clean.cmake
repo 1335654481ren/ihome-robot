@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/aiui.dir/src/aiui/uart.cpp.o"
   "CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.o"
   "CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.o"
-  "/home/renxl/share/catkin_ws/devel/lib/aiui/aiui.pdb"
-  "/home/renxl/share/catkin_ws/devel/lib/aiui/aiui"
+  "/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui.pdb"
+  "/home/renxl/work/share/catkin_ws/devel/lib/aiui/aiui"
 )
 
 # Per-language clean rules from dependency scanning.

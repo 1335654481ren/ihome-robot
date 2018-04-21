@@ -1,0 +1,7 @@
+2018/02/03 10:50:02 [emerg] 23000#0: mkdir() "/var/tmp/nginx/client/" failed (2: No such file or directory)
+2018/02/03 10:50:11 [emerg] 23004#0: getpwnam("nginx") failed
+2018/02/03 10:51:43 [emerg] 23021#0: mkdir() "/var/tmp/nginx/client/" failed (2: No such file or directory)
+2018/02/03 10:53:30 [emerg] 25492#0: mkdir() "/var/tmp/nginx/proxy/" failed (2: No such file or directory)
+2018/02/03 10:56:47 [emerg] 27871#0: mkdir() "/var/tmp/nginx/proxy/" failed (2: No such file or directory)
+2018/03/01 20:56:58 [emerg] 10872#0: mkdir() "/var/tmp/nginx/proxy/" failed (2: No such file or directory)
+2018/03/01 20:58:04 [emerg] 10896#0: mkdir() "/var/tmp/nginx/proxy/" failed (2: No such file or directory)

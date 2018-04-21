@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/renxl/share/catkin_ws/src/ihome/eye/src/face_tracker.cpp" "/home/renxl/share/catkin_ws/build/ihome/eye/CMakeFiles/face_tracker.dir/src/face_tracker.cpp.o"
+  "/home/renxl/work/share/catkin_ws/src/ihome/eye/src/face_tracker.cpp" "/home/renxl/work/share/catkin_ws/build/ihome/eye/CMakeFiles/face_tracker.dir/src/face_tracker.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/renxl/share/catkin_ws/devel/include"
+  "/home/renxl/work/share/catkin_ws/devel/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/opt/ros/kinetic/include/opencv-3.2.0-dev"

@@ -41,7 +41,7 @@
 #include<iostream>
 
 #include "ros/ros.h" 
-#include <robot_msgs/Speek.h> 
+#include <robot_msgs/Speak.h> 
 #include "aiui.h"
 
 using namespace std;
@@ -83,7 +83,7 @@ int main(int argc,char **argv)
 	
 	ros::init(argc, argv, "say");
 	ros::NodeHandle n;	
-	ros::ServiceClient client = n.serviceClient<robot_msgs::Speek>("/speek"); 
+	ros::ServiceClient client = n.serviceClient<robot_msgs::Speak>("/speak"); 
 
 	sockfd_server = socket(AF_INET,SOCK_STREAM,0);  //ipv4,TCP
 	assert(sockfd_server != -1);
@@ -127,7 +127,7 @@ int main(int argc,char **argv)
 			}else{
 				std::stringstream arg1;
 			  	std::stringstream arg2;
-			    robot_msgs::Speek srv;  
+			    robot_msgs::Speak srv;  
 			    srv.request.id = 2;  
 			    srv.request.type = 12;	
 			    arg1 << data_buff;

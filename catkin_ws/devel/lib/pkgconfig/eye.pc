@@ -1,8 +1,8 @@
-prefix=/home/renxl/share/catkin_ws/devel
+prefix=/home/renxl/work/share/catkin_ws/devel
 
 Name: eye
 Description: Description of eye
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/renxl/share/catkin_ws/devel/lib 
+Libs: -L/home/renxl/work/share/catkin_ws/devel/lib 
 Requires: 

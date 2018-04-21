@@ -84,7 +84,7 @@ void Event_error(cJSON *content)
 	cJSON * item = NULL;//cjson对象
 	item = cJSON_GetObjectItem(content, "arg1");		
 	arg1 = atoi(cJSON_Print(item));
-	printf("Event error code %d\n",arg1);
+	//printf("Event error code %d\n",arg1);
 	switch(arg1){
 		case ERROR_NET_EXPECTION:
 			break;
@@ -168,13 +168,13 @@ void Event_vad(cJSON *content)
 	arg2 = atoi(cJSON_Print(item));
 	switch(arg1){
 		case VOICE_BEGIN_POINT:
-			printf("check get the voice begin\n");
+			//printf("check get the voice begin\n");
 			break;
 		case VOICE_VALUE:
 			printf("Now the Aiui voice value:%d\n",arg2);
 			break;
 		case VOICE_END_POINT:
-			printf("check get the voice end\n");
+			//printf("check get the voice end\n");
 			break;
 		default:break;
 	}
@@ -224,7 +224,7 @@ int json_pasre(char * jsonStr)
     }
     else
     {
- //     printf("%s\n", "有格式的方式打印Json:");           
+//      printf("%s\n", "有格式的方式打印Json:");           
 //      printf("%s\n\n", cJSON_Print(pRoot));
  		pContent = cJSON_GetObjectItem(pRoot, "content");//
  		pType = cJSON_GetObjectItem(pRoot, "type");//

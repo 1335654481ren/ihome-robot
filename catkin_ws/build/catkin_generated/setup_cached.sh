@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/renxl/share/catkin_ws/build"
+export PWD="/home/renxl/work/share/catkin_ws/build"

@@ -1,0 +1,8 @@
+prefix=/home/renxl/work/share/catkin_ws/install
+
+Name: webView
+Description: Description of webView
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/renxl/work/share/catkin_ws/install/lib 
+Requires: 

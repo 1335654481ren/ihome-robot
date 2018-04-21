@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/airkiss.dir/src/linux.cpp.o"
   "CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.o"
   "CMakeFiles/airkiss.dir/src/wifi_scan.cpp.o"
-  "/home/renxl/share/catkin_ws/devel/lib/airkiss/airkiss.pdb"
-  "/home/renxl/share/catkin_ws/devel/lib/airkiss/airkiss"
+  "/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss.pdb"
+  "/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss"
 )
 
 # Per-language clean rules from dependency scanning.

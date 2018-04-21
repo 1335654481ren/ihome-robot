@@ -117,7 +117,6 @@ catkin_package(
 include_directories(
   ${catkin_INCLUDE_DIRS}
   ../aiui/include/aiui/
-  ./include/
 )
 
 ## Declare a C++ library

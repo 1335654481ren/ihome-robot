@@ -315,7 +315,7 @@ int ask_aiui_todo(unsigned char type,const char *arg1,const char *arg2)
 	switch(type)
 	{
 		case TODO_TTS_START:
-			err = AiuiCtrl_tts_start((char*)arg1);//ok
+			err = AiuiCtrl_tts_start((char*)arg2);//ok
 		break;
 		case TODO_TTS_STOP:
 			err = AiuiCtrl_tts_stop();//ok

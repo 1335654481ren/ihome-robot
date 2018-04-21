@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/renxl/share/catkin_ws/src/ihome/eye/src/eye.cpp
+/home/renxl/work/share/catkin_ws/src/ihome/eye/src/eye.cpp
 ros/ros.h
 -
 image_transport/image_transport.h
@@ -22,9 +22,9 @@ sensor_msgs/image_encodings.h
 opencv2/highgui/highgui.hpp
 -
 opencv2/objdetect.hpp
-/home/renxl/share/catkin_ws/src/ihome/eye/src/opencv2/objdetect.hpp
+/home/renxl/work/share/catkin_ws/src/ihome/eye/src/opencv2/objdetect.hpp
 opencv2/imgproc.hpp
-/home/renxl/share/catkin_ws/src/ihome/eye/src/opencv2/imgproc.hpp
+/home/renxl/work/share/catkin_ws/src/ihome/eye/src/opencv2/imgproc.hpp
 ros/ros.h
 -
 image_transport/image_transport.h

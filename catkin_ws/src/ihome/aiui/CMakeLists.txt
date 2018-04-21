@@ -160,6 +160,7 @@ target_link_libraries(aiui
    -lpulse-simple
    -lsndfile
  )
+
 ## Declare a C++ executable
 add_executable(nodejs_socket src/nodejs_socket.cpp)
 ## Add cmake target dependencies of the executable

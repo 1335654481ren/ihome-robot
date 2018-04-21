@@ -36,6 +36,7 @@ when            who              why
 ** ------------------------------------------------------------------------ */
 static int recv_index = 0;
 static unsigned char recv_buf[RECV_BUF_LEN];
+static unsigned char recvbuf[4096];
 static unsigned int big_buf_len = 0;
 static unsigned int big_buf_index = 0;
 static void* big_buf = NULL;
@@ -51,8 +52,10 @@ void* uart_recv(void* arg)
 	char revbuff[2048];
 	int revlen = 0;
 	while(uart->running){
+		usleep(100000);
 		memset(revbuff, 0, sizeof(revbuff));
 		if((revlen = read(uart->fd,revbuff,sizeof(revbuff))) == -1){
+			usleep(100000);
 			continue;
 		}
 		uart->uart_rec_cb(revbuff, revlen, uart->user_data);
@@ -61,19 +64,72 @@ void* uart_recv(void* arg)
 }
 
 
+unsigned char CalcCheckCode(unsigned char *data,int data_len)
+{
+	unsigned char checkCode = 0;
+	for (int i = 0; i < data_len - 1; i++)
+	{
+		checkCode += data[i];
+	}
+	checkCode = (char)(~checkCode + 1);
+	return checkCode;
+}
+
 void uart_rec(const void *msg, unsigned int msglen, void *user_data)
 {
-	//printf("uart recv %d\n", msglen);
+	for(int i = 0 ; i < msglen; i++ )
+	{
+		recvbuf[recv_index++] = ((unsigned char*)msg)[i];
+//		printf("%02x ", ((unsigned char*)msg)[i]);
+		if(recv_index == 5){
+			if(recvbuf[0] == 0xa5 && recvbuf[1] == 0x01){
+				big_buf_len = ((unsigned int)(recvbuf[4] & 0xff) << 8) + (recvbuf[3] & 0xff);
+//				printf("\ndata-len = %d\n ", big_buf_len);
+			}else{
+				recv_index = 0;
+				big_buf_len = 0;
+				memset(recvbuf, 0x00,4096);
+			}
+		}
+		if(recv_index != 0 && big_buf_len != 0 && recv_index == 8 + big_buf_len )
+		{
+//			printf("\n==== %d , ==== %d \n",recv_index,big_buf_len);
+//			printf(" ---- %d == %d ----\n",recvbuf[recv_index -1],CalcCheckCode(recvbuf, recv_index));
+			if (recvbuf[0] == 0xa5 && recvbuf[1] == 0x01){
+				if( recvbuf[recv_index -1] == CalcCheckCode(recvbuf, recv_index)){
+					process_recv((unsigned char*)recvbuf, recv_index);   //接受消息处理
+					recv_index = 0;
+					big_buf_len = 0;
+					memset(recvbuf, 0x00,4096);
+				}else{
+					recv_index = 0;
+					big_buf_len = 0;
+					memset(recvbuf, 0x00,4096);
+				}
+			}else{
+				recv_index = 0;
+				big_buf_len = 0;
+				memset(recvbuf, 0x00,4096);
+			}
+		}
+	}
+	printf("\n");
+}
+
+/*
+void uart_rec(const void *msg, unsigned int msglen, void *user_data)
+{
+	printf("uart recv %d\n", msglen);
 	//过滤不以A5 01开头的无效数据
 	if(big_buf == NULL && recv_index + msglen >= 2){
 		if(recv_index == 0){
 			if(((unsigned char*)msg)[0] != SYNC_HEAD || ((unsigned char*)msg)[1] != SYNC_HEAD_SECOND){
-//				printf("recv data not SYNC HEAD, drop\n");
+				printf("recv data not SYNC HEAD, drop\n");
 				return;
 			}
 		}else if(recv_index == 1){
 			if(recv_buf[0] != SYNC_HEAD || ((unsigned char*)msg)[0] != SYNC_HEAD_SECOND){
-//				printf("recv data not SYNC HEAD, drop\n");
+				printf("recv data not SYNC HEAD, drop\n");
 				recv_index = 0;
 				return;
 			}
@@ -97,7 +153,7 @@ void uart_rec(const void *msg, unsigned int msglen, void *user_data)
 				big_buf_index = 0;
 				big_buf_len = content_len + MSG_EXTRA_LEN;
 				big_buf = malloc(big_buf_len);
-//				printf("uart malloc buf %x len %d\n", (unsigned int)big_buf, big_buf_len);
+				printf("uart malloc buflen %d\n", big_buf_len);
 				memset(big_buf,0x00 ,big_buf_len );
 				memcpy(big_buf, recv_buf, recv_index);
 				big_buf_index += recv_index;
@@ -114,9 +170,10 @@ void uart_rec(const void *msg, unsigned int msglen, void *user_data)
 		process_recv((unsigned char*)big_buf, big_buf_len);   //接受消息处理
 		big_buf_len = 0;
 		big_buf_index = 0;
-//		printf("uart free buf %x\n", (unsigned int)big_buf);
+		printf("uart free buf-----\n");
 		free(big_buf);
 		big_buf = NULL;
+		recv_index = 0;
 	}else{
 		process_recv(recv_buf, RECV_BUF_LEN);  //接受消息处理
 		recv_index = 0;
@@ -124,12 +181,11 @@ void uart_rec(const void *msg, unsigned int msglen, void *user_data)
 
 	//读取的数据中包含下一条消息的开头部分
 	if((unsigned int)copy_len < msglen){
-//		printf("multi msg in one stream left %d byte\n", msglen - copy_len);
+		printf("multi msg in one stream left %d byte\n", msglen - copy_len);
 		uart_rec(msg + copy_len, msglen - copy_len, user_data);
 	}
 }
-
-
+*/
 /*******************************************************************
 * 名称：            UART_Set
 * 功能：            设置串口数据位，停止位和效验位

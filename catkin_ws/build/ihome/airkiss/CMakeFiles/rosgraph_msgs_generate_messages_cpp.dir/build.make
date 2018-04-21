@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/renxl/share/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/renxl/work/share/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/renxl/share/catkin_ws/build
+CMAKE_BINARY_DIR = /home/renxl/work/share/catkin_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ ihome/airkiss/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build: rosgraph
 .PHONY : ihome/airkiss/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 
 ihome/airkiss/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	cd /home/renxl/share/catkin_ws/build/ihome/airkiss && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : ihome/airkiss/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 ihome/airkiss/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend:
-	cd /home/renxl/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renxl/share/catkin_ws/src /home/renxl/share/catkin_ws/src/ihome/airkiss /home/renxl/share/catkin_ws/build /home/renxl/share/catkin_ws/build/ihome/airkiss /home/renxl/share/catkin_ws/build/ihome/airkiss/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renxl/work/share/catkin_ws/src /home/renxl/work/share/catkin_ws/src/ihome/airkiss /home/renxl/work/share/catkin_ws/build /home/renxl/work/share/catkin_ws/build/ihome/airkiss /home/renxl/work/share/catkin_ws/build/ihome/airkiss/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ihome/airkiss/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 

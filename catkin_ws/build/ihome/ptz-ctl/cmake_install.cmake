@@ -1,8 +1,8 @@
-# Install script for directory: /home/renxl/share/catkin_ws/src/ihome/ptz-ctl
+# Install script for directory: /home/renxl/work/share/catkin_ws/src/ihome/ptz-ctl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/renxl/share/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/renxl/work/share/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/renxl/share/catkin_ws/build/ihome/ptz-ctl/catkin_generated/installspace/ptz-ctl.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/build/ihome/ptz-ctl/catkin_generated/installspace/ptz-ctl.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ptz-ctl/cmake" TYPE FILE FILES
-    "/home/renxl/share/catkin_ws/build/ihome/ptz-ctl/catkin_generated/installspace/ptz-ctlConfig.cmake"
-    "/home/renxl/share/catkin_ws/build/ihome/ptz-ctl/catkin_generated/installspace/ptz-ctlConfig-version.cmake"
+    "/home/renxl/work/share/catkin_ws/build/ihome/ptz-ctl/catkin_generated/installspace/ptz-ctlConfig.cmake"
+    "/home/renxl/work/share/catkin_ws/build/ihome/ptz-ctl/catkin_generated/installspace/ptz-ctlConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ptz-ctl" TYPE FILE FILES "/home/renxl/share/catkin_ws/src/ihome/ptz-ctl/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ptz-ctl" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/src/ihome/ptz-ctl/package.xml")
 endif()
 

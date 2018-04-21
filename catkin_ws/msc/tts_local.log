@@ -1,452 +1,165 @@
 ============================================================
-Time  2017/10/08 21:42:45 779 
+Time  2017/10/30 23:04:50 336 
 ============================================================
-[2017/10/08 21:42:45 779] tts_local  1824 Linux  
-[2017/10/08 21:42:45 779] tts_local  1860 SYS_MSG_REGCB_LOCAL  
-[2017/10/08 21:42:45 779] tts_local  1875 last gc at  1507524165  
-[2017/10/08 21:42:45 780] tts_local  1860 SYS_MSG_REGCB_LOCAL  
-[2017/10/08 21:42:45 780] tts_local  1875 last gc at  1507524165  
-[2017/10/08 21:42:45 780] tts_local  1671 TTS_LOCAL_MSG_SSB  engine_type=local,text_encoding=UTF8,voice_name=xiaoyan,tts_res_path=fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet,sample_rate=16000,speed=50,volume=50,pitch=50,rdn=2  
-[2017/10/08 21:42:45 780] tts_local  1701 mode_num =  0  
-[2017/10/08 21:42:45 780] tts_local  1563 fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
-[2017/10/08 21:42:45 780] tts_local  1566 nil  
-[2017/10/08 21:42:45 780] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
-[2017/10/08 21:42:45 780] tts_local  886  Disperse res  
-[2017/10/08 21:42:45 780] tts_local  990  fo|res/tts/xiaoyan.jet  fo|res/tts/common.jet  
-[2017/10/08 21:42:45 780] tts_local  1570 res_change is  true  
-[2017/10/08 21:42:45 780] tts_local  1586 res change  
-[2017/10/08 21:42:45 780] tts_local  1393 lgi:  nil  nil  
-[2017/10/08 21:42:45 780] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
-[2017/10/08 21:42:45 780] tts_local  886  Disperse res  
-[2017/10/08 21:42:45 780] tts_local  848  file_type:  fo  file_path:  res/tts/xiaoyan.jet  
-[2017/10/08 21:42:45 780] tts_local  848  file_type:  fo  file_path:  res/tts/common.jet  
-[2017/10/08 21:42:45 780] tts_local  1417 fo  fo  res/tts/xiaoyan.jet  0  res/tts/common.jet  0  false  
-[2017/10/08 21:42:45 780] tts_local  1029 speech_plus_setting  0  
-[2017/10/08 21:42:45 780] tts_local  1037 fo  res/tts/xiaoyan.jet  0  0  
-[2017/10/08 21:42:45 780] tts_local  1041 res_ver  2  
-[2017/10/08 21:42:45 780] tts_local  1042 res appid5  be0d4e41680fbfdc9ec577dcd124f0a9  
-[2017/10/08 21:42:45 780] tts_local  1043 res_new_old_mark  v5pp  
-[2017/10/08 21:42:45 780] tts_local  1044 res_usr_name    
-[2017/10/08 21:42:45 780] tts_local  1045 check ret  0  
-[2017/10/08 21:42:45 780] tts_local  1060 lgi appid 5  be0d4e41680fbfdc9ec577dcd124f0a9  
-[2017/10/08 21:42:45 780] tts_local  1177 res_expires is null  
-[2017/10/08 21:42:45 780] auth       252  read auth file failed! err=  11200  
-[2017/10/08 21:42:45 780] tts_local  1029 speech_plus_setting  0  
-[2017/10/08 21:42:45 780] tts_local  1037 fo  res/tts/common.jet  0  0  
-[2017/10/08 21:42:45 780] tts_local  1041 res_ver  2  
-[2017/10/08 21:42:45 780] tts_local  1042 res appid5  be0d4e41680fbfdc9ec577dcd124f0a9  
-[2017/10/08 21:42:45 780] tts_local  1043 res_new_old_mark  v5pp  
-[2017/10/08 21:42:45 780] tts_local  1044 res_usr_name    
-[2017/10/08 21:42:45 780] tts_local  1045 check ret  0  
-[2017/10/08 21:42:45 780] tts_local  1060 lgi appid 5  be0d4e41680fbfdc9ec577dcd124f0a9  
-[2017/10/08 21:42:45 780] tts_local  1177 res_expires is null  
-[2017/10/08 21:42:45 780] tts_local  1466 v5pp  v5pp  
-[2017/10/08 21:42:45 780] auth       252  read auth file failed! err=  11200  
-[2017/10/08 21:42:45 780] tts_local  1509 fo  res/tts/xiaoyan.jet  256  fo  res/tts/common.jet  256  false  func(24068f90) 
-[2017/10/08 21:42:45 782] tts_local  1525 engine init success  
-[2017/10/08 21:42:45 782] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
-[2017/10/08 21:42:45 782] tts_local  886  Disperse res  
-[2017/10/08 21:42:45 782] tts_local  1588 reinit ret:  0  
-[2017/10/08 21:42:45 782] tts_local  1309 app auth  
-[2017/10/08 21:42:45 782] auth       570  aisound  table(24039410) nil  nil  appid = 54a61231, work_dir = .  
-[2017/10/08 21:42:45 782] auth       579  app  nil  nil  nil  
-[2017/10/08 21:42:45 782] auth       636  ath rquest  {"authorize":[{"ver":"2.1.1","busin":"aisound"}]}  
-[2017/10/08 21:42:45 782] transport  658  paramkvsport is   nil  
-[2017/10/08 21:42:45 782] transport  666  ns_enable=  1  
-[2017/10/08 21:42:45 782] transport  710  url.full=  nil  
-[2017/10/08 21:42:45 782] transport  887  switch 80  
-[2017/10/08 21:42:45 782] transport  898  net type:  standard  
-[2017/10/08 21:42:45 783] transport  899  net operator:  def  
-[2017/10/08 21:42:45 783] transport  900  use proxy:  false  
-[2017/10/08 21:42:45 783] auth       691  not login!  
-[2017/10/08 21:42:45 783] auth       528  [session] send auth request  
-[2017/10/08 21:42:45 783] transport  1033 session.domain=  open.xf-yun.com  
-[2017/10/08 21:42:45 783] transport  1034 url.host=  open.xf-yun.com  
-[2017/10/08 21:42:45 783] transport  1068 NAMESERVER START  
-[2017/10/08 21:42:45 783] transport  1071 name =   ath  
-[2017/10/08 21:42:45 783] ns         629  ntt=  standard  
-[2017/10/08 21:42:45 783] transport  1074 trans,ns_inprog =  0  
-[2017/10/08 21:42:45 783] ns         585  name server start  
-[2017/10/08 21:42:45 783] ns         586  ns_sub =   ath  
-[2017/10/08 21:42:45 783] ns         588  ns_host=  open.xf-yun.com  
-[2017/10/08 21:42:45 783] ns         479  ns_host=  open.xf-yun.com  
-[2017/10/08 21:42:45 783] ns         558  GET /sip/resolver?srand=1008214211.32 HTTP/1.1
+[2017/10/30 23:04:50 336] tts_local  1824 Linux  
+[2017/10/30 23:04:50 336] tts_local  1860 SYS_MSG_REGCB_LOCAL  
+[2017/10/30 23:04:50 336] tts_local  1875 last gc at  1509375890  
+[2017/10/30 23:04:50 336] tts_local  1860 SYS_MSG_REGCB_LOCAL  
+[2017/10/30 23:04:50 336] tts_local  1875 last gc at  1509375890  
+[2017/10/30 23:04:50 336] tts_local  1671 TTS_LOCAL_MSG_SSB  engine_type=local,text_encoding=UTF8,voice_name=xiaoyan,tts_res_path=fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet,sample_rate=16000,speed=50,volume=50,pitch=50,rdn=2  
+[2017/10/30 23:04:50 336] tts_local  1701 mode_num =  0  
+[2017/10/30 23:04:50 336] tts_local  1563 fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
+[2017/10/30 23:04:50 336] tts_local  1566 nil  
+[2017/10/30 23:04:50 336] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
+[2017/10/30 23:04:50 336] tts_local  886  Disperse res  
+[2017/10/30 23:04:50 336] tts_local  990  fo|res/tts/xiaoyan.jet  fo|res/tts/common.jet  
+[2017/10/30 23:04:50 336] tts_local  1570 res_change is  true  
+[2017/10/30 23:04:50 336] tts_local  1586 res change  
+[2017/10/30 23:04:50 336] tts_local  1393 lgi:  nil  nil  
+[2017/10/30 23:04:50 336] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
+[2017/10/30 23:04:50 336] tts_local  886  Disperse res  
+[2017/10/30 23:04:50 336] tts_local  848  file_type:  fo  file_path:  res/tts/xiaoyan.jet  
+[2017/10/30 23:04:50 336] tts_local  848  file_type:  fo  file_path:  res/tts/common.jet  
+[2017/10/30 23:04:50 336] tts_local  1417 fo  fo  res/tts/xiaoyan.jet  0  res/tts/common.jet  0  false  
+[2017/10/30 23:04:50 336] tts_local  1029 speech_plus_setting  0  
+[2017/10/30 23:04:50 337] tts_local  1037 fo  res/tts/xiaoyan.jet  0  0  
+[2017/10/30 23:04:50 337] tts_local  1041 res_ver  2  
+[2017/10/30 23:04:50 337] tts_local  1042 res appid5  be0d4e41680fbfdc9ec577dcd124f0a9  
+[2017/10/30 23:04:50 337] tts_local  1043 res_new_old_mark  v5pp  
+[2017/10/30 23:04:50 337] tts_local  1044 res_usr_name    
+[2017/10/30 23:04:50 337] tts_local  1045 check ret  0  
+[2017/10/30 23:04:50 337] tts_local  1060 lgi appid 5  be0d4e41680fbfdc9ec577dcd124f0a9  
+[2017/10/30 23:04:50 337] tts_local  1177 res_expires is null  
+[2017/10/30 23:04:50 337] auth       252  read auth file failed! err=  11200  
+[2017/10/30 23:04:50 337] tts_local  1029 speech_plus_setting  0  
+[2017/10/30 23:04:50 337] tts_local  1037 fo  res/tts/common.jet  0  0  
+[2017/10/30 23:04:50 337] tts_local  1041 res_ver  2  
+[2017/10/30 23:04:50 337] tts_local  1042 res appid5  be0d4e41680fbfdc9ec577dcd124f0a9  
+[2017/10/30 23:04:50 337] tts_local  1043 res_new_old_mark  v5pp  
+[2017/10/30 23:04:50 337] tts_local  1044 res_usr_name    
+[2017/10/30 23:04:50 337] tts_local  1045 check ret  0  
+[2017/10/30 23:04:50 337] tts_local  1060 lgi appid 5  be0d4e41680fbfdc9ec577dcd124f0a9  
+[2017/10/30 23:04:50 337] tts_local  1177 res_expires is null  
+[2017/10/30 23:04:50 337] tts_local  1466 v5pp  v5pp  
+[2017/10/30 23:04:50 337] auth       252  read auth file failed! err=  11200  
+[2017/10/30 23:04:50 337] tts_local  1509 fo  res/tts/xiaoyan.jet  256  fo  res/tts/common.jet  256  false  func(9c068da0) 
+[2017/10/30 23:04:50 338] tts_local  1525 engine init success  
+[2017/10/30 23:04:50 338] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
+[2017/10/30 23:04:50 338] tts_local  886  Disperse res  
+[2017/10/30 23:04:50 338] tts_local  1588 reinit ret:  0  
+[2017/10/30 23:04:50 338] tts_local  1309 app auth  
+[2017/10/30 23:04:50 338] auth       570  aisound  table(9c0332c0) nil  nil  appid = 54a61231, work_dir = .  
+[2017/10/30 23:04:50 338] auth       579  app  nil  nil  nil  
+[2017/10/30 23:04:50 339] auth       636  ath rquest  {"authorize":[{"busin":"aisound","ver":"2.1.1"}]}  
+[2017/10/30 23:04:50 339] transport  658  paramkvsport is   nil  
+[2017/10/30 23:04:50 339] transport  666  ns_enable=  1  
+[2017/10/30 23:04:50 339] transport  710  url.full=  nil  
+[2017/10/30 23:04:50 339] transport  887  switch 80  
+[2017/10/30 23:04:50 339] transport  898  net type:  standard  
+[2017/10/30 23:04:50 339] transport  899  net operator:  def  
+[2017/10/30 23:04:50 339] transport  900  use proxy:  false  
+[2017/10/30 23:04:50 339] auth       691  not login!  
+[2017/10/30 23:04:50 339] auth       528  [session] send auth request  
+[2017/10/30 23:04:50 339] transport  1033 session.domain=  open.xf-yun.com  
+[2017/10/30 23:04:50 339] transport  1034 url.host=  open.xf-yun.com  
+[2017/10/30 23:04:50 339] transport  1068 NAMESERVER START  
+[2017/10/30 23:04:50 339] transport  1071 name =   ath  
+[2017/10/30 23:04:50 339] ns         629  ntt=  standard  
+[2017/10/30 23:04:50 339] transport  1074 trans,ns_inprog =  0  
+[2017/10/30 23:04:50 339] ns         585  name server start  
+[2017/10/30 23:04:50 339] ns         586  ns_sub =   ath  
+[2017/10/30 23:04:50 339] ns         588  ns_host=  open.xf-yun.com  
+[2017/10/30 23:04:50 339] ns         479  ns_host=  open.xf-yun.com  
+[2017/10/30 23:04:50 339] ns         558  GET /sip/resolver?srand=1030230411.32 HTTP/1.1
 Host: hdns.openspeech.cn
 Connection: Keep-Alive
-X-Par: ver=1.3&appid=54a61231&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=a3f4e668ca97132ab35af367c8f8ac79
+X-Par: ver=1.3&appid=54a61231&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=3d61b45d660e45378373258d3b918716
 User-Agent: iFLYCloud
 
   
-[2017/10/08 21:42:45 783] ns         559  net_type =  standard  
-[2017/10/08 21:42:45 783] ns         560  cmwapascmnet =  
-[2017/10/08 21:42:45 783] ns         561  uniwapasuninet =  
-[2017/10/08 21:42:45 783] ns         562  ctwapasctnet =  
-[2017/10/08 21:42:45 783] ns         579  host=  hdns.openspeech.cn  
-[2017/10/08 21:42:45 783] network    242  gethostbyname  hdns.openspeech.cn  ns1  
-[2017/10/08 21:42:45 783] auth       535  0  
-[2017/10/08 21:42:45 783] auth       498  lver:  nil  
-[2017/10/08 21:42:45 783] auth       503  cfg_ver:  nil  
-[2017/10/08 21:42:45 783] tts_local  1362 forbid_aisound =  nil  
-[2017/10/08 21:42:45 783] tts_local  1635 set voice name:  xiaoyan  
-[2017/10/08 21:42:45 783] tts_local  1637 set default voice name:  xiaoyan  
-[2017/10/08 21:42:45 783] tts_local  294  speed increase:  1  
-[2017/10/08 21:42:45 783] tts_local  307  rcn:  0  
-[2017/10/08 21:42:45 783] tts_local  320  bgs:  0  
-[2017/10/08 21:42:45 783] tts_local  400  set language: chinese  
-[2017/10/08 21:42:45 783] tts_local  408  set vcn:  xiaoyan  
-[2017/10/08 21:42:45 783] tts_local  692  fit:  false  
-[2017/10/08 21:42:45 783] tts_local  547  type:  speed  value:  50  weight:  50  double_weight:  100  
-[2017/10/08 21:42:45 783] tts_local  547  type:  pitch  value:  50  weight:  50  double_weight:  100  
-[2017/10/08 21:42:45 783] tts_local  547  type:  volume  value:  50  weight:  50  double_weight:  100  
-[2017/10/08 21:42:45 783] tts_local  576  sample_rate:  528  
-[2017/10/08 21:42:45 783] tts_local  589  text_encoding:  65001  
-[2017/10/08 21:42:45 783] tts_local  610  rdn:  1  
-[2017/10/08 21:42:45 783] tts_local  623  effect:  0  
-[2017/10/08 21:42:45 783] tts_local  1725 tts_local.ssb ret:  0  
-[2017/10/08 21:42:45 783] tts_local  1875 last gc at  1507524165  
-[2017/10/08 21:42:45 783] tts_local  1733 TTS_LOCAL_MSG_TEXT  
-[2017/10/08 21:42:45 783] tts_local  1740 base64 =  5pmT5pmT5LquIOWPkeS6huS4gOadoeW+ruS/oeivtO+8mueEpuS7u+aYiuWSr+WVig==  
-[2017/10/08 21:42:45 783] tts_local  1875 last gc at  1507524165  
-[2017/10/08 21:42:45 787] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  212  ,data:  udata(240730a8) 
-[2017/10/08 21:42:45 788] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  7492  ,data:  udata(240730f8) 
-[2017/10/08 21:42:45 790] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  7320  ,data:  udata(24002b38) 
-[2017/10/08 21:42:45 791] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  14106  ,data:  udata(24086048) 
-[2017/10/08 21:42:45 792] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  3840  ,data:  udata(24085f48) 
-[2017/10/08 21:42:45 793] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  3818  ,data:  udata(24085ec8) 
-[2017/10/08 21:42:45 796] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  13320  ,data:  udata(2403a238) 
-[2017/10/08 21:42:45 800] network    224  dns resp  0  ns1  
-[2017/10/08 21:42:45 800] ns         425  ns dns ok  117.121.56.5  
-[2017/10/08 21:42:45 800] ns         205  iplist not avail  
-[2017/10/08 21:42:45 801] ns         432  is_voicecloud_ip=  0  
-[2017/10/08 21:42:45 801] ns         439  ip_is_expected=  true  
-[2017/10/08 21:42:45 801] ns         447  ip_is_expected=  true  
-[2017/10/08 21:42:45 801] network    423  gethttpresp2  117.121.56.5  80  ns2  
-[2017/10/08 21:42:45 801] network    440  prot_type  tcp  
-[2017/10/08 21:42:45 805] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  7222  ,data:  udata(2408c778) 
-[2017/10/08 21:42:45 805] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  6924  ,data:  udata(24004588) 
-[2017/10/08 21:42:45 809] transport  142  [dns] [1] response 117.121.21.149  
-[2017/10/08 21:42:45 809] transport  152  117  121  21  149  
-[2017/10/08 21:42:45 809] transport  203  ipv =  v4  
-[2017/10/08 21:42:45 809] transport  207  dns ip is v4  
-[2017/10/08 21:42:45 809] transport  181  iplist not avail  
-[2017/10/08 21:42:45 809] transport  247  no iplist now  
-[2017/10/08 21:42:45 809] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  117.121.21.149  
-[2017/10/08 21:42:45 810] transport  291  dns cb start conn  
-[2017/10/08 21:42:45 812] transport  1266 [soc] connect   117.121.21.149  80  
-[2017/10/08 21:42:45 813] transport  1283 mspsoc.open,prot_type=  tcp  
-[2017/10/08 21:42:45 821] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  7118  ,data:  udata(240397a8) 
-[2017/10/08 21:42:45 822] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  8800  ,data:  udata(24004748) 
-[2017/10/08 21:42:45 822] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(2403a968) 
-[2017/10/08 21:42:45 823] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(2403fd08) 
-[2017/10/08 21:42:45 823] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(240736f8) 
-[2017/10/08 21:42:45 823] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(2403de58) 
-[2017/10/08 21:42:45 823] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(2407d068) 
-[2017/10/08 21:42:45 823] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(24039528) 
-[2017/10/08 21:42:45 824] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(2439e368) 
-[2017/10/08 21:42:45 824] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(2406c8d8) 
-[2017/10/08 21:42:45 825] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(24039288) 
-[2017/10/08 21:42:45 825] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(240395e8) 
-[2017/10/08 21:42:45 825] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(2406c888) 
-[2017/10/08 21:42:45 826] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(2408c478) 
-[2017/10/08 21:42:45 826] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(2407aff8) 
-[2017/10/08 21:42:45 827] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(2403d258) 
-[2017/10/08 21:42:45 827] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(2407aee8) 
-[2017/10/08 21:42:45 827] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(2404e528) 
-[2017/10/08 21:42:45 828] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(2403f918) 
-[2017/10/08 21:42:45 829] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(2403c418) 
-[2017/10/08 21:42:45 829] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  160  ,data:  udata(2403b138) 
-[2017/10/08 21:42:45 829] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  212  ,data:  udata(2439e3b8) 
-[2017/10/08 21:42:45 829] network    328  connected  ns2  
-[2017/10/08 21:42:45 830] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  4902  ,data:  udata(2407b2d8) 
-[2017/10/08 21:42:45 830] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  6706  ,data:  udata(2406c9d8) 
-[2017/10/08 21:42:45 830] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  9618  ,data:  udata(24039838) 
-[2017/10/08 21:42:45 830] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  3324  ,data:  udata(24021f08) 
-[2017/10/08 21:42:45 831] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  12092  ,data:  udata(2403eec8) 
-[2017/10/08 21:42:45 831] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  6400  ,data:  udata(24051918) 
-[2017/10/08 21:42:45 831] tts_local  937  TTS_LOCAL_CB_END  0  nil  
-[2017/10/08 21:42:45 831] network    331  send ok  271  ns2  
-[2017/10/08 21:42:45 835] tts_local  1782 TTS_LOCAL_MSG_END  0  
-[2017/10/08 21:42:45 835] tts_local  1194 plog_process  {"csid":"ctts1PdHHBHe9Qg1a6QWaaWpLkBhtTWw5k","ret":0,"dur":60,"u_frs":14,"u_txt":1,"stime":"2017/10/08 21:42:45 774","u_lrs":60,"hints":"Normal"}  nil  
-[2017/10/08 21:42:45 836] tts_local  1875 last gc at  1507524165  
-[2017/10/08 21:42:45 972] transport  476  [soc] [1] connected  
-[2017/10/08 21:42:45 972] transport  1323 build http request.  
-[2017/10/08 21:42:45 973] transport  1423 POST /msp.do HTTP/1.1
-Host: open.xf-yun.com
-Content-Type: multipart/mixed;boundary=--
-Content-Length: 342
-User-Agent: iFLYCloud
-Cache-Control: no-cache
-Accept: */*
-
-----
-CL:51
-CT:text/plain
-
-ver=MSSP+0%2E9&sub=auth&cmd=rath&key=08vY3TDgnXg8E=
-----
-CL:48
-CT:text/appinfo
-CE:gzip
-
-36
-xœËN­´5162H³´L431HK44·4KI5NJ22M6OI±H60  
-[2017/10/08 21:42:45 973] transport  1743 msg:release()  
-[2017/10/08 21:42:45 973] network    340  readable  ns2  
-[2017/10/08 21:42:45 973] network    344  HTTP/1.1 200 OK
-Date: Mon, 09 Oct 2017 04:42:45 GMT
-Content-Type: application/json
-Content-Length: 312
-Connection: keep-alive
-Server: iflytek/hdns
-
-{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.56.3","port":80,"idc":"ch"},{"ip":"117.121.21.146","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.21.146","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}]}  
-[2017/10/08 21:42:45 973] ns         256  name server http resp  table(24073680) 0  udata(24022198) 
-[2017/10/08 21:42:45 973] ns         269  ns response OK for this time!  
-[2017/10/08 21:42:45 973] ns         280  from_server=  iflytek/hdns  
-[2017/10/08 21:42:45 974] ns         363  compel :  0  
-[2017/10/08 21:42:45 974] ns         374  tick()=  785557  
-[2017/10/08 21:42:45 974] ns         378  tick()mod=  785557  
-[2017/10/08 21:42:45 974] ns         379  ns_host=  open.xf-yun.com  
-[2017/10/08 21:42:45 974] ns         392  ns_host=  open.xf-yun.com  
-[2017/10/08 21:42:45 974] transport  1048 ns_ip =   117.121.56.3  
-[2017/10/08 21:42:45 974] transport  1049 ip_type =  assigned_athopen.xf-yun.com_host  
-[2017/10/08 21:42:45 974] ns         658  no data in ns_q  
-[2017/10/08 21:42:45 974] ns         659  conti_ns,ns_inprog =   1  
-[2017/10/08 21:42:45 975] transport  506  [soc] [1] send ok  515  
-[2017/10/08 21:42:46 014] transport  518  [soc] [1] readable  
-[2017/10/08 21:42:46 014] transport  1696 HTTP/1.1 200 OK
-Content-Type: multipart/mixed;boundary=--
-Content-Length: 293
-X-Req-Date: 2017/10/09 12:42:45 633
-Cache-Control: no-cache
-CL: 293
-X-Res-Date: 2017/10/09 12:42:45 648
-
-----
-Content-Length:83
-
-ver=MSSP+0%2E9&ret=0&key=096E5iRWZcfcOmdd2O54nl8mV1scO5Hzw^hUDNOaNXxleVZEavdFqHeQ==
-----
-Content-Length:93
-Content-Type:binary/authinfo
-Content-Encoding:gzip
-
-92
-xœËK
-€ Fá½üc©IàfBñJÃGâÞ³éw8ŽKj1Àv<”a¡ à[ùÞ›3íÁU‚•«6›‘F-™ê©-p¤ìyþsŒ'_<›c|Žƒ
-------  
-[2017/10/08 21:42:46 014] transport  1442 a_complete_httpmessage  200  
-[2017/10/08 21:42:46 014] transport  1552 is_update  true  
-[2017/10/08 21:42:46 014] transport  1556 port updated  80  
-[2017/10/08 21:42:46 014] transport  1558 switch  80  
-[2017/10/08 21:42:46 014] auth       347  [trans] [id = table: 0x7f8524039610;;;=0===;auth] readable  
-[2017/10/08 21:42:46 015] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  117.121.21.149  
-[2017/10/08 21:42:46 015] transport  973  cached ip is confirmed  
-[2017/10/08 21:42:46 015] transport  1300 [soc] disconnect   
-[2017/10/08 21:42:46 015] auth       383  auth_json=  udata(240736a8) 
-[2017/10/08 21:42:46 015] auth       384  tostring(auth_json)=  {"aisound":{"ver":"2","bus":{"expire_date":1435751520,"ret":11203,"forbid":"1","nlimit":3}}}  
-[2017/10/08 21:42:46 015] auth       74   aisound  app  nil  nil  {"aisound":{"ver":"2","bus":{"expire_date":1435751520,"ret":11203,"forbid":"1","nlimit":3}}}  
-[2017/10/08 21:42:46 015] auth       134  auth get aisound_res_id  nil  
-[2017/10/08 21:42:46 015] auth       404  auth ok!  
-[2017/10/08 21:42:50 053] tts_local  1840 SYS_MSG_SHUTDOWN_LOCAL  
-[2017/10/08 21:42:50 053] tts_local  1875 last gc at  1507524165  
-============================================================
-Time  2017/10/08 21:43:14 868 
-============================================================
-[2017/10/08 21:43:14 868] tts_local  1824 Linux  
-[2017/10/08 21:43:14 868] tts_local  1860 SYS_MSG_REGCB_LOCAL  
-[2017/10/08 21:43:14 868] tts_local  1875 last gc at  1507524194  
-[2017/10/08 21:43:14 868] tts_local  1860 SYS_MSG_REGCB_LOCAL  
-[2017/10/08 21:43:14 868] tts_local  1875 last gc at  1507524194  
-[2017/10/08 21:43:14 868] tts_local  1671 TTS_LOCAL_MSG_SSB  engine_type=local,text_encoding=UTF8,voice_name=xiaoyan,tts_res_path=fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet,sample_rate=16000,speed=50,volume=50,pitch=50,rdn=2  
-[2017/10/08 21:43:14 869] tts_local  1701 mode_num =  0  
-[2017/10/08 21:43:14 869] tts_local  1563 fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
-[2017/10/08 21:43:14 869] tts_local  1566 nil  
-[2017/10/08 21:43:14 869] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
-[2017/10/08 21:43:14 869] tts_local  886  Disperse res  
-[2017/10/08 21:43:14 869] tts_local  990  fo|res/tts/xiaoyan.jet  fo|res/tts/common.jet  
-[2017/10/08 21:43:14 869] tts_local  1570 res_change is  true  
-[2017/10/08 21:43:14 869] tts_local  1586 res change  
-[2017/10/08 21:43:14 869] tts_local  1393 lgi:  nil  nil  
-[2017/10/08 21:43:14 869] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
-[2017/10/08 21:43:14 869] tts_local  886  Disperse res  
-[2017/10/08 21:43:14 869] tts_local  848  file_type:  fo  file_path:  res/tts/xiaoyan.jet  
-[2017/10/08 21:43:14 869] tts_local  848  file_type:  fo  file_path:  res/tts/common.jet  
-[2017/10/08 21:43:14 869] tts_local  1417 fo  fo  res/tts/xiaoyan.jet  0  res/tts/common.jet  0  false  
-[2017/10/08 21:43:14 870] tts_local  1029 speech_plus_setting  0  
-[2017/10/08 21:43:14 870] tts_local  1037 fo  res/tts/xiaoyan.jet  0  0  
-[2017/10/08 21:43:14 870] tts_local  1041 res_ver  2  
-[2017/10/08 21:43:14 870] tts_local  1042 res appid5  be0d4e41680fbfdc9ec577dcd124f0a9  
-[2017/10/08 21:43:14 870] tts_local  1043 res_new_old_mark  v5pp  
-[2017/10/08 21:43:14 870] tts_local  1044 res_usr_name    
-[2017/10/08 21:43:14 870] tts_local  1045 check ret  0  
-[2017/10/08 21:43:14 870] tts_local  1060 lgi appid 5  be0d4e41680fbfdc9ec577dcd124f0a9  
-[2017/10/08 21:43:14 870] tts_local  1177 res_expires is null  
-[2017/10/08 21:43:14 871] auth       252  read auth file failed! err=  11200  
-[2017/10/08 21:43:14 871] tts_local  1029 speech_plus_setting  0  
-[2017/10/08 21:43:14 871] tts_local  1037 fo  res/tts/common.jet  0  0  
-[2017/10/08 21:43:14 871] tts_local  1041 res_ver  2  
-[2017/10/08 21:43:14 871] tts_local  1042 res appid5  be0d4e41680fbfdc9ec577dcd124f0a9  
-[2017/10/08 21:43:14 871] tts_local  1043 res_new_old_mark  v5pp  
-[2017/10/08 21:43:14 871] tts_local  1044 res_usr_name    
-[2017/10/08 21:43:14 871] tts_local  1045 check ret  0  
-[2017/10/08 21:43:14 871] tts_local  1060 lgi appid 5  be0d4e41680fbfdc9ec577dcd124f0a9  
-[2017/10/08 21:43:14 871] tts_local  1177 res_expires is null  
-[2017/10/08 21:43:14 872] tts_local  1466 v5pp  v5pp  
-[2017/10/08 21:43:14 872] auth       252  read auth file failed! err=  11200  
-[2017/10/08 21:43:14 872] tts_local  1509 fo  res/tts/xiaoyan.jet  256  fo  res/tts/common.jet  256  false  func(10068dc0) 
-[2017/10/08 21:43:14 875] tts_local  1525 engine init success  
-[2017/10/08 21:43:14 875] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
-[2017/10/08 21:43:14 875] tts_local  886  Disperse res  
-[2017/10/08 21:43:14 876] tts_local  1588 reinit ret:  0  
-[2017/10/08 21:43:14 876] tts_local  1309 app auth  
-[2017/10/08 21:43:14 876] auth       570  aisound  table(1002c7e0) nil  nil  appid = 54a61231, work_dir = .  
-[2017/10/08 21:43:14 876] auth       579  app  nil  nil  nil  
-[2017/10/08 21:43:14 877] auth       636  ath rquest  {"authorize":[{"busin":"aisound","ver":"2.1.1"}]}  
-[2017/10/08 21:43:14 878] transport  658  paramkvsport is   nil  
-[2017/10/08 21:43:14 878] transport  666  ns_enable=  1  
-[2017/10/08 21:43:14 878] transport  710  url.full=  nil  
-[2017/10/08 21:43:14 878] transport  887  switch 80  
-[2017/10/08 21:43:14 878] transport  898  net type:  standard  
-[2017/10/08 21:43:14 878] transport  899  net operator:  def  
-[2017/10/08 21:43:14 878] transport  900  use proxy:  false  
-[2017/10/08 21:43:14 878] auth       691  not login!  
-[2017/10/08 21:43:14 878] auth       528  [session] send auth request  
-[2017/10/08 21:43:14 878] transport  1033 session.domain=  open.xf-yun.com  
-[2017/10/08 21:43:14 878] transport  1034 url.host=  open.xf-yun.com  
-[2017/10/08 21:43:14 879] transport  1068 NAMESERVER START  
-[2017/10/08 21:43:14 879] transport  1071 name =   ath  
-[2017/10/08 21:43:14 879] ns         629  ntt=  standard  
-[2017/10/08 21:43:14 879] transport  1074 trans,ns_inprog =  0  
-[2017/10/08 21:43:14 879] ns         585  name server start  
-[2017/10/08 21:43:14 879] ns         586  ns_sub =   ath  
-[2017/10/08 21:43:14 879] ns         588  ns_host=  open.xf-yun.com  
-[2017/10/08 21:43:14 879] ns         479  ns_host=  open.xf-yun.com  
-[2017/10/08 21:43:14 879] ns         558  GET /sip/resolver?srand=1008214311.32 HTTP/1.1
-Host: hdns.openspeech.cn
-Connection: Keep-Alive
-X-Par: ver=1.3&appid=54a61231&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=d46391f6b8bead32afc56c6c2d7bf871
-User-Agent: iFLYCloud
-
-  
-[2017/10/08 21:43:14 879] ns         559  net_type =  standard  
-[2017/10/08 21:43:14 880] ns         560  cmwapascmnet =  
-[2017/10/08 21:43:14 880] ns         561  uniwapasuninet =  
-[2017/10/08 21:43:14 880] ns         562  ctwapasctnet =  
-[2017/10/08 21:43:14 880] ns         579  host=  hdns.openspeech.cn  
-[2017/10/08 21:43:14 880] network    242  gethostbyname  hdns.openspeech.cn  ns1  
-[2017/10/08 21:43:14 881] auth       535  0  
-[2017/10/08 21:43:14 881] auth       498  lver:  nil  
-[2017/10/08 21:43:14 881] auth       503  cfg_ver:  nil  
-[2017/10/08 21:43:14 881] tts_local  1362 forbid_aisound =  nil  
-[2017/10/08 21:43:14 881] tts_local  1635 set voice name:  xiaoyan  
-[2017/10/08 21:43:14 881] tts_local  1637 set default voice name:  xiaoyan  
-[2017/10/08 21:43:14 881] tts_local  294  speed increase:  1  
-[2017/10/08 21:43:14 882] tts_local  307  rcn:  0  
-[2017/10/08 21:43:14 882] tts_local  320  bgs:  0  
-[2017/10/08 21:43:14 882] tts_local  400  set language: chinese  
-[2017/10/08 21:43:14 882] tts_local  408  set vcn:  xiaoyan  
-[2017/10/08 21:43:14 882] tts_local  692  fit:  false  
-[2017/10/08 21:43:14 882] tts_local  547  type:  speed  value:  50  weight:  50  double_weight:  100  
-[2017/10/08 21:43:14 882] tts_local  547  type:  pitch  value:  50  weight:  50  double_weight:  100  
-[2017/10/08 21:43:14 882] tts_local  547  type:  volume  value:  50  weight:  50  double_weight:  100  
-[2017/10/08 21:43:14 883] tts_local  576  sample_rate:  528  
-[2017/10/08 21:43:14 883] tts_local  589  text_encoding:  65001  
-[2017/10/08 21:43:14 884] tts_local  610  rdn:  1  
-[2017/10/08 21:43:14 884] tts_local  623  effect:  0  
-[2017/10/08 21:43:14 884] tts_local  1725 tts_local.ssb ret:  0  
-[2017/10/08 21:43:14 885] tts_local  1875 last gc at  1507524194  
-[2017/10/08 21:43:14 885] tts_local  1733 TTS_LOCAL_MSG_TEXT  
-[2017/10/08 21:43:14 885] tts_local  1740 base64 =  5pmT5pmT5LquIOWPkeS6huS4gOadoeW+ruS/oeivtO+8muWTjuWRgOWlveWRgO+8gQ==  
-[2017/10/08 21:43:14 886] tts_local  1875 last gc at  1507524194  
-[2017/10/08 21:43:14 895] network    224  dns resp  0  ns1  
-[2017/10/08 21:43:14 895] ns         425  ns dns ok  117.121.56.5  
-[2017/10/08 21:43:14 895] ns         205  iplist not avail  
-[2017/10/08 21:43:14 901] ns         432  is_voicecloud_ip=  0  
-[2017/10/08 21:43:14 901] ns         439  ip_is_expected=  true  
-[2017/10/08 21:43:14 902] ns         447  ip_is_expected=  true  
-[2017/10/08 21:43:14 903] network    423  gethttpresp2  117.121.56.5  80  ns2  
-[2017/10/08 21:43:14 903] network    440  prot_type  tcp  
-[2017/10/08 21:43:14 904] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  212  ,data:  udata(10035b68) 
-[2017/10/08 21:43:14 904] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  7492  ,data:  udata(10072ed8) 
-[2017/10/08 21:43:14 904] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  7320  ,data:  udata(1008c368) 
-[2017/10/08 21:43:14 905] transport  142  [dns] [1] response 117.121.21.150  
-[2017/10/08 21:43:14 905] transport  152  117  121  21  150  
-[2017/10/08 21:43:14 905] transport  203  ipv =  v4  
-[2017/10/08 21:43:14 905] transport  207  dns ip is v4  
-[2017/10/08 21:43:14 905] transport  181  iplist not avail  
-[2017/10/08 21:43:14 905] transport  247  no iplist now  
-[2017/10/08 21:43:14 905] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  117.121.21.150  
-[2017/10/08 21:43:14 906] transport  291  dns cb start conn  
-[2017/10/08 21:43:14 906] transport  1266 [soc] connect   117.121.21.150  80  
-[2017/10/08 21:43:14 907] transport  1283 mspsoc.open,prot_type=  tcp  
-[2017/10/08 21:43:14 933] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  14106  ,data:  udata(1002cb28) 
-[2017/10/08 21:43:14 933] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  3840  ,data:  udata(100739c8) 
-[2017/10/08 21:43:14 933] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  3818  ,data:  udata(1004f208) 
-[2017/10/08 21:43:14 933] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  13320  ,data:  udata(1004f3b8) 
-[2017/10/08 21:43:14 933] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  7222  ,data:  udata(10033c88) 
-[2017/10/08 21:43:14 933] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  6924  ,data:  udata(10035c58) 
-[2017/10/08 21:43:14 933] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  7118  ,data:  udata(1006c418) 
-[2017/10/08 21:43:14 934] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  8800  ,data:  udata(1008c708) 
-[2017/10/08 21:43:14 934] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(10064328) 
-[2017/10/08 21:43:14 934] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(1002c9b8) 
-[2017/10/08 21:43:14 934] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(10037178) 
-[2017/10/08 21:43:14 934] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(1008c2e8) 
-[2017/10/08 21:43:14 934] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(1004fe18) 
-[2017/10/08 21:43:14 935] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(10038fc8) 
-[2017/10/08 21:43:14 935] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(1006c728) 
-[2017/10/08 21:43:14 935] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(10052308) 
-[2017/10/08 21:43:14 935] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(10079b38) 
-[2017/10/08 21:43:14 935] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(1004e6a8) 
-[2017/10/08 21:43:14 935] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(100797b8) 
-[2017/10/08 21:43:14 935] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(1009b4a8) 
-[2017/10/08 21:43:14 936] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(10078d98) 
-[2017/10/08 21:43:14 936] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(1007b428) 
-[2017/10/08 21:43:14 936] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(10079378) 
-[2017/10/08 21:43:14 936] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(10053c98) 
-[2017/10/08 21:43:14 936] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(10053208) 
-[2017/10/08 21:43:14 937] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(10078998) 
-[2017/10/08 21:43:14 937] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  160  ,data:  udata(1004d998) 
-[2017/10/08 21:43:14 937] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  212  ,data:  udata(1004d9e8) 
-[2017/10/08 21:43:14 937] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  1542  ,data:  udata(10053da8) 
-[2017/10/08 21:43:14 937] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  7240  ,data:  udata(1008c538) 
-[2017/10/08 21:43:14 938] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  6982  ,data:  udata(1004ede8) 
-[2017/10/08 21:43:14 938] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  7112  ,data:  udata(10037378) 
-[2017/10/08 21:43:14 938] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  8268  ,data:  udata(100733e8) 
-[2017/10/08 21:43:14 938] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(1004f498) 
-[2017/10/08 21:43:14 938] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10079b88) 
-[2017/10/08 21:43:14 939] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(100541c8) 
-[2017/10/08 21:43:14 939] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10052cb8) 
-[2017/10/08 21:43:14 939] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(100336d8) 
-[2017/10/08 21:43:14 940] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(1008c3b8) 
-[2017/10/08 21:43:14 940] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(1004e908) 
-[2017/10/08 21:43:14 940] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(1004e958) 
-[2017/10/08 21:43:14 941] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10040688) 
-[2017/10/08 21:43:14 941] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10053818) 
-[2017/10/08 21:43:14 941] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(1004e758) 
-[2017/10/08 21:43:14 942] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10079868) 
-[2017/10/08 21:43:14 942] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10054218) 
-[2017/10/08 21:43:14 942] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(1009b4f8) 
-[2017/10/08 21:43:14 943] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10078de8) 
-[2017/10/08 21:43:14 943] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10078e38) 
-[2017/10/08 21:43:14 943] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10078e88) 
-[2017/10/08 21:43:14 943] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10050388) 
-[2017/10/08 21:43:14 943] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10072f28) 
-[2017/10/08 21:43:14 943] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10072fd8) 
-[2017/10/08 21:43:14 944] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10040b38) 
-[2017/10/08 21:43:14 944] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10040d98) 
-[2017/10/08 21:43:14 944] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(10050ab8) 
-[2017/10/08 21:43:14 944] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  512  ,data:  udata(100793c8) 
-[2017/10/08 21:43:14 944] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  49  ,nSize:  214  ,data:  udata(10079478) 
-[2017/10/08 21:43:14 945] tts_local  937  TTS_LOCAL_CB_END  0  nil  
-[2017/10/08 21:43:14 945] network    328  connected  ns2  
-[2017/10/08 21:43:14 945] network    331  send ok  271  ns2  
-[2017/10/08 21:43:14 951] tts_local  1782 TTS_LOCAL_MSG_END  0  
-[2017/10/08 21:43:14 951] tts_local  1194 plog_process  {"stime":"2017/10/08 21:43:14 862","u_lrs":88,"ret":0,"hints":"Normal","dur":89,"csid":"ctts1PdHHBHe9Qg4wPUYaa0-40UiaS4dfA","u_txt":1,"u_frs":44}  nil  
-[2017/10/08 21:43:14 953] tts_local  1875 last gc at  1507524194  
-[2017/10/08 21:43:14 970] transport  476  [soc] [1] connected  
-[2017/10/08 21:43:14 970] transport  1323 build http request.  
-[2017/10/08 21:43:14 970] transport  1423 POST /msp.do HTTP/1.1
+[2017/10/30 23:04:50 339] ns         559  net_type =  standard  
+[2017/10/30 23:04:50 339] ns         560  cmwapascmnet =  
+[2017/10/30 23:04:50 339] ns         561  uniwapasuninet =  
+[2017/10/30 23:04:50 339] ns         562  ctwapasctnet =  
+[2017/10/30 23:04:50 340] ns         579  host=  hdns.openspeech.cn  
+[2017/10/30 23:04:50 340] network    242  gethostbyname  hdns.openspeech.cn  ns1  
+[2017/10/30 23:04:50 340] auth       535  0  
+[2017/10/30 23:04:50 340] auth       498  lver:  nil  
+[2017/10/30 23:04:50 340] auth       503  cfg_ver:  nil  
+[2017/10/30 23:04:50 340] tts_local  1362 forbid_aisound =  nil  
+[2017/10/30 23:04:50 340] tts_local  1635 set voice name:  xiaoyan  
+[2017/10/30 23:04:50 340] tts_local  1637 set default voice name:  xiaoyan  
+[2017/10/30 23:04:50 340] tts_local  294  speed increase:  1  
+[2017/10/30 23:04:50 341] tts_local  307  rcn:  0  
+[2017/10/30 23:04:50 341] tts_local  320  bgs:  0  
+[2017/10/30 23:04:50 341] tts_local  400  set language: chinese  
+[2017/10/30 23:04:50 341] tts_local  408  set vcn:  xiaoyan  
+[2017/10/30 23:04:50 341] tts_local  692  fit:  false  
+[2017/10/30 23:04:50 341] tts_local  547  type:  speed  value:  50  weight:  50  double_weight:  100  
+[2017/10/30 23:04:50 341] tts_local  547  type:  pitch  value:  50  weight:  50  double_weight:  100  
+[2017/10/30 23:04:50 341] tts_local  547  type:  volume  value:  50  weight:  50  double_weight:  100  
+[2017/10/30 23:04:50 341] tts_local  576  sample_rate:  528  
+[2017/10/30 23:04:50 342] tts_local  589  text_encoding:  65001  
+[2017/10/30 23:04:50 342] tts_local  610  rdn:  1  
+[2017/10/30 23:04:50 342] tts_local  623  effect:  0  
+[2017/10/30 23:04:50 342] tts_local  1725 tts_local.ssb ret:  0  
+[2017/10/30 23:04:50 342] tts_local  1875 last gc at  1509375890  
+[2017/10/30 23:04:50 342] tts_local  1733 TTS_LOCAL_MSG_TEXT  
+[2017/10/30 23:04:50 342] tts_local  1740 base64 =  5pmT5pmT5LquIOWPkeS6huS4gOadoeW+ruS/oeivtO+8muS9oOWlvQ==  
+[2017/10/30 23:04:50 342] tts_local  1875 last gc at  1509375890  
+[2017/10/30 23:04:50 347] network    224  dns resp  0  ns1  
+[2017/10/30 23:04:50 347] ns         425  ns dns ok  117.121.56.5  
+[2017/10/30 23:04:50 347] ns         205  iplist not avail  
+[2017/10/30 23:04:50 348] ns         432  is_voicecloud_ip=  0  
+[2017/10/30 23:04:50 351] ns         439  ip_is_expected=  true  
+[2017/10/30 23:04:50 351] ns         447  ip_is_expected=  true  
+[2017/10/30 23:04:50 351] network    423  gethttpresp2  117.121.56.5  80  ns2  
+[2017/10/30 23:04:50 351] network    440  prot_type  tcp  
+[2017/10/30 23:04:50 353] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  212  ,data:  udata(9c064008) 
+[2017/10/30 23:04:50 353] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  7492  ,data:  udata(9c039e78) 
+[2017/10/30 23:04:50 354] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  7320  ,data:  udata(9c063d68) 
+[2017/10/30 23:04:50 356] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  14106  ,data:  udata(9c073ba8) 
+[2017/10/30 23:04:50 357] transport  142  [dns] [1] response 117.121.21.146  
+[2017/10/30 23:04:50 357] transport  152  117  121  21  146  
+[2017/10/30 23:04:50 357] transport  203  ipv =  v4  
+[2017/10/30 23:04:50 357] transport  207  dns ip is v4  
+[2017/10/30 23:04:50 358] transport  181  iplist not avail  
+[2017/10/30 23:04:50 358] transport  247  no iplist now  
+[2017/10/30 23:04:50 358] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  117.121.21.146  
+[2017/10/30 23:04:50 359] transport  291  dns cb start conn  
+[2017/10/30 23:04:50 359] transport  1266 [soc] connect   117.121.21.146  80  
+[2017/10/30 23:04:50 360] transport  1283 mspsoc.open,prot_type=  tcp  
+[2017/10/30 23:04:50 365] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  3840  ,data:  udata(9c033658) 
+[2017/10/30 23:04:50 366] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  3818  ,data:  udata(9c0831b8) 
+[2017/10/30 23:04:50 366] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  13320  ,data:  udata(9c04d6a8) 
+[2017/10/30 23:04:50 366] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  7222  ,data:  udata(9c03a798) 
+[2017/10/30 23:04:50 366] network    328  connected  ns2  
+[2017/10/30 23:04:50 366] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  6924  ,data:  udata(9c033498) 
+[2017/10/30 23:04:50 366] network    331  send ok  271  ns2  
+[2017/10/30 23:04:50 367] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  7118  ,data:  udata(9c03dd18) 
+[2017/10/30 23:04:50 369] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  8800  ,data:  udata(9c07d0a8) 
+[2017/10/30 23:04:50 369] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c091908) 
+[2017/10/30 23:04:50 369] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c03f788) 
+[2017/10/30 23:04:50 369] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c39ac28) 
+[2017/10/30 23:04:50 370] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c04e108) 
+[2017/10/30 23:04:50 370] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c0737d8) 
+[2017/10/30 23:04:50 371] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c06c6b8) 
+[2017/10/30 23:04:50 371] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c078e78) 
+[2017/10/30 23:04:50 371] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c079b38) 
+[2017/10/30 23:04:50 372] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c04cab8) 
+[2017/10/30 23:04:50 372] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c06c7f8) 
+[2017/10/30 23:04:50 372] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c052a48) 
+[2017/10/30 23:04:50 374] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c04c148) 
+[2017/10/30 23:04:50 374] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c03fad8) 
+[2017/10/30 23:04:50 375] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c085d88) 
+[2017/10/30 23:04:50 375] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c073f58) 
+[2017/10/30 23:04:50 377] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c07b118) 
+[2017/10/30 23:04:50 377] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c0505f8) 
+[2017/10/30 23:04:50 377] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  512  ,data:  udata(9c0514f8) 
+[2017/10/30 23:04:50 377] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  34  ,nSize:  160  ,data:  udata(9c078998) 
+[2017/10/30 23:04:50 378] transport  476  [soc] [1] connected  
+[2017/10/30 23:04:50 378] transport  1323 build http request.  
+[2017/10/30 23:04:50 378] transport  1423 POST /msp.do HTTP/1.1
 Host: open.xf-yun.com
 Content-Type: multipart/mixed;boundary=--
 Content-Length: 345
@@ -466,61 +179,67 @@ CE:gzip
 
 36
 xœËN­´5162H³´L431HK44·4KI5NJ22M6OI±H60  
-[2017/10/08 21:43:15 101] transport  1743 msg:release()  
-[2017/10/08 21:43:15 101] transport  506  [soc] [1] send ok  518  
-[2017/10/08 21:43:15 101] network    340  readable  ns2  
-[2017/10/08 21:43:15 101] network    344  HTTP/1.1 200 OK
-Date: Mon, 09 Oct 2017 04:43:14 GMT
+[2017/10/30 23:04:50 379] transport  1743 msg:release()  
+[2017/10/30 23:04:50 379] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  40  ,nSize:  212  ,data:  udata(9c027478) 
+[2017/10/30 23:04:50 380] transport  506  [soc] [1] send ok  518  
+[2017/10/30 23:04:50 384] network    340  readable  ns2  
+[2017/10/30 23:04:50 384] network    344  HTTP/1.1 200 OK
+Date: Mon, 30 Oct 2017 15:04:50 GMT
 Content-Type: application/json
 Content-Length: 312
 Connection: keep-alive
 Server: iflytek/hdns
 
 {"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"116.213.69.195","port":8080,"idc":"ch"},{"ip":"117.121.56.3","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.56.3","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}]}  
-[2017/10/08 21:43:15 101] ns         256  name server http resp  table(10073510) 0  udata(10099768) 
-[2017/10/08 21:43:15 101] ns         269  ns response OK for this time!  
-[2017/10/08 21:43:15 101] ns         280  from_server=  iflytek/hdns  
-[2017/10/08 21:43:15 102] ns         363  compel :  0  
-[2017/10/08 21:43:15 102] ns         374  tick()=  814685  
-[2017/10/08 21:43:15 102] ns         378  tick()mod=  814685  
-[2017/10/08 21:43:15 102] ns         379  ns_host=  open.xf-yun.com  
-[2017/10/08 21:43:15 102] ns         392  ns_host=  open.xf-yun.com  
-[2017/10/08 21:43:15 102] transport  1048 ns_ip =   116.213.69.195  
-[2017/10/08 21:43:15 102] transport  1049 ip_type =  assigned_athopen.xf-yun.com_host  
-[2017/10/08 21:43:15 102] ns         658  no data in ns_q  
-[2017/10/08 21:43:15 102] ns         659  conti_ns,ns_inprog =   1  
-[2017/10/08 21:43:15 144] transport  518  [soc] [1] readable  
-[2017/10/08 21:43:15 144] transport  1696 HTTP/1.1 200 OK
+[2017/10/30 23:04:50 385] ns         256  name server http resp  table(9c07d230) 0  udata(9c033108) 
+[2017/10/30 23:04:50 385] ns         269  ns response OK for this time!  
+[2017/10/30 23:04:50 385] ns         280  from_server=  iflytek/hdns  
+[2017/10/30 23:04:50 386] ns         363  compel :  0  
+[2017/10/30 23:04:50 386] ns         374  tick()=  21711876  
+[2017/10/30 23:04:50 386] ns         378  tick()mod=  21711877  
+[2017/10/30 23:04:50 387] ns         379  ns_host=  open.xf-yun.com  
+[2017/10/30 23:04:50 387] ns         392  ns_host=  open.xf-yun.com  
+[2017/10/30 23:04:50 387] transport  1048 ns_ip =   116.213.69.195  
+[2017/10/30 23:04:50 388] transport  1049 ip_type =  assigned_athopen.xf-yun.com_host  
+[2017/10/30 23:04:50 388] ns         658  no data in ns_q  
+[2017/10/30 23:04:50 388] ns         659  conti_ns,ns_inprog =   1  
+[2017/10/30 23:04:50 388] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  40  ,nSize:  11148  ,data:  udata(9c04b448) 
+[2017/10/30 23:04:50 389] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  40  ,nSize:  8372  ,data:  udata(9c063b28) 
+[2017/10/30 23:04:50 389] tts_local  937  TTS_LOCAL_CB_END  0  nil  
+[2017/10/30 23:04:50 390] tts_local  1782 TTS_LOCAL_MSG_END  0  
+[2017/10/30 23:04:50 391] tts_local  1194 plog_process  {"u_frs":22,"csid":"ctts1P1HHBHehfRnHn7QWaaaUDwjfuKglNu","ret":0,"hints":"Normal","stime":"2017/10/30 23:04:50 333","u_txt":9,"dur":58,"u_lrs":57}  nil  
+[2017/10/30 23:04:50 393] tts_local  1875 last gc at  1509375890  
+[2017/10/30 23:04:51 042] transport  518  [soc] [1] readable  
+[2017/10/30 23:04:51 043] transport  1696 HTTP/1.1 200 OK
 Content-Type: multipart/mixed;boundary=--
-Content-Length: 293
-X-Req-Date: 2017/10/09 12:37:43 24
+Content-Length: 213
+X-Req-Date: 2017/10/30 23:04:50 474
 Cache-Control: no-cache
-CL: 293
-X-Res-Date: 2017/10/09 12:37:43 43
+CL: 213
+X-Res-Date: 2017/10/30 23:04:51 120
 
 ----
 Content-Length:83
 
-ver=MSSP+0%2E9&ret=0&key=09cAIL27JIyt2zXnJGr6lFFWvK6y/ycWEGR51Vca1mNOOVZEavdFqHeQ==
+ver=MSSP+0%2E9&ret=0&key=09bYc7F6MRsg2mdd2O54nl8ka4IVfbmAOjgD6EwS7SLfSVZEavdFqHeQ==
 ----
-Content-Length:93
+Content-Length:13
 Content-Type:binary/authinfo
 Content-Encoding:gzip
 
-92
-xœËK
-€ Fá½üc©IàfBñJÃGâÞ³éw8ŽKj1Àv<”a¡ à[ùÞ›3íÁU‚•«6›‘F-™ê©-p¤ìyþsŒ'_<›c|Žƒ
-------  
-[2017/10/08 21:43:15 144] transport  1442 a_complete_httpmessage  200  
-[2017/10/08 21:43:15 144] transport  1552 is_update  true  
-[2017/10/08 21:43:15 144] transport  1556 port updated  80  
-[2017/10/08 21:43:15 144] transport  1558 switch  80  
-[2017/10/08 21:43:15 145] auth       347  [trans] [id = table: 0x7f851002c9e0;;;=0===;auth] readable  
-[2017/10/08 21:43:15 146] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  117.121.21.150  
-[2017/10/08 21:43:15 146] transport  973  cached ip is confirmed  
-[2017/10/08 21:43:15 146] transport  1300 [soc] disconnect   
-[2017/10/08 21:43:15 146] auth       383  auth_json=  udata(100811c8) 
-[2017/10/08 21:43:15 146] auth       384  tostring(auth_json)=  {"aisound":{"ver":"2","bus":{"expire_date":1435751520,"ret":11203,"forbid":"1","nlimit":3}}}  
-[2017/10/08 21:43:15 146] auth       74   aisound  app  nil  nil  {"aisound":{"ver":"2","bus":{"expire_date":1435751520,"ret":11203,"forbid":"1","nlimit":3}}}  
-[2017/10/08 21:43:15 146] auth       134  auth get aisound_res_id  nil  
-[2017/10/08 21:43:15 146] auth       404  auth ok!  
+2
+xœ«®  
+[2017/10/30 23:04:51 043] transport  1442 a_complete_httpmessage  200  
+[2017/10/30 23:04:51 043] transport  1552 is_update  true  
+[2017/10/30 23:04:51 043] transport  1556 port updated  80  
+[2017/10/30 23:04:51 043] transport  1558 switch  80  
+[2017/10/30 23:04:51 043] auth       347  [trans] [id = table: 0x7f989c0334c0;;;=0===;auth] readable  
+[2017/10/30 23:04:51 043] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  117.121.21.146  
+[2017/10/30 23:04:51 043] transport  973  cached ip is confirmed  
+[2017/10/30 23:04:51 043] transport  1300 [soc] disconnect   
+[2017/10/30 23:04:51 043] auth       383  auth_json=  udata(9c039e78) 
+[2017/10/30 23:04:51 043] auth       384  tostring(auth_json)=  {}  
+[2017/10/30 23:04:51 043] auth       74   aisound  app  nil  nil  {}  
+[2017/10/30 23:04:51 044] auth       404  auth ok!  
+[2017/10/30 23:04:53 735] tts_local  1840 SYS_MSG_SHUTDOWN_LOCAL  
+[2017/10/30 23:04:53 735] tts_local  1875 last gc at  1509375890  

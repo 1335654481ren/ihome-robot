@@ -51,7 +51,7 @@ class WeChat(WXAPI):
         self.msg_handler = None
         self.start_time = time.time()
         self.bot = None
-
+        self.auto_play = None
         cm = ConfigManager()
         self.save_data_folders = cm.get_wechat_media_dir()
         self.cookie_file = cm.get_cookie()
@@ -713,6 +713,12 @@ class WeChat(WXAPI):
                 src_name = trans_emoji(dst['ShowName'])
                 cmd_srt = trans_emoji(msg['log'])
                 #if name == "晓晓亮" and src_name == "晓晓亮":
+                url_len = len(cmd_srt)
+                if len >= 22:
+                	if cmd_srt[:21] == "http://www.iqiyi.com/" or cmd_srt[:19] == "http://m.iqiyi.com/":
+                		vip_url = "请在浏览器中打开：http://api.xfsub.com/index.php?url=" + cmd_srt
+                		self.webwxsendmsg(vip_url, self.get_user_id(name))
+                		return
                 if name == "晓晓亮":
                     if cmd_srt == '叫车':
                         print '---------------------------------call'

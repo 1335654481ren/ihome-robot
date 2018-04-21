@@ -1,8 +1,8 @@
-# Install script for directory: /home/renxl/share/catkin_ws/src/ihome/eye
+# Install script for directory: /home/renxl/work/share/catkin_ws/src/ihome/eye
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/renxl/share/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/renxl/work/share/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/renxl/share/catkin_ws/build/ihome/eye/catkin_generated/installspace/eye.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/build/ihome/eye/catkin_generated/installspace/eye.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/eye/cmake" TYPE FILE FILES
-    "/home/renxl/share/catkin_ws/build/ihome/eye/catkin_generated/installspace/eyeConfig.cmake"
-    "/home/renxl/share/catkin_ws/build/ihome/eye/catkin_generated/installspace/eyeConfig-version.cmake"
+    "/home/renxl/work/share/catkin_ws/build/ihome/eye/catkin_generated/installspace/eyeConfig.cmake"
+    "/home/renxl/work/share/catkin_ws/build/ihome/eye/catkin_generated/installspace/eyeConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/eye" TYPE FILE FILES "/home/renxl/share/catkin_ws/src/ihome/eye/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/eye" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/src/ihome/eye/package.xml")
 endif()
 

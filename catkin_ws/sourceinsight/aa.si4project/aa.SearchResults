@@ -1,2 +1,12 @@
----- SR_DWORD Matches (1 in 1 files) ----
-tts_local.cpp (W:\share\catkin_ws\src\ihome\aiui\src\tts_local) line 22 : typedef int SR_DWORD;
+---- big_buf Matches (11 in 1 files) ----
+uart.cpp (Y:\share\catkin_ws\src\ihome\aiui\src\aiui) line 41 : static void* big_buf = NULL;
+uart_rec in uart.cpp (Y:\share\catkin_ws\src\ihome\aiui\src\aiui) : 	if(big_buf == NULL && recv_index + msglen >= 2){
+uart_rec in uart.cpp (Y:\share\catkin_ws\src\ihome\aiui\src\aiui) : 	if(big_buf != NULL)
+uart_rec in uart.cpp (Y:\share\catkin_ws\src\ihome\aiui\src\aiui) : 		memcpy(big_buf + big_buf_index, msg, copy_len);
+uart_rec in uart.cpp (Y:\share\catkin_ws\src\ihome\aiui\src\aiui) : 				big_buf = malloc(big_buf_len);
+uart_rec in uart.cpp (Y:\share\catkin_ws\src\ihome\aiui\src\aiui) : 				memset(big_buf,0x00 ,big_buf_len );
+uart_rec in uart.cpp (Y:\share\catkin_ws\src\ihome\aiui\src\aiui) : 				memcpy(big_buf, recv_buf, recv_index);
+uart_rec in uart.cpp (Y:\share\catkin_ws\src\ihome\aiui\src\aiui) : 	if(big_buf != NULL){
+uart_rec in uart.cpp (Y:\share\catkin_ws\src\ihome\aiui\src\aiui) : 		process_recv((unsigned char*)big_buf, big_buf_len);   //接受消息处理
+uart_rec in uart.cpp (Y:\share\catkin_ws\src\ihome\aiui\src\aiui) : 		free(big_buf);
+uart_rec in uart.cpp (Y:\share\catkin_ws\src\ihome\aiui\src\aiui) : 		big_buf = NULL;

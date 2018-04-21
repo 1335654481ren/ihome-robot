@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/renxl/share/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/renxl/work/share/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/renxl/share/catkin_ws/build
+CMAKE_BINARY_DIR = /home/renxl/work/share/catkin_ws/build
 
 # Utility rule file for sensor_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ ihome/eye/CMakeFiles/sensor_msgs_generate_messages_py.dir/build: sensor_msgs_gen
 .PHONY : ihome/eye/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 
 ihome/eye/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
-	cd /home/renxl/share/catkin_ws/build/ihome/eye && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/renxl/work/share/catkin_ws/build/ihome/eye && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : ihome/eye/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 
 ihome/eye/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend:
-	cd /home/renxl/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renxl/share/catkin_ws/src /home/renxl/share/catkin_ws/src/ihome/eye /home/renxl/share/catkin_ws/build /home/renxl/share/catkin_ws/build/ihome/eye /home/renxl/share/catkin_ws/build/ihome/eye/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renxl/work/share/catkin_ws/src /home/renxl/work/share/catkin_ws/src/ihome/eye /home/renxl/work/share/catkin_ws/build /home/renxl/work/share/catkin_ws/build/ihome/eye /home/renxl/work/share/catkin_ws/build/ihome/eye/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ihome/eye/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
 

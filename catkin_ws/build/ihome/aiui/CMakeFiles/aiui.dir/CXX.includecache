@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/renxl/share/catkin_ws/devel/include/robot_msgs/Ear.h
+/home/renxl/work/share/catkin_ws/devel/include/robot_msgs/Ear.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/renxl/share/catkin_ws/devel/include/robot_msgs/Speak.h
+/home/renxl/work/share/catkin_ws/devel/include/robot_msgs/Speak.h
 ros/service_traits.h
 -
 robot_msgs/SpeakRequest.h
@@ -32,7 +32,7 @@ robot_msgs/SpeakRequest.h
 robot_msgs/SpeakResponse.h
 -
 
-/home/renxl/share/catkin_ws/devel/include/robot_msgs/SpeakRequest.h
+/home/renxl/work/share/catkin_ws/devel/include/robot_msgs/SpeakRequest.h
 string
 -
 vector
@@ -48,7 +48,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/renxl/share/catkin_ws/devel/include/robot_msgs/SpeakResponse.h
+/home/renxl/work/share/catkin_ws/devel/include/robot_msgs/SpeakResponse.h
 string
 -
 vector
@@ -64,27 +64,27 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/aiui/aiui.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/aiui/aiui.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/aiui/cJSON.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/aiui/cJSON.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/aiui/gzlib.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/aiui/gzlib.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/aiui/uart.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/aiui/uart.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/character.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/character.h
 string
 -
 list
 -
 phonetic_symbol.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/phonetic_symbol.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/phonetic_symbol.h
 utf8.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/config.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/config.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/ekho.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/ekho.h
 queue
 -
 semaphore.h
@@ -94,27 +94,27 @@ pthread.h
 sndfile.h
 -
 config.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/config.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/config.h
 ekho_dict.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/ekho_dict.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/ekho_dict.h
 sonic.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/sonic.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/sonic.h
 pulse/simple.h
 -
 pulse/error.h
 -
 flite.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/flite.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/flite.h
 Log.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/Log.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/Log.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/ekho_dict.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/ekho_dict.h
 character.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/character.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/character.h
 zhy_symbol_map.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/zhy_symbol_map.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/zhy_symbol_map.h
 zh_symbol_map.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/zh_symbol_map.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/zh_symbol_map.h
 map
 -
 list
@@ -122,15 +122,15 @@ list
 sndfile.h
 -
 config.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/config.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/config.h
 friso_API.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/friso_API.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/friso_API.h
 friso.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/friso.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/friso.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/phonetic_symbol.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/phonetic_symbol.h
 Log.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/Log.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/Log.h
 iostream
 -
 sndfile.h
@@ -138,49 +138,49 @@ sndfile.h
 string.h
 -
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/sonic.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/sonic.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8.h
 utf8/checked.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8/checked.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8/checked.h
 utf8/unchecked.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8/unchecked.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8/unchecked.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8/checked.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8/checked.h
 core.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8/core.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8/core.h
 stdexcept
 -
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8/core.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8/core.h
 iterator
 -
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8/unchecked.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8/unchecked.h
 core.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8/core.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/utf8/core.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/zh_symbol_map.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/zh_symbol_map.h
 phonetic_symbol.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/phonetic_symbol.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/phonetic_symbol.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/zhy_symbol_map.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/zhy_symbol_map.h
 phonetic_symbol.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/ekho/phonetic_symbol.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/ekho/phonetic_symbol.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/tts/msp_cmn.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/tts/msp_cmn.h
 msp_types.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/tts/msp_types.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/tts/msp_types.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/tts/msp_errors.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/tts/msp_errors.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/tts/msp_types.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/tts/msp_types.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/tts/qtts.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/tts/qtts.h
 msp_types.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/./include/tts/msp_types.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/./include/tts/msp_types.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.cpp
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.cpp
 stdio.h
 -
 stdlib.h
@@ -208,13 +208,13 @@ time.h
 sys/time.h
 -
 uart.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/uart.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/uart.h
 aiui.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.h
 cJSON.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/aiui2json.cpp
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/aiui2json.cpp
 stdlib.h
 -
 stdio.h
@@ -238,11 +238,11 @@ errno.h
 assert.h
 -
 gzlib.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.h
 cJSON.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.h
 aiui.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.h
 ros/ros.h
 -
 ros/time.h
@@ -250,7 +250,7 @@ ros/time.h
 robot_msgs/Ear.h
 -
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.cpp
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.cpp
 string.h
 -
 stdio.h
@@ -266,9 +266,9 @@ limits.h
 ctype.h
 -
 cJSON.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.cpp
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.cpp
 stdio.h
 -
 stdlib.h
@@ -278,11 +278,11 @@ unistd.h
 string.h
 -
 gzlib.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/gzlib.h
 zlib.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/zlib.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/zlib.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/main.cpp
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/main.cpp
 stdio.h
 -
 stdlib.h
@@ -312,7 +312,7 @@ sys/time.h
 math.h
 -
 ros/ros.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/ros/ros.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/ros/ros.h
 ros/time.h
 -
 robot_msgs/Ear.h
@@ -320,13 +320,13 @@ robot_msgs/Ear.h
 robot_msgs/Speak.h
 -
 cJSON.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.h
 aiui.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.h
 uart.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/uart.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/uart.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/uart.cpp
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/uart.cpp
 stdio.h
 -
 stdlib.h
@@ -350,19 +350,19 @@ termios.h
 stdarg.h
 -
 uart.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/uart.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/uart.h
 aiui.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/aiui.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/ekho.cpp
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/ekho.cpp
 stdio.h
 -
 ekho.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/ekho.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/ekho.h
 aiui.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/aiui.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/aiui.h
 
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/tts_local.cpp
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/tts_local.cpp
 stdlib.h
 -
 stdio.h
@@ -384,13 +384,13 @@ sys/stat.h
 fcntl.h
 -
 qtts.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/qtts.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/qtts.h
 msp_cmn.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/msp_cmn.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/msp_cmn.h
 msp_errors.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/msp_errors.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/msp_errors.h
 aiui.h
-/home/renxl/share/catkin_ws/src/ihome/aiui/src/tts_local/aiui.h
+/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/tts_local/aiui.h
 
 /opt/ros/kinetic/include/ros/advertise_options.h
 ros/forwards.h

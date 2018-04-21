@@ -1,8 +1,8 @@
-# Install script for directory: /home/renxl/share/catkin_ws/src/ihome/brain
+# Install script for directory: /home/renxl/work/share/catkin_ws/src/ihome/brain
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/renxl/share/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/renxl/work/share/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/renxl/share/catkin_ws/build/ihome/brain/catkin_generated/installspace/brain.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/build/ihome/brain/catkin_generated/installspace/brain.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/brain/cmake" TYPE FILE FILES
-    "/home/renxl/share/catkin_ws/build/ihome/brain/catkin_generated/installspace/brainConfig.cmake"
-    "/home/renxl/share/catkin_ws/build/ihome/brain/catkin_generated/installspace/brainConfig-version.cmake"
+    "/home/renxl/work/share/catkin_ws/build/ihome/brain/catkin_generated/installspace/brainConfig.cmake"
+    "/home/renxl/work/share/catkin_ws/build/ihome/brain/catkin_generated/installspace/brainConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/brain" TYPE FILE FILES "/home/renxl/share/catkin_ws/src/ihome/brain/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/brain" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/src/ihome/brain/package.xml")
 endif()
 
