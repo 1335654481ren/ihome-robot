@@ -149,7 +149,8 @@ int main(int argc, char* argv[])
 	system("rm ./msc/4320f99a640fa1796de3bb25c7dd8c05/* -rf");
 	const char* session_begin_params = "engine_type = local, text_encoding = UTF8, tts_res_path = fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2";
 	const char* filename             = "tts_sample.wav"; //合成的语音文件名称
-	const char* text                 = "亲爱的用户，您好，这是一个语音合成示例，感谢您对科大讯飞语音技术的支持！科大讯飞是亚太地区最大的语音上市公司，股票代码：002230"; //合成文本
+	//const char* text                 = "亲爱的用户，您好，这是一个语音合成示例，感谢您对科大讯飞语音技术的支持！科大讯飞是亚太地区最大的语音上市公司，股票代码：002230"; //合成文本
+	const char* text                 = "前方有障碍物，请接管"; //合成文本
 	/* 用户登录 */
 	ret = MSPLogin(NULL, NULL, login_params); //第一个参数是用户名，第二个参数是密码，第三个参数是登录参数，用户名和密码可在http://www.xfyun.cn注册获取
 	if (MSP_SUCCESS != ret)
