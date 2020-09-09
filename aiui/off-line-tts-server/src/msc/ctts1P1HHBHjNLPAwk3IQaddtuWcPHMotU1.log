@@ -1,0 +1,34 @@
+============================================================
+Time  2019/08/26 14:52:16 886 
+============================================================
+[2019/08/26 14:52:16 886] tts        555  SYS_MSG_REGCB param0 =  msp_status_cb  param1 =  func(c06f2a0) 
+[2019/08/26 14:52:16 887] config     42   use general cloud  
+[2019/08/26 14:52:16 890] tts_cloud  1414 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(c06f2a0) 
+[2019/08/26 14:52:16 890] tts        527  TTS_MSG_SSB  
+[2019/08/26 14:52:16 890] tts        338  params =  engine_type = local, text_encoding = UTF8, tts_res_path = fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2  
+[2019/08/26 14:52:16 890] tts        369  ssb|use local  
+[2019/08/26 14:52:16 890] tts        313  local_session_begin  
+[2019/08/26 14:52:16 891] tts        533  TTS_MSG_SYN  0  
+[2019/08/26 14:52:16 891] tts        404  synth|use local  
+[2019/08/26 14:52:16 892] tts        536  TTS_MSG_GETAUDIO  0  
+[2019/08/26 14:52:16 892] tts        429  get audio|use local  
+[2019/08/26 14:52:16 892] tts        471  0  nil  1  
+[2019/08/26 14:52:16 892] tts        536  TTS_MSG_GETAUDIO  0  
+[2019/08/26 14:52:16 892] tts        429  get audio|use local  
+[2019/08/26 14:52:16 892] tts        471  0  nil  1  
+[2019/08/26 14:52:16 893] tts        536  TTS_MSG_GETAUDIO  0  
+[2019/08/26 14:52:16 893] tts        429  get audio|use local  
+[2019/08/26 14:52:16 894] tts        471  0  nil  1  
+[2019/08/26 14:52:16 894] tts        536  TTS_MSG_GETAUDIO  0  
+[2019/08/26 14:52:16 894] tts        429  get audio|use local  
+[2019/08/26 14:52:16 894] tts        471  0  nil  1  
+[2019/08/26 14:52:16 895] tts        536  TTS_MSG_GETAUDIO  0  
+[2019/08/26 14:52:16 895] tts        429  get audio|use local  
+[2019/08/26 14:52:16 895] tts        471  0  nil  1  
+[2019/08/26 14:52:16 895] tts        292  11203  0  
+[2019/08/26 14:52:16 896] tts        299  TTS_LOCAL_CB_END,  2  
+[2019/08/26 14:52:16 897] tts        290  TTS_LOCAL_CB_BEGIN  
+[2019/08/26 14:52:16 897] tts        536  TTS_MSG_GETAUDIO  11203  
+[2019/08/26 14:52:16 898] tts        539  TTS_MSG_SSE  
+[2019/08/26 14:52:16 899] tts        493  sse|use local  
+[2019/08/26 14:52:16 899] tts        509  tts exit  

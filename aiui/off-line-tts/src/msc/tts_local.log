@@ -1,247 +1,355 @@
 ============================================================
-Time  2018/09/13 10:20:22 004 
+Time  2019/08/23 13:39:18 784 
 ============================================================
-[2018/09/13 10:20:22 004] tts_local  1824 Linux  
-[2018/09/13 10:20:22 004] tts_local  1860 SYS_MSG_REGCB_LOCAL  
-[2018/09/13 10:20:22 004] tts_local  1875 last gc at  1536805222  
-[2018/09/13 10:20:22 005] tts_local  1860 SYS_MSG_REGCB_LOCAL  
-[2018/09/13 10:20:22 005] tts_local  1875 last gc at  1536805222  
-[2018/09/13 10:20:22 005] tts_local  1671 TTS_LOCAL_MSG_SSB  engine_type=local,text_encoding=UTF8,tts_res_path=fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet,sample_rate=16000,speed=50,volume=50,pitch=50,rdn=2  
-[2018/09/13 10:20:22 005] tts_local  1701 mode_num =  0  
-[2018/09/13 10:20:22 005] tts_local  1563 fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
-[2018/09/13 10:20:22 006] tts_local  1566 nil  
-[2018/09/13 10:20:22 006] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
-[2018/09/13 10:20:22 006] tts_local  886  Disperse res  
-[2018/09/13 10:20:22 006] tts_local  990  fo|res/tts/xiaoyan.jet  fo|res/tts/common.jet  
-[2018/09/13 10:20:22 006] tts_local  1570 res_change is  true  
-[2018/09/13 10:20:22 006] tts_local  1586 res change  
-[2018/09/13 10:20:22 006] tts_local  1393 lgi:  nil  nil  
-[2018/09/13 10:20:22 006] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
-[2018/09/13 10:20:22 006] tts_local  886  Disperse res  
-[2018/09/13 10:20:22 006] tts_local  848  file_type:  fo  file_path:  res/tts/xiaoyan.jet  
-[2018/09/13 10:20:22 006] tts_local  848  file_type:  fo  file_path:  res/tts/common.jet  
-[2018/09/13 10:20:22 006] tts_local  1417 fo  fo  res/tts/xiaoyan.jet  0  res/tts/common.jet  0  false  
-[2018/09/13 10:20:22 007] tts_local  1029 speech_plus_setting  0  
-[2018/09/13 10:20:22 007] tts_local  1037 fo  res/tts/xiaoyan.jet  0  0  
-[2018/09/13 10:20:22 007] tts_local  1041 res_ver  2  
-[2018/09/13 10:20:22 007] tts_local  1042 res appid5  be0d4e41680fbfdc9ec577dcd124f0a9  
-[2018/09/13 10:20:22 007] tts_local  1043 res_new_old_mark  v5pp  
-[2018/09/13 10:20:22 007] tts_local  1044 res_usr_name    
-[2018/09/13 10:20:22 007] tts_local  1045 check ret  0  
-[2018/09/13 10:20:22 007] tts_local  1060 lgi appid 5  be0d4e41680fbfdc9ec577dcd124f0a9  
-[2018/09/13 10:20:22 007] tts_local  1177 res_expires is null  
-[2018/09/13 10:20:22 008] auth       252  read auth file failed! err=  11200  
-[2018/09/13 10:20:22 008] tts_local  1029 speech_plus_setting  0  
-[2018/09/13 10:20:22 008] tts_local  1037 fo  res/tts/common.jet  0  0  
-[2018/09/13 10:20:22 008] tts_local  1041 res_ver  2  
-[2018/09/13 10:20:22 008] tts_local  1042 res appid5  be0d4e41680fbfdc9ec577dcd124f0a9  
-[2018/09/13 10:20:22 008] tts_local  1043 res_new_old_mark  v5pp  
-[2018/09/13 10:20:22 008] tts_local  1044 res_usr_name    
-[2018/09/13 10:20:22 008] tts_local  1045 check ret  0  
-[2018/09/13 10:20:22 008] tts_local  1060 lgi appid 5  be0d4e41680fbfdc9ec577dcd124f0a9  
-[2018/09/13 10:20:22 009] tts_local  1177 res_expires is null  
-[2018/09/13 10:20:22 009] tts_local  1466 v5pp  v5pp  
-[2018/09/13 10:20:22 009] auth       252  read auth file failed! err=  11200  
-[2018/09/13 10:20:22 009] tts_local  1509 fo  res/tts/xiaoyan.jet  256  fo  res/tts/common.jet  256  false  func(d0068df0) 
-[2018/09/13 10:20:22 011] tts_local  1525 engine init success  
-[2018/09/13 10:20:22 012] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
-[2018/09/13 10:20:22 019] tts_local  886  Disperse res  
-[2018/09/13 10:20:22 020] tts_local  1588 reinit ret:  0  
-[2018/09/13 10:20:22 020] tts_local  1309 app auth  
-[2018/09/13 10:20:22 020] auth       570  aisound  table(d0033160) nil  nil  appid = 54a61231, work_dir = .  
-[2018/09/13 10:20:22 020] auth       579  app  nil  nil  nil  
-[2018/09/13 10:20:22 021] auth       636  ath rquest  {"authorize":[{"ver":"2.1.1","busin":"aisound"}]}  
-[2018/09/13 10:20:22 021] transport  658  paramkvsport is   nil  
-[2018/09/13 10:20:22 021] transport  666  ns_enable=  1  
-[2018/09/13 10:20:22 021] transport  710  url.full=  nil  
-[2018/09/13 10:20:22 022] transport  887  switch 80  
-[2018/09/13 10:20:22 022] transport  898  net type:  standard  
-[2018/09/13 10:20:22 022] transport  899  net operator:  def  
-[2018/09/13 10:20:22 022] transport  900  use proxy:  false  
-[2018/09/13 10:20:22 022] auth       691  not login!  
-[2018/09/13 10:20:22 023] auth       528  [session] send auth request  
-[2018/09/13 10:20:22 023] transport  1033 session.domain=  open.xf-yun.com  
-[2018/09/13 10:20:22 023] transport  1034 url.host=  open.xf-yun.com  
-[2018/09/13 10:20:22 023] transport  1068 NAMESERVER START  
-[2018/09/13 10:20:22 023] transport  1071 name =   ath  
-[2018/09/13 10:20:22 023] ns         629  ntt=  standard  
-[2018/09/13 10:20:22 023] transport  1074 trans,ns_inprog =  0  
-[2018/09/13 10:20:22 023] ns         585  name server start  
-[2018/09/13 10:20:22 023] ns         586  ns_sub =   ath  
-[2018/09/13 10:20:22 023] ns         588  ns_host=  open.xf-yun.com  
-[2018/09/13 10:20:22 024] ns         479  ns_host=  open.xf-yun.com  
-[2018/09/13 10:20:22 024] ns         558  GET /sip/resolver?srand=0913102011.32 HTTP/1.1
+[2019/08/23 13:39:18 784] tts_local  1824 Linux  
+[2019/08/23 13:39:18 784] tts_local  1860 SYS_MSG_REGCB_LOCAL  
+[2019/08/23 13:39:18 784] tts_local  1875 last gc at  1566538758  
+[2019/08/23 13:39:18 784] tts_local  1860 SYS_MSG_REGCB_LOCAL  
+[2019/08/23 13:39:18 784] tts_local  1875 last gc at  1566538758  
+[2019/08/23 13:39:18 784] tts_local  1671 TTS_LOCAL_MSG_SSB  engine_type=local,text_encoding=UTF8,tts_res_path=fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet,sample_rate=16000,speed=50,volume=50,pitch=50,rdn=2  
+[2019/08/23 13:39:18 785] tts_local  1701 mode_num =  0  
+[2019/08/23 13:39:18 785] tts_local  1563 fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
+[2019/08/23 13:39:18 785] tts_local  1566 nil  
+[2019/08/23 13:39:18 785] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
+[2019/08/23 13:39:18 785] tts_local  886  Disperse res  
+[2019/08/23 13:39:18 785] tts_local  990  fo|res/tts/xiaoyan.jet  fo|res/tts/common.jet  
+[2019/08/23 13:39:18 785] tts_local  1570 res_change is  true  
+[2019/08/23 13:39:18 785] tts_local  1586 res change  
+[2019/08/23 13:39:18 785] tts_local  1393 lgi:  nil  nil  
+[2019/08/23 13:39:18 785] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
+[2019/08/23 13:39:18 785] tts_local  886  Disperse res  
+[2019/08/23 13:39:18 785] tts_local  848  file_type:  fo  file_path:  res/tts/xiaoyan.jet  
+[2019/08/23 13:39:18 785] tts_local  848  file_type:  fo  file_path:  res/tts/common.jet  
+[2019/08/23 13:39:18 785] tts_local  1417 fo  fo  res/tts/xiaoyan.jet  0  res/tts/common.jet  0  false  
+[2019/08/23 13:39:18 785] tts_local  1029 speech_plus_setting  0  
+[2019/08/23 13:39:18 785] tts_local  1037 fo  res/tts/xiaoyan.jet  0  0  
+[2019/08/23 13:39:18 785] tts_local  1041 res_ver  2  
+[2019/08/23 13:39:18 785] tts_local  1042 res appid5  be0d4e41680fbfdc9ec577dcd124f0a9  
+[2019/08/23 13:39:18 785] tts_local  1043 res_new_old_mark  v5pp  
+[2019/08/23 13:39:18 785] tts_local  1044 res_usr_name    
+[2019/08/23 13:39:18 785] tts_local  1045 check ret  0  
+[2019/08/23 13:39:18 785] tts_local  1060 lgi appid 5  be0d4e41680fbfdc9ec577dcd124f0a9  
+[2019/08/23 13:39:18 785] tts_local  1177 res_expires is null  
+[2019/08/23 13:39:18 785] auth       252  read auth file failed! err=  11200  
+[2019/08/23 13:39:18 785] tts_local  1029 speech_plus_setting  0  
+[2019/08/23 13:39:18 785] tts_local  1037 fo  res/tts/common.jet  0  0  
+[2019/08/23 13:39:18 785] tts_local  1041 res_ver  2  
+[2019/08/23 13:39:18 785] tts_local  1042 res appid5  be0d4e41680fbfdc9ec577dcd124f0a9  
+[2019/08/23 13:39:18 785] tts_local  1043 res_new_old_mark  v5pp  
+[2019/08/23 13:39:18 786] tts_local  1044 res_usr_name    
+[2019/08/23 13:39:18 786] tts_local  1045 check ret  0  
+[2019/08/23 13:39:18 786] tts_local  1060 lgi appid 5  be0d4e41680fbfdc9ec577dcd124f0a9  
+[2019/08/23 13:39:18 786] tts_local  1177 res_expires is null  
+[2019/08/23 13:39:18 786] tts_local  1466 v5pp  v5pp  
+[2019/08/23 13:39:18 786] auth       252  read auth file failed! err=  11200  
+[2019/08/23 13:39:18 786] tts_local  1509 fo  res/tts/xiaoyan.jet  256  fo  res/tts/common.jet  256  false  func(a0068df0) 
+[2019/08/23 13:39:18 794] tts_local  1525 engine init success  
+[2019/08/23 13:39:18 794] tts_local  858  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
+[2019/08/23 13:39:18 795] tts_local  886  Disperse res  
+[2019/08/23 13:39:18 795] tts_local  1588 reinit ret:  0  
+[2019/08/23 13:39:18 795] tts_local  1309 app auth  
+[2019/08/23 13:39:18 795] auth       570  aisound  table(a0033120) nil  nil  appid = 54a61231, work_dir = .  
+[2019/08/23 13:39:18 795] auth       579  app  nil  nil  nil  
+[2019/08/23 13:39:18 795] auth       636  ath rquest  {"authorize":[{"busin":"aisound","ver":"2.1.1"}]}  
+[2019/08/23 13:39:18 801] transport  658  paramkvsport is   nil  
+[2019/08/23 13:39:18 801] transport  666  ns_enable=  1  
+[2019/08/23 13:39:18 802] transport  710  url.full=  nil  
+[2019/08/23 13:39:18 802] transport  887  switch 80  
+[2019/08/23 13:39:18 802] transport  898  net type:  standard  
+[2019/08/23 13:39:18 802] transport  899  net operator:  def  
+[2019/08/23 13:39:18 802] transport  900  use proxy:  false  
+[2019/08/23 13:39:18 802] auth       691  not login!  
+[2019/08/23 13:39:18 802] auth       528  [session] send auth request  
+[2019/08/23 13:39:18 802] transport  1033 session.domain=  open.xf-yun.com  
+[2019/08/23 13:39:18 802] transport  1034 url.host=  open.xf-yun.com  
+[2019/08/23 13:39:18 802] transport  1068 NAMESERVER START  
+[2019/08/23 13:39:18 802] transport  1071 name =   ath  
+[2019/08/23 13:39:18 802] ns         629  ntt=  standard  
+[2019/08/23 13:39:18 803] transport  1074 trans,ns_inprog =  0  
+[2019/08/23 13:39:18 803] ns         585  name server start  
+[2019/08/23 13:39:18 803] ns         586  ns_sub =   ath  
+[2019/08/23 13:39:18 803] ns         588  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:18 803] ns         479  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:18 803] ns         558  GET /sip/resolver?srand=0823133911.32 HTTP/1.1
 Host: hdns.openspeech.cn
 Connection: Keep-Alive
-X-Par: ver=1.3&appid=54a61231&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=d9bdedc742fc090dfdfe08c2c045f564
+X-Par: ver=1.3&appid=54a61231&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=462e99c206018ca1086997dbf79e7334
 User-Agent: iFLYCloud
 
   
-[2018/09/13 10:20:22 024] ns         559  net_type =  standard  
-[2018/09/13 10:20:22 024] ns         560  cmwapascmnet =  
-[2018/09/13 10:20:22 024] ns         561  uniwapasuninet =  
-[2018/09/13 10:20:22 024] ns         562  ctwapasctnet =  
-[2018/09/13 10:20:22 024] ns         579  host=  hdns.openspeech.cn  
-[2018/09/13 10:20:22 024] network    242  gethostbyname  hdns.openspeech.cn  ns1  
-[2018/09/13 10:20:22 024] auth       535  0  
-[2018/09/13 10:20:22 025] auth       498  lver:  nil  
-[2018/09/13 10:20:22 026] auth       503  cfg_ver:  nil  
-[2018/09/13 10:20:22 026] tts_local  1362 forbid_aisound =  nil  
-[2018/09/13 10:20:22 026] tts_local  1635 set voice name:  xiaoyan  
-[2018/09/13 10:20:22 026] tts_local  1637 set default voice name:  xiaoyan  
-[2018/09/13 10:20:22 027] tts_local  294  speed increase:  1  
-[2018/09/13 10:20:22 027] tts_local  307  rcn:  0  
-[2018/09/13 10:20:22 028] tts_local  320  bgs:  0  
-[2018/09/13 10:20:22 028] tts_local  400  set language: chinese  
-[2018/09/13 10:20:22 028] tts_local  408  set vcn:  xiaoyan  
-[2018/09/13 10:20:22 029] tts_local  692  fit:  false  
-[2018/09/13 10:20:22 029] tts_local  547  type:  speed  value:  50  weight:  50  double_weight:  100  
-[2018/09/13 10:20:22 030] tts_local  547  type:  pitch  value:  50  weight:  50  double_weight:  100  
-[2018/09/13 10:20:22 031] tts_local  547  type:  volume  value:  50  weight:  50  double_weight:  100  
-[2018/09/13 10:20:22 032] tts_local  576  sample_rate:  528  
-[2018/09/13 10:20:22 034] tts_local  589  text_encoding:  65001  
-[2018/09/13 10:20:22 036] tts_local  610  rdn:  1  
-[2018/09/13 10:20:22 036] tts_local  623  effect:  0  
-[2018/09/13 10:20:22 036] tts_local  1725 tts_local.ssb ret:  0  
-[2018/09/13 10:20:22 036] tts_local  1875 last gc at  1536805222  
-[2018/09/13 10:20:22 036] tts_local  1733 TTS_LOCAL_MSG_TEXT  
-[2018/09/13 10:20:22 037] tts_local  1740 base64 =  5YmN5pa55pyJ6Zqc56KN54mp77yM6K+35o6l566h  
-[2018/09/13 10:20:22 037] tts_local  1875 last gc at  1536805222  
-[2018/09/13 10:20:22 038] network    224  dns resp  0  ns1  
-[2018/09/13 10:20:22 038] ns         425  ns dns ok  117.121.56.8  
-[2018/09/13 10:20:22 038] ns         205  iplist not avail  
-[2018/09/13 10:20:22 040] ns         432  is_voicecloud_ip=  0  
-[2018/09/13 10:20:22 040] ns         439  ip_is_expected=  true  
-[2018/09/13 10:20:22 040] ns         447  ip_is_expected=  true  
-[2018/09/13 10:20:22 040] network    423  gethttpresp2  117.121.56.8  80  ns2  
-[2018/09/13 10:20:22 040] network    440  prot_type  tcp  
-[2018/09/13 10:20:22 042] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  212  ,data:  udata(d0073af8) 
-[2018/09/13 10:20:22 043] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  5380  ,data:  udata(d0073088) 
-[2018/09/13 10:20:22 044] transport  142  [dns] [1] response 42.62.116.18  
-[2018/09/13 10:20:22 044] transport  152  42  62  116  18  
-[2018/09/13 10:20:22 044] transport  203  ipv =  v4  
-[2018/09/13 10:20:22 044] transport  207  dns ip is v4  
-[2018/09/13 10:20:22 044] transport  181  iplist not avail  
-[2018/09/13 10:20:22 045] transport  247  no iplist now  
-[2018/09/13 10:20:22 045] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
-[2018/09/13 10:20:22 047] transport  291  dns cb start conn  
-[2018/09/13 10:20:22 047] transport  1266 [soc] connect   42.62.116.18  80  
-[2018/09/13 10:20:22 047] transport  1283 mspsoc.open,prot_type=  tcp  
-[2018/09/13 10:20:22 049] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  7024  ,data:  udata(d00334f8) 
-[2018/09/13 10:20:22 050] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  7198  ,data:  udata(d004d668) 
-[2018/09/13 10:20:22 050] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  6472  ,data:  udata(d00787b8) 
-[2018/09/13 10:20:22 050] network    328  connected  ns2  
-[2018/09/13 10:20:22 055] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  7218  ,data:  udata(d003a7d8) 
-[2018/09/13 10:20:22 057] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  7238  ,data:  udata(d00918e8) 
-[2018/09/13 10:20:22 057] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  7412  ,data:  udata(d003c5e8) 
-[2018/09/13 10:20:22 058] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d003f7b8) 
-[2018/09/13 10:20:22 059] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d0085be8) 
-[2018/09/13 10:20:22 060] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d003a228) 
-[2018/09/13 10:20:22 060] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d003dcf8) 
-[2018/09/13 10:20:22 061] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d004e278) 
-[2018/09/13 10:20:22 062] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d006bff8) 
-[2018/09/13 10:20:22 062] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d00504b8) 
-[2018/09/13 10:20:22 063] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d0098ba8) 
-[2018/09/13 10:20:22 063] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d0079988) 
-[2018/09/13 10:20:22 064] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d004cb08) 
-[2018/09/13 10:20:22 064] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d0073cb8) 
-[2018/09/13 10:20:22 065] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d0052908) 
-[2018/09/13 10:20:22 066] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d0032f98) 
-[2018/09/13 10:20:22 066] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d0079198) 
-[2018/09/13 10:20:22 066] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d0051e48) 
-[2018/09/13 10:20:22 067] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d00513e8) 
-[2018/09/13 10:20:22 067] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d004c778) 
-[2018/09/13 10:20:22 067] network    331  send ok  271  ns2  
-[2018/09/13 10:20:22 067] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(d007afa8) 
-[2018/09/13 10:20:22 067] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  160  ,data:  udata(d00522f8) 
-[2018/09/13 10:20:22 067] transport  476  [soc] [1] connected  
-[2018/09/13 10:20:22 067] transport  1323 build http request.  
-[2018/09/13 10:20:22 068] transport  1423 POST /msp.do HTTP/1.1
-Host: open.xf-yun.com
-Content-Type: multipart/mixed;boundary=--
-Content-Length: 345
+[2019/08/23 13:39:18 803] ns         559  net_type =  standard  
+[2019/08/23 13:39:18 804] ns         560  cmwapascmnet =  
+[2019/08/23 13:39:18 804] ns         561  uniwapasuninet =  
+[2019/08/23 13:39:18 804] ns         562  ctwapasctnet =  
+[2019/08/23 13:39:18 804] ns         579  host=  hdns.openspeech.cn  
+[2019/08/23 13:39:18 804] network    242  gethostbyname  hdns.openspeech.cn  ns1  
+[2019/08/23 13:39:18 805] auth       535  0  
+[2019/08/23 13:39:18 805] auth       498  lver:  nil  
+[2019/08/23 13:39:18 805] auth       503  cfg_ver:  nil  
+[2019/08/23 13:39:18 805] tts_local  1362 forbid_aisound =  nil  
+[2019/08/23 13:39:18 806] tts_local  1635 set voice name:  xiaoyan  
+[2019/08/23 13:39:18 806] tts_local  1637 set default voice name:  xiaoyan  
+[2019/08/23 13:39:18 806] tts_local  294  speed increase:  1  
+[2019/08/23 13:39:18 806] tts_local  307  rcn:  0  
+[2019/08/23 13:39:18 806] tts_local  320  bgs:  0  
+[2019/08/23 13:39:18 806] tts_local  400  set language: chinese  
+[2019/08/23 13:39:18 807] tts_local  408  set vcn:  xiaoyan  
+[2019/08/23 13:39:18 807] tts_local  692  fit:  false  
+[2019/08/23 13:39:18 807] tts_local  547  type:  speed  value:  50  weight:  50  double_weight:  100  
+[2019/08/23 13:39:18 807] tts_local  547  type:  pitch  value:  50  weight:  50  double_weight:  100  
+[2019/08/23 13:39:18 807] tts_local  547  type:  volume  value:  50  weight:  50  double_weight:  100  
+[2019/08/23 13:39:18 807] tts_local  576  sample_rate:  528  
+[2019/08/23 13:39:18 808] tts_local  589  text_encoding:  65001  
+[2019/08/23 13:39:18 808] tts_local  610  rdn:  1  
+[2019/08/23 13:39:18 808] tts_local  623  effect:  0  
+[2019/08/23 13:39:18 808] tts_local  1725 tts_local.ssb ret:  0  
+[2019/08/23 13:39:18 809] tts_local  1875 last gc at  1566538758  
+[2019/08/23 13:39:18 809] tts_local  1733 TTS_LOCAL_MSG_TEXT  
+[2019/08/23 13:39:18 809] tts_local  1740 base64 =  5YmN5pa55pyJ6Zqc56KN54mp77yM6K+35o6l566h  
+[2019/08/23 13:39:18 809] tts_local  1875 last gc at  1566538758  
+[2019/08/23 13:39:18 814] network    224  dns resp  10214  ns1  
+[2019/08/23 13:39:18 814] ns         457  ns dns failed, err =   10214  
+[2019/08/23 13:39:18 814] network    423  gethttpresp2  117.121.48.5  80  ns2  
+[2019/08/23 13:39:18 814] network    440  prot_type  tcp  
+[2019/08/23 13:39:18 815] transport  296  [dns] [1] failed! 10214  
+[2019/08/23 13:39:18 815] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2019/08/23 13:39:18 815] network    88   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2019/08/23 13:39:18 815] transport  1266 [soc] connect   116.213.69.195  80  
+[2019/08/23 13:39:18 815] transport  1283 mspsoc.open,prot_type=  tcp  
+[2019/08/23 13:39:18 816] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  212  ,data:  udata(a00636d8) 
+[2019/08/23 13:39:18 816] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  5380  ,data:  udata(a0039a48) 
+[2019/08/23 13:39:18 816] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  7024  ,data:  udata(a0008098) 
+[2019/08/23 13:39:18 816] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  7198  ,data:  udata(a0085ad8) 
+[2019/08/23 13:39:18 816] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  6472  ,data:  udata(a004eab8) 
+[2019/08/23 13:39:18 816] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  7218  ,data:  udata(a0064038) 
+[2019/08/23 13:39:18 816] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  7238  ,data:  udata(a0045178) 
+[2019/08/23 13:39:18 816] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  7412  ,data:  udata(a0046a38) 
+[2019/08/23 13:39:18 816] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a0073318) 
+[2019/08/23 13:39:18 816] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a0044c18) 
+[2019/08/23 13:39:18 816] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a0045018) 
+[2019/08/23 13:39:18 816] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a0009dc8) 
+[2019/08/23 13:39:18 816] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a00639b8) 
+[2019/08/23 13:39:18 817] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a00808a8) 
+[2019/08/23 13:39:18 817] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a0080918) 
+[2019/08/23 13:39:18 817] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a0053968) 
+[2019/08/23 13:39:18 817] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a003c8e8) 
+[2019/08/23 13:39:18 817] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a003c938) 
+[2019/08/23 13:39:18 817] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a0047518) 
+[2019/08/23 13:39:18 817] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a0009958) 
+[2019/08/23 13:39:18 817] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a007a298) 
+[2019/08/23 13:39:18 817] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a008f998) 
+[2019/08/23 13:39:18 818] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a0044d18) 
+[2019/08/23 13:39:18 821] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a007b648) 
+[2019/08/23 13:39:18 821] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a0044dc8) 
+[2019/08/23 13:39:18 822] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  512  ,data:  udata(a0045c98) 
+[2019/08/23 13:39:18 822] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  21  ,nSize:  160  ,data:  udata(a0080728) 
+[2019/08/23 13:39:18 822] network    396  soc error  10202  ns2  
+[2019/08/23 13:39:18 823] ns         256  name server http resp  table(a007d110) 10202  nil  
+[2019/08/23 13:39:18 823] ns         415  ns response failed, err =  10202  
+[2019/08/23 13:39:18 823] ns         116  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:18 823] ns         118  use default ip  
+[2019/08/23 13:39:18 823] transport  1048 ns_ip =   116.213.69.195  
+[2019/08/23 13:39:18 823] transport  1049 ip_type =  def_athopen.xf-yun.com  
+[2019/08/23 13:39:18 823] ns         658  no data in ns_q  
+[2019/08/23 13:39:18 823] ns         659  conti_ns,ns_inprog =   1  
+[2019/08/23 13:39:18 824] transport  562  MSC:[soc] [1] error 10202 101!  
+[2019/08/23 13:39:18 824] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2019/08/23 13:39:18 824] transport  322  soc_conn_failed  
+[2019/08/23 13:39:18 824] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2019/08/23 13:39:18 825] transport  391  switch 80  
+[2019/08/23 13:39:18 826] transport  1300 [soc] disconnect   
+[2019/08/23 13:39:18 831] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  30  ,nSize:  212  ,data:  udata(a0045c38) 
+[2019/08/23 13:39:18 831] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  30  ,nSize:  6052  ,data:  udata(a0045648) 
+[2019/08/23 13:39:18 831] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  30  ,nSize:  5830  ,data:  udata(a007d288) 
+[2019/08/23 13:39:18 832] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  30  ,nSize:  5608  ,data:  udata(a003d8c8) 
+[2019/08/23 13:39:18 832] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  30  ,nSize:  9966  ,data:  udata(a003f878) 
+[2019/08/23 13:39:18 832] tts_local  937  TTS_LOCAL_CB_END  0  nil  
+[2019/08/23 13:39:18 834] tts_local  1782 TTS_LOCAL_MSG_END  0  
+[2019/08/23 13:39:18 834] tts_local  1194 plog_process  {"u_lrs":54,"hints":"Normal","dur":54,"csid":"ctts1P1HHBHjy8iPapIXVaaBrdmxV1fkmiQ","u_txt":3,"u_frs":43,"stime":"2019/08/23 13:39:18 780","ret":0}  nil  
+[2019/08/23 13:39:18 837] tts_local  1875 last gc at  1566538758  
+[2019/08/23 13:39:19 028] transport  1033 session.domain=  open.xf-yun.com  
+[2019/08/23 13:39:19 028] transport  1034 url.host=  open.xf-yun.com  
+[2019/08/23 13:39:19 028] transport  1068 NAMESERVER START  
+[2019/08/23 13:39:19 028] transport  1071 name =   ath  
+[2019/08/23 13:39:19 028] ns         629  ntt=  standard  
+[2019/08/23 13:39:19 028] transport  1074 trans,ns_inprog =  0  
+[2019/08/23 13:39:19 028] ns         585  name server start  
+[2019/08/23 13:39:19 028] ns         586  ns_sub =   ath  
+[2019/08/23 13:39:19 028] ns         588  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:19 028] ns         479  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:19 028] ns         558  GET /sip/resolver?srand=0823133911.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=54a61231&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=462e99c206018ca1086997dbf79e7334
 User-Agent: iFLYCloud
-Cache-Control: no-cache
-Accept: */*
 
-----
-CL:51
-CT:text/plain
+  
+[2019/08/23 13:39:19 028] ns         559  net_type =  standard  
+[2019/08/23 13:39:19 028] ns         560  cmwapascmnet =  
+[2019/08/23 13:39:19 028] ns         561  uniwapasuninet =  
+[2019/08/23 13:39:19 028] ns         562  ctwapasctnet =  
+[2019/08/23 13:39:19 028] ns         579  host=  hdns.openspeech.cn  
+[2019/08/23 13:39:19 028] network    242  gethostbyname  hdns.openspeech.cn  ns3  
+[2019/08/23 13:39:19 029] network    224  dns resp  10214  ns3  
+[2019/08/23 13:39:19 029] ns         457  ns dns failed, err =   10214  
+[2019/08/23 13:39:19 029] network    423  gethttpresp2  117.121.48.5  80  ns4  
+[2019/08/23 13:39:19 029] network    440  prot_type  tcp  
+[2019/08/23 13:39:19 030] network    396  soc error  10202  ns4  
+[2019/08/23 13:39:19 030] ns         256  name server http resp  table(a0064380) 10202  nil  
+[2019/08/23 13:39:19 030] ns         415  ns response failed, err =  10202  
+[2019/08/23 13:39:19 030] ns         116  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:19 030] ns         118  use default ip  
+[2019/08/23 13:39:19 030] transport  1048 ns_ip =   116.213.69.195  
+[2019/08/23 13:39:19 030] transport  1049 ip_type =  def_athopen.xf-yun.com  
+[2019/08/23 13:39:19 030] transport  1266 [soc] connect   116.213.69.195  80  
+[2019/08/23 13:39:19 030] transport  1283 mspsoc.open,prot_type=  tcp  
+[2019/08/23 13:39:19 030] ns         658  no data in ns_q  
+[2019/08/23 13:39:19 030] ns         659  conti_ns,ns_inprog =   1  
+[2019/08/23 13:39:19 030] transport  296  [dns] [1] failed! 10214  
+[2019/08/23 13:39:19 030] transport  562  MSC:[soc] [1] error 10202 101!  
+[2019/08/23 13:39:19 030] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2019/08/23 13:39:19 030] transport  322  soc_conn_failed  
+[2019/08/23 13:39:19 030] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2019/08/23 13:39:19 031] transport  391  switch 80  
+[2019/08/23 13:39:19 031] transport  1300 [soc] disconnect   
+[2019/08/23 13:39:19 233] transport  1033 session.domain=  open.xf-yun.com  
+[2019/08/23 13:39:19 233] transport  1034 url.host=  open.xf-yun.com  
+[2019/08/23 13:39:19 233] transport  1068 NAMESERVER START  
+[2019/08/23 13:39:19 233] transport  1071 name =   ath  
+[2019/08/23 13:39:19 233] ns         629  ntt=  standard  
+[2019/08/23 13:39:19 233] transport  1074 trans,ns_inprog =  0  
+[2019/08/23 13:39:19 233] ns         585  name server start  
+[2019/08/23 13:39:19 233] ns         586  ns_sub =   ath  
+[2019/08/23 13:39:19 233] ns         588  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:19 233] ns         479  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:19 233] ns         558  GET /sip/resolver?srand=0823133911.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=54a61231&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=462e99c206018ca1086997dbf79e7334
+User-Agent: iFLYCloud
 
-ver=MSSP+0%2E9&sub=auth&cmd=rath&key=08vY3TDgnXg8E=
-----
-CL:48
-CT:text/appinfo
-CE:gzip
+  
+[2019/08/23 13:39:19 233] ns         559  net_type =  standard  
+[2019/08/23 13:39:19 233] ns         560  cmwapascmnet =  
+[2019/08/23 13:39:19 233] ns         561  uniwapasuninet =  
+[2019/08/23 13:39:19 233] ns         562  ctwapasctnet =  
+[2019/08/23 13:39:19 233] ns         579  host=  hdns.openspeech.cn  
+[2019/08/23 13:39:19 233] network    242  gethostbyname  hdns.openspeech.cn  ns5  
+[2019/08/23 13:39:19 234] network    224  dns resp  10214  ns5  
+[2019/08/23 13:39:19 234] ns         457  ns dns failed, err =   10214  
+[2019/08/23 13:39:19 234] network    423  gethttpresp2  117.121.48.5  80  ns6  
+[2019/08/23 13:39:19 234] network    440  prot_type  tcp  
+[2019/08/23 13:39:19 234] transport  296  [dns] [1] failed! 10214  
+[2019/08/23 13:39:19 235] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2019/08/23 13:39:19 235] network    88   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2019/08/23 13:39:19 235] transport  1266 [soc] connect   116.213.69.195  80  
+[2019/08/23 13:39:19 235] transport  1283 mspsoc.open,prot_type=  tcp  
+[2019/08/23 13:39:19 235] network    396  soc error  10202  ns6  
+[2019/08/23 13:39:19 235] ns         256  name server http resp  table(a0080880) 10202  nil  
+[2019/08/23 13:39:19 235] ns         415  ns response failed, err =  10202  
+[2019/08/23 13:39:19 235] ns         116  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:19 235] ns         118  use default ip  
+[2019/08/23 13:39:19 235] transport  1048 ns_ip =   116.213.69.195  
+[2019/08/23 13:39:19 235] transport  1049 ip_type =  def_athopen.xf-yun.com  
+[2019/08/23 13:39:19 235] ns         658  no data in ns_q  
+[2019/08/23 13:39:19 235] ns         659  conti_ns,ns_inprog =   1  
+[2019/08/23 13:39:19 236] transport  562  MSC:[soc] [1] error 10202 101!  
+[2019/08/23 13:39:19 236] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2019/08/23 13:39:19 236] transport  322  soc_conn_failed  
+[2019/08/23 13:39:19 236] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2019/08/23 13:39:19 236] transport  391  switch 80  
+[2019/08/23 13:39:19 236] transport  1300 [soc] disconnect   
+[2019/08/23 13:39:19 438] transport  1033 session.domain=  open.xf-yun.com  
+[2019/08/23 13:39:19 438] transport  1034 url.host=  open.xf-yun.com  
+[2019/08/23 13:39:19 438] transport  1068 NAMESERVER START  
+[2019/08/23 13:39:19 438] transport  1071 name =   ath  
+[2019/08/23 13:39:19 438] ns         629  ntt=  standard  
+[2019/08/23 13:39:19 438] transport  1074 trans,ns_inprog =  0  
+[2019/08/23 13:39:19 438] ns         585  name server start  
+[2019/08/23 13:39:19 438] ns         586  ns_sub =   ath  
+[2019/08/23 13:39:19 438] ns         588  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:19 438] ns         479  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:19 438] ns         558  GET /sip/resolver?srand=0823133911.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=54a61231&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=462e99c206018ca1086997dbf79e7334
+User-Agent: iFLYCloud
 
-36
-xœËN­´5162H³´L431HK44·4KI5NJ22M6OI±H60  
-[2018/09/13 10:20:22 069] transport  1743 msg:release()  
-[2018/09/13 10:20:22 069] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  30  ,nSize:  212  ,data:  udata(d0027598) 
-[2018/09/13 10:20:22 069] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  30  ,nSize:  6052  ,data:  udata(d00275e8) 
-[2018/09/13 10:20:22 070] network    340  readable  ns2  
-[2018/09/13 10:20:22 070] network    344  HTTP/1.1 200 OK
-Date: Thu, 13 Sep 2018 02:20:25 GMT
-Content-Type: application/json
-Content-Length: 318
-Connection: keep-alive
-Server: iflytek/hdns
+  
+[2019/08/23 13:39:19 438] ns         559  net_type =  standard  
+[2019/08/23 13:39:19 438] ns         560  cmwapascmnet =  
+[2019/08/23 13:39:19 438] ns         561  uniwapasuninet =  
+[2019/08/23 13:39:19 438] ns         562  ctwapasctnet =  
+[2019/08/23 13:39:19 438] ns         579  host=  hdns.openspeech.cn  
+[2019/08/23 13:39:19 438] network    242  gethostbyname  hdns.openspeech.cn  ns7  
+[2019/08/23 13:39:19 439] network    224  dns resp  10214  ns7  
+[2019/08/23 13:39:19 439] ns         457  ns dns failed, err =   10214  
+[2019/08/23 13:39:19 439] network    423  gethttpresp2  117.121.48.5  80  ns8  
+[2019/08/23 13:39:19 439] network    440  prot_type  tcp  
+[2019/08/23 13:39:19 440] network    396  soc error  10202  ns8  
+[2019/08/23 13:39:19 440] ns         256  name server http resp  table(a0046bc0) 10202  nil  
+[2019/08/23 13:39:19 440] ns         415  ns response failed, err =  10202  
+[2019/08/23 13:39:19 440] ns         116  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:19 440] ns         118  use default ip  
+[2019/08/23 13:39:19 440] transport  1048 ns_ip =   116.213.69.195  
+[2019/08/23 13:39:19 440] transport  1049 ip_type =  def_athopen.xf-yun.com  
+[2019/08/23 13:39:19 440] transport  1266 [soc] connect   116.213.69.195  80  
+[2019/08/23 13:39:19 440] transport  1283 mspsoc.open,prot_type=  tcp  
+[2019/08/23 13:39:19 440] ns         658  no data in ns_q  
+[2019/08/23 13:39:19 440] ns         659  conti_ns,ns_inprog =   1  
+[2019/08/23 13:39:19 440] transport  296  [dns] [1] failed! 10214  
+[2019/08/23 13:39:19 440] transport  562  MSC:[soc] [1] error 10202 101!  
+[2019/08/23 13:39:19 440] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2019/08/23 13:39:19 440] transport  322  soc_conn_failed  
+[2019/08/23 13:39:19 440] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2019/08/23 13:39:19 441] transport  391  switch 80  
+[2019/08/23 13:39:19 441] transport  1300 [soc] disconnect   
+[2019/08/23 13:39:19 642] transport  1033 session.domain=  open.xf-yun.com  
+[2019/08/23 13:39:19 642] transport  1034 url.host=  open.xf-yun.com  
+[2019/08/23 13:39:19 642] transport  1068 NAMESERVER START  
+[2019/08/23 13:39:19 642] transport  1071 name =   ath  
+[2019/08/23 13:39:19 642] ns         629  ntt=  standard  
+[2019/08/23 13:39:19 642] transport  1074 trans,ns_inprog =  0  
+[2019/08/23 13:39:19 642] ns         585  name server start  
+[2019/08/23 13:39:19 642] ns         586  ns_sub =   ath  
+[2019/08/23 13:39:19 642] ns         588  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:19 642] ns         479  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:19 642] ns         558  GET /sip/resolver?srand=0823133911.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=54a61231&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=462e99c206018ca1086997dbf79e7334
+User-Agent: iFLYCloud
 
-{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.21.150","port":80,"idc":"ch"},{"ip":"116.213.69.195","port":8080,"idc":"ch"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"116.213.69.195","port":8080,"idc":"ch"}],"ttl":6000,"compel":0}]}]}  
-[2018/09/13 10:20:22 084] ns         256  name server http resp  table(d0021ce0) 0  udata(d004f218) 
-[2018/09/13 10:20:22 084] ns         269  ns response OK for this time!  
-[2018/09/13 10:20:22 084] ns         280  from_server=  iflytek/hdns  
-[2018/09/13 10:20:22 085] ns         363  compel :  0  
-[2018/09/13 10:20:22 085] ns         374  tick()=  136639818  
-[2018/09/13 10:20:22 085] ns         378  tick()mod=  136639818  
-[2018/09/13 10:20:22 085] ns         379  ns_host=  open.xf-yun.com  
-[2018/09/13 10:20:22 086] ns         392  ns_host=  open.xf-yun.com  
-[2018/09/13 10:20:22 086] transport  1048 ns_ip =   117.121.21.150  
-[2018/09/13 10:20:22 086] transport  1049 ip_type =  assigned_athopen.xf-yun.com_host  
-[2018/09/13 10:20:22 086] ns         658  no data in ns_q  
-[2018/09/13 10:20:22 086] ns         659  conti_ns,ns_inprog =   1  
-[2018/09/13 10:20:22 086] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  30  ,nSize:  5830  ,data:  udata(d0063828) 
-[2018/09/13 10:20:22 087] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  30  ,nSize:  5608  ,data:  udata(d0085b58) 
-[2018/09/13 10:20:22 087] tts_local  950  TTS_LOCAL_CB_OUTPUT  nCode:  528  ,ced:  30  ,nSize:  9966  ,data:  udata(d0073088) 
-[2018/09/13 10:20:22 088] tts_local  937  TTS_LOCAL_CB_END  0  nil  
-[2018/09/13 10:20:22 088] transport  506  [soc] [1] send ok  518  
-[2018/09/13 10:20:22 088] transport  518  [soc] [1] readable  
-[2018/09/13 10:20:22 088] transport  1696 HTTP/1.1 200 OK
-Content-Type: multipart/mixed;boundary=--
-Content-Length: 293
-X-Req-Date: 2018/09/13 10:20:25 347
-Cache-Control: no-cache
-CL: 293
-X-Res-Date: 2018/09/13 10:20:25 358
-
-----
-Content-Length:83
-
-ver=MSSP+0%2E9&ret=0&key=09ZEuT8OZPayOg6gPeskXWteXwV/fEY1AWPDjRZDgRD4qVZEavdFqHeQ==
-----
-Content-Length:93
-Content-Type:binary/authinfo
-Content-Encoding:gzip
-
-92
-xœËK
-€ Fá½üc©IàfBñJÃGâÞ³éw8ŽKj1Àv<”a¡ à[ùÞ›3íÁU‚•«6›‘F-™ê©-p¤ìyþsŒ'_<›c|Žƒ
-------  
-[2018/09/13 10:20:22 088] transport  1442 a_complete_httpmessage  200  
-[2018/09/13 10:20:22 088] transport  1552 is_update  true  
-[2018/09/13 10:20:22 089] transport  1556 port updated  80  
-[2018/09/13 10:20:22 089] transport  1558 switch  80  
-[2018/09/13 10:20:22 089] auth       347  [trans] [id = table: 0x7f88d0033300;;;=0===;auth] readable  
-[2018/09/13 10:20:22 090] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
-[2018/09/13 10:20:22 090] transport  964  iplist not avail  
-[2018/09/13 10:20:22 090] transport  1300 [soc] disconnect   
-[2018/09/13 10:20:22 091] auth       383  auth_json=  udata(d0050fe8) 
-[2018/09/13 10:20:22 091] auth       384  tostring(auth_json)=  {"aisound":{"ver":"2","bus":{"expire_date":1435751520,"ret":11203,"forbid":"1","nlimit":3}}}  
-[2018/09/13 10:20:22 091] auth       74   aisound  app  nil  nil  {"aisound":{"ver":"2","bus":{"expire_date":1435751520,"ret":11203,"forbid":"1","nlimit":3}}}  
-[2018/09/13 10:20:22 092] auth       134  auth get aisound_res_id  nil  
-[2018/09/13 10:20:22 092] auth       404  auth ok!  
-[2018/09/13 10:20:22 093] tts_local  1782 TTS_LOCAL_MSG_END  0  
-[2018/09/13 10:20:22 093] tts_local  1194 plog_process  {"u_frs":50,"u_lrs":95,"csid":"ctts1P1HHBHcsTIIlW5MVaaluRd0zWR9t2K","dur":96,"u_txt":2,"stime":"2018/09/13 10:20:21 995","ret":0,"hints":"Normal"}  nil  
-[2018/09/13 10:20:22 093] tts_local  1875 last gc at  1536805222  
-[2018/09/13 10:20:23 261] tts_local  1840 SYS_MSG_SHUTDOWN_LOCAL  
-[2018/09/13 10:20:23 262] tts_local  1875 last gc at  1536805222  
+  
+[2019/08/23 13:39:19 642] ns         559  net_type =  standard  
+[2019/08/23 13:39:19 642] ns         560  cmwapascmnet =  
+[2019/08/23 13:39:19 642] ns         561  uniwapasuninet =  
+[2019/08/23 13:39:19 642] ns         562  ctwapasctnet =  
+[2019/08/23 13:39:19 642] ns         579  host=  hdns.openspeech.cn  
+[2019/08/23 13:39:19 642] network    242  gethostbyname  hdns.openspeech.cn  ns9  
+[2019/08/23 13:39:19 643] network    224  dns resp  10214  ns9  
+[2019/08/23 13:39:19 643] ns         457  ns dns failed, err =   10214  
+[2019/08/23 13:39:19 643] network    423  gethttpresp2  117.121.48.5  80  ns10  
+[2019/08/23 13:39:19 643] network    440  prot_type  tcp  
+[2019/08/23 13:39:19 644] transport  296  [dns] [1] failed! 10214  
+[2019/08/23 13:39:19 644] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2019/08/23 13:39:19 645] network    88   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2019/08/23 13:39:19 645] transport  1266 [soc] connect   116.213.69.195  80  
+[2019/08/23 13:39:19 645] transport  1283 mspsoc.open,prot_type=  tcp  
+[2019/08/23 13:39:19 645] network    396  soc error  10202  ns10  
+[2019/08/23 13:39:19 645] ns         256  name server http resp  table(a0046bc0) 10202  nil  
+[2019/08/23 13:39:19 645] ns         415  ns response failed, err =  10202  
+[2019/08/23 13:39:19 645] ns         116  ns_host=  open.xf-yun.com  
+[2019/08/23 13:39:19 645] ns         118  use default ip  
+[2019/08/23 13:39:19 645] transport  1048 ns_ip =   116.213.69.195  
+[2019/08/23 13:39:19 645] transport  1049 ip_type =  def_athopen.xf-yun.com  
+[2019/08/23 13:39:19 645] ns         658  no data in ns_q  
+[2019/08/23 13:39:19 645] ns         659  conti_ns,ns_inprog =   1  
+[2019/08/23 13:39:19 645] transport  562  MSC:[soc] [1] error 10202 101!  
+[2019/08/23 13:39:19 645] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2019/08/23 13:39:19 645] transport  322  soc_conn_failed  
+[2019/08/23 13:39:19 645] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2019/08/23 13:39:19 646] transport  391  switch 80  
+[2019/08/23 13:39:19 646] transport  1300 [soc] disconnect   
+[2019/08/23 13:39:19 821] tts_local  1840 SYS_MSG_SHUTDOWN_LOCAL  
+[2019/08/23 13:39:19 821] tts_local  1875 last gc at  1566538758  

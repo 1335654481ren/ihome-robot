@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/renxl/work/share/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/renxl/work/share/catkin_ws/build
+CMAKE_BINARY_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/depend.make
@@ -58,17 +58,17 @@ include ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/progress.make
 include ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/flags.make
 
 ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.o: ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/flags.make
-ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/ptz-ctl/src/ptz-ctl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.o"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/ptz-ctl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/ptz-ctl/src/ptz-ctl.cpp
+ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.o: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/ptz-ctl/src/ptz-ctl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.o"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/ptz-ctl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.o -c /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/ptz-ctl/src/ptz-ctl.cpp
 
 ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.i"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/ptz-ctl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/ptz-ctl/src/ptz-ctl.cpp > CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/ptz-ctl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/ptz-ctl/src/ptz-ctl.cpp > CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.i
 
 ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.s"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/ptz-ctl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/ptz-ctl/src/ptz-ctl.cpp -o CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/ptz-ctl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/ptz-ctl/src/ptz-ctl.cpp -o CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.s
 
 ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.o.requires:
 
@@ -88,33 +88,33 @@ ptz__ctl_OBJECTS = \
 # External object files for target ptz-ctl
 ptz__ctl_EXTERNAL_OBJECTS =
 
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.o
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build.make
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/libroscpp.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/librosconsole.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/librostime.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/libcpp_common.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/ptz-ctl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ptz-ctl.dir/link.txt --verbose=$(VERBOSE)
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.o
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build.make
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/libroscpp.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/librosconsole.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/librostime.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /opt/ros/kinetic/lib/libcpp_common.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl: ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/ptz-ctl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ptz-ctl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build: /home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl
+ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl
 
 .PHONY : ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build
 
@@ -123,10 +123,10 @@ ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/requires: ihome/ptz-ctl/CMakeFiles/ptz-ctl.
 .PHONY : ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/requires
 
 ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/clean:
-	cd /home/renxl/work/share/catkin_ws/build/ihome/ptz-ctl && $(CMAKE_COMMAND) -P CMakeFiles/ptz-ctl.dir/cmake_clean.cmake
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/ptz-ctl && $(CMAKE_COMMAND) -P CMakeFiles/ptz-ctl.dir/cmake_clean.cmake
 .PHONY : ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/clean
 
 ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/depend:
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renxl/work/share/catkin_ws/src /home/renxl/work/share/catkin_ws/src/ihome/ptz-ctl /home/renxl/work/share/catkin_ws/build /home/renxl/work/share/catkin_ws/build/ihome/ptz-ctl /home/renxl/work/share/catkin_ws/build/ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renxl/work/samba-share/ihome-robot/catkin_ws/src /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/ptz-ctl /home/renxl/work/samba-share/ihome-robot/catkin_ws/build /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/ptz-ctl /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/depend
 

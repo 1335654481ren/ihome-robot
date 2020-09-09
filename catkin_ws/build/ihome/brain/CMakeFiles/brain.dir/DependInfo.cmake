@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/renxl/work/share/catkin_ws/src/ihome/aiui/src/aiui/cJSON.cpp" "/home/renxl/work/share/catkin_ws/build/ihome/brain/CMakeFiles/brain.dir/__/aiui/src/aiui/cJSON.cpp.o"
-  "/home/renxl/work/share/catkin_ws/src/ihome/brain/src/brain.cpp" "/home/renxl/work/share/catkin_ws/build/ihome/brain/CMakeFiles/brain.dir/src/brain.cpp.o"
+  "/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/aiui/src/aiui/cJSON.cpp" "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/brain/CMakeFiles/brain.dir/__/aiui/src/aiui/cJSON.cpp.o"
+  "/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/brain/src/brain.cpp" "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/brain/CMakeFiles/brain.dir/src/brain.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,10 +18,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/renxl/work/share/catkin_ws/devel/include"
+  "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/renxl/work/share/catkin_ws/src/ihome/brain/../aiui/include/aiui"
+  "/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/brain/../aiui/include/aiui"
   )
 
 # Targets to which this target links.

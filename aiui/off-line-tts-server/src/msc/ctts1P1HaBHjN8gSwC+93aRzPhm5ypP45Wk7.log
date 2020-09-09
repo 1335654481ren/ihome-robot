@@ -1,0 +1,29 @@
+============================================================
+Time  2019/08/26 14:38:51 062 
+============================================================
+[2019/08/26 14:38:51 062] tts        555  SYS_MSG_REGCB param0 =  msp_status_cb  param1 =  func(dc2af5e0) 
+[2019/08/26 14:38:51 062] config     42   use general cloud  
+[2019/08/26 14:38:51 064] tts_cloud  1414 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(dc2af5e0) 
+[2019/08/26 14:38:51 064] tts        527  TTS_MSG_SSB  
+[2019/08/26 14:38:51 064] tts        338  params =  engine_type = local, text_encoding = UTF8, tts_res_path = fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2  
+[2019/08/26 14:38:51 064] tts        369  ssb|use local  
+[2019/08/26 14:38:51 064] tts        313  local_session_begin  
+[2019/08/26 14:38:51 064] tts        533  TTS_MSG_SYN  0  
+[2019/08/26 14:38:51 064] tts        404  synth|use local  
+[2019/08/26 14:38:51 067] tts        292  0  0  
+[2019/08/26 14:38:51 067] tts        299  TTS_LOCAL_CB_END,  2  
+[2019/08/26 14:38:51 067] tts        536  TTS_MSG_GETAUDIO  0  
+[2019/08/26 14:38:51 067] tts        429  get audio|use local  
+[2019/08/26 14:38:51 067] tts        442  local audiolen:  5092  ,ced:  5  
+[2019/08/26 14:38:51 067] tts        471  0  udata(dc2cdf18) 1  
+[2019/08/26 14:38:51 068] tts        536  TTS_MSG_GETAUDIO  0  
+[2019/08/26 14:38:51 068] tts        429  get audio|use local  
+[2019/08/26 14:38:51 068] tts        442  local audiolen:  2360  ,ced:  5  
+[2019/08/26 14:38:51 068] tts        471  0  udata(dc2ef428) 1  
+[2019/08/26 14:38:51 068] tts        536  TTS_MSG_GETAUDIO  0  
+[2019/08/26 14:38:51 068] tts        429  get audio|use local  
+[2019/08/26 14:38:51 068] tts        442  local audiolen:  8968  ,ced:  5  
+[2019/08/26 14:38:51 069] tts        471  0  udata(dc2cf508) 2  
+[2019/08/26 14:38:51 069] tts        539  TTS_MSG_SSE  
+[2019/08/26 14:38:51 070] tts        493  sse|use local  
+[2019/08/26 14:38:51 070] tts        509  tts exit  

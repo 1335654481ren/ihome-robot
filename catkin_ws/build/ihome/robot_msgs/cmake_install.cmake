@@ -1,8 +1,8 @@
-# Install script for directory: /home/renxl/work/share/catkin_ws/src/ihome/robot_msgs
+# Install script for directory: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/renxl/work/share/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/renxl/work/samba-share/ihome-robot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,60 +33,60 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_msgs/msg" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_msgs/msg" TYPE FILE FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_msgs/srv" TYPE FILE FILES
-    "/home/renxl/work/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv"
-    "/home/renxl/work/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv"
+    "/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv"
+    "/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs/srv/Head.srv"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_msgs/cmake" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/build/ihome/robot_msgs/catkin_generated/installspace/robot_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_msgs/cmake" TYPE FILE FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs/catkin_generated/installspace/robot_msgs-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/renxl/work/share/catkin_ws/devel/include/robot_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/include/robot_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/renxl/work/share/catkin_ws/devel/share/roseus/ros/robot_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/share/roseus/ros/robot_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/renxl/work/share/catkin_ws/devel/share/common-lisp/ros/robot_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/share/common-lisp/ros/robot_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/renxl/work/share/catkin_ws/devel/share/gennodejs/ros/robot_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/share/gennodejs/ros/robot_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/build/ihome/robot_msgs/catkin_generated/installspace/robot_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs/catkin_generated/installspace/robot_msgs.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_msgs/cmake" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/build/ihome/robot_msgs/catkin_generated/installspace/robot_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_msgs/cmake" TYPE FILE FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs/catkin_generated/installspace/robot_msgs-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_msgs/cmake" TYPE FILE FILES
-    "/home/renxl/work/share/catkin_ws/build/ihome/robot_msgs/catkin_generated/installspace/robot_msgsConfig.cmake"
-    "/home/renxl/work/share/catkin_ws/build/ihome/robot_msgs/catkin_generated/installspace/robot_msgsConfig-version.cmake"
+    "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs/catkin_generated/installspace/robot_msgsConfig.cmake"
+    "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs/catkin_generated/installspace/robot_msgsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_msgs" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/src/ihome/robot_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_msgs" TYPE FILE FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs/package.xml")
 endif()
 

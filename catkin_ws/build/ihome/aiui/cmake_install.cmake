@@ -1,8 +1,8 @@
-# Install script for directory: /home/renxl/work/share/catkin_ws/src/ihome/aiui
+# Install script for directory: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/aiui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/renxl/work/share/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/renxl/work/samba-share/ihome-robot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/build/ihome/aiui/catkin_generated/installspace/aiui.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/aiui/catkin_generated/installspace/aiui.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aiui/cmake" TYPE FILE FILES
-    "/home/renxl/work/share/catkin_ws/build/ihome/aiui/catkin_generated/installspace/aiuiConfig.cmake"
-    "/home/renxl/work/share/catkin_ws/build/ihome/aiui/catkin_generated/installspace/aiuiConfig-version.cmake"
+    "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/aiui/catkin_generated/installspace/aiuiConfig.cmake"
+    "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/aiui/catkin_generated/installspace/aiuiConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aiui" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/src/ihome/aiui/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aiui" TYPE FILE FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/aiui/package.xml")
 endif()
 

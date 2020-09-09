@@ -54,6 +54,7 @@ struct SpeakRequest_
 
 
 
+
   typedef boost::shared_ptr< ::robot_msgs::SpeakRequest_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::robot_msgs::SpeakRequest_<ContainerAllocator> const> ConstPtr;
 
@@ -85,7 +86,7 @@ namespace message_traits
 
 
 // BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': False}
-// {'geometry_msgs': ['/opt/ros/kinetic/share/geometry_msgs/cmake/../msg'], 'robot_msgs': ['/home/renxl/work/share/catkin_ws/src/ihome/robot_msgs/msg'], 'std_msgs': ['/opt/ros/kinetic/share/std_msgs/cmake/../msg']}
+// {'geometry_msgs': ['/opt/ros/kinetic/share/geometry_msgs/cmake/../msg'], 'robot_msgs': ['/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs/msg'], 'std_msgs': ['/opt/ros/kinetic/share/std_msgs/cmake/../msg']}
 
 // !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 

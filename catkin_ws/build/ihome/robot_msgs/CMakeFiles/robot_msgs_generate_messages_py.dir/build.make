@@ -43,59 +43,59 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/renxl/work/share/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/renxl/work/share/catkin_ws/build
+CMAKE_BINARY_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/build
 
 # Utility rule file for robot_msgs_generate_messages_py.
 
 # Include the progress variables for this target.
 include ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py.dir/progress.make
 
-ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py
-ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Speak.py
-ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Head.py
-ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/__init__.py
-ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/__init__.py
+ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py
+ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Head.py
+ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Speak.py
+ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/__init__.py
+ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/__init__.py
 
 
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py: /home/renxl/work/share/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG robot_msgs/Ear"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/renxl/work/share/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg -Irobot_msgs:/home/renxl/work/share/catkin_ws/src/ihome/robot_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p robot_msgs -o /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG robot_msgs/Ear"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs/msg/Ear.msg -Irobot_msgs:/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p robot_msgs -o /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg
 
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Speak.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Speak.py: /home/renxl/work/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV robot_msgs/Speak"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/renxl/work/share/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv -Irobot_msgs:/home/renxl/work/share/catkin_ws/src/ihome/robot_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p robot_msgs -o /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Head.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Head.py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs/srv/Head.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV robot_msgs/Head"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs/srv/Head.srv -Irobot_msgs:/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p robot_msgs -o /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv
 
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Head.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Head.py: /home/renxl/work/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV robot_msgs/Head"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/renxl/work/share/catkin_ws/src/ihome/robot_msgs/srv/Head.srv -Irobot_msgs:/home/renxl/work/share/catkin_ws/src/ihome/robot_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p robot_msgs -o /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Speak.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Speak.py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV robot_msgs/Speak"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs/srv/Speak.srv -Irobot_msgs:/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p robot_msgs -o /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv
 
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/__init__.py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/__init__.py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Speak.py
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/__init__.py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Head.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for robot_msgs"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg --initpy
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/__init__.py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/__init__.py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Head.py
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/__init__.py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Speak.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for robot_msgs"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg --initpy
 
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/__init__.py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/__init__.py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Speak.py
-/home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/__init__.py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Head.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python srv __init__.py for robot_msgs"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv --initpy
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/__init__.py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/__init__.py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Head.py
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/__init__.py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Speak.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python srv __init__.py for robot_msgs"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv --initpy
 
 robot_msgs_generate_messages_py: ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py
-robot_msgs_generate_messages_py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py
-robot_msgs_generate_messages_py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Speak.py
-robot_msgs_generate_messages_py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Head.py
-robot_msgs_generate_messages_py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/__init__.py
-robot_msgs_generate_messages_py: /home/renxl/work/share/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/__init__.py
+robot_msgs_generate_messages_py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/_Ear.py
+robot_msgs_generate_messages_py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Head.py
+robot_msgs_generate_messages_py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/_Speak.py
+robot_msgs_generate_messages_py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/msg/__init__.py
+robot_msgs_generate_messages_py: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/python2.7/dist-packages/robot_msgs/srv/__init__.py
 robot_msgs_generate_messages_py: ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py.dir/build.make
 
 .PHONY : robot_msgs_generate_messages_py
@@ -106,10 +106,10 @@ ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py.dir/build: robot_msg
 .PHONY : ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py.dir/build
 
 ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py.dir/clean:
-	cd /home/renxl/work/share/catkin_ws/build/ihome/robot_msgs && $(CMAKE_COMMAND) -P CMakeFiles/robot_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs && $(CMAKE_COMMAND) -P CMakeFiles/robot_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py.dir/clean
 
 ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py.dir/depend:
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renxl/work/share/catkin_ws/src /home/renxl/work/share/catkin_ws/src/ihome/robot_msgs /home/renxl/work/share/catkin_ws/build /home/renxl/work/share/catkin_ws/build/ihome/robot_msgs /home/renxl/work/share/catkin_ws/build/ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renxl/work/samba-share/ihome-robot/catkin_ws/src /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs /home/renxl/work/samba-share/ihome-robot/catkin_ws/build /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ihome/robot_msgs/CMakeFiles/robot_msgs_generate_messages_py.dir/depend
 

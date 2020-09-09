@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/renxl/work/share/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/renxl/work/share/catkin_ws/build
+CMAKE_BINARY_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/share/catkin_ws/build/CMakeFiles /home/renxl/work/share/catkin_ws/build/ihome/wechat/CMakeFiles/progress.marks
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/wechat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/share/catkin_ws/build/CMakeFiles 0
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/wechat/CMakeFiles/progress.marks
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/wechat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/wechat/clean
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/wechat/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/wechat/preinstall
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/wechat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/wechat/preinstall
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/wechat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ihome/wechat/CMakeFiles/wechat.dir/rule:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/wechat/CMakeFiles/wechat.dir/rule
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/wechat/CMakeFiles/wechat.dir/rule
 .PHONY : ihome/wechat/CMakeFiles/wechat.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ wechat: ihome/wechat/CMakeFiles/wechat.dir/rule
 
 # fast build rule for target.
 wechat/fast:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/wechat/CMakeFiles/wechat.dir/build.make ihome/wechat/CMakeFiles/wechat.dir/build
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/wechat/CMakeFiles/wechat.dir/build.make ihome/wechat/CMakeFiles/wechat.dir/build
 .PHONY : wechat/fast
 
 src/wechat.o: src/wechat.cpp.o
@@ -186,7 +186,7 @@ src/wechat.o: src/wechat.cpp.o
 
 # target to build an object file
 src/wechat.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/wechat/CMakeFiles/wechat.dir/build.make ihome/wechat/CMakeFiles/wechat.dir/src/wechat.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/wechat/CMakeFiles/wechat.dir/build.make ihome/wechat/CMakeFiles/wechat.dir/src/wechat.cpp.o
 .PHONY : src/wechat.cpp.o
 
 src/wechat.i: src/wechat.cpp.i
@@ -195,7 +195,7 @@ src/wechat.i: src/wechat.cpp.i
 
 # target to preprocess a source file
 src/wechat.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/wechat/CMakeFiles/wechat.dir/build.make ihome/wechat/CMakeFiles/wechat.dir/src/wechat.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/wechat/CMakeFiles/wechat.dir/build.make ihome/wechat/CMakeFiles/wechat.dir/src/wechat.cpp.i
 .PHONY : src/wechat.cpp.i
 
 src/wechat.s: src/wechat.cpp.s
@@ -204,7 +204,7 @@ src/wechat.s: src/wechat.cpp.s
 
 # target to generate assembly for a file
 src/wechat.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/wechat/CMakeFiles/wechat.dir/build.make ihome/wechat/CMakeFiles/wechat.dir/src/wechat.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/wechat/CMakeFiles/wechat.dir/build.make ihome/wechat/CMakeFiles/wechat.dir/src/wechat.cpp.s
 .PHONY : src/wechat.cpp.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

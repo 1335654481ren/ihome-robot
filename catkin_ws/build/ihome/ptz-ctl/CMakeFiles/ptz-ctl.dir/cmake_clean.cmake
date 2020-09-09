@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.o"
-  "/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl.pdb"
-  "/home/renxl/work/share/catkin_ws/devel/lib/ptz-ctl/ptz-ctl"
+  "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl.pdb"
+  "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/ptz-ctl/ptz-ctl"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/renxl/work/share/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/renxl/work/share/catkin_ws/build
+CMAKE_BINARY_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/share/catkin_ws/build/CMakeFiles /home/renxl/work/share/catkin_ws/build/ihome/brain/CMakeFiles/progress.marks
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/brain/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/share/catkin_ws/build/CMakeFiles 0
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/brain/CMakeFiles/progress.marks
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/brain/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/brain/clean
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/brain/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/brain/preinstall
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/brain/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/brain/preinstall
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/brain/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ihome/brain/CMakeFiles/brain.dir/rule:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/brain/CMakeFiles/brain.dir/rule
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/brain/CMakeFiles/brain.dir/rule
 .PHONY : ihome/brain/CMakeFiles/brain.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ brain: ihome/brain/CMakeFiles/brain.dir/rule
 
 # fast build rule for target.
 brain/fast:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/build
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/build
 .PHONY : brain/fast
 
 __/aiui/src/aiui/cJSON.o: __/aiui/src/aiui/cJSON.cpp.o
@@ -186,7 +186,7 @@ __/aiui/src/aiui/cJSON.o: __/aiui/src/aiui/cJSON.cpp.o
 
 # target to build an object file
 __/aiui/src/aiui/cJSON.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/__/aiui/src/aiui/cJSON.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/__/aiui/src/aiui/cJSON.cpp.o
 .PHONY : __/aiui/src/aiui/cJSON.cpp.o
 
 __/aiui/src/aiui/cJSON.i: __/aiui/src/aiui/cJSON.cpp.i
@@ -195,7 +195,7 @@ __/aiui/src/aiui/cJSON.i: __/aiui/src/aiui/cJSON.cpp.i
 
 # target to preprocess a source file
 __/aiui/src/aiui/cJSON.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/__/aiui/src/aiui/cJSON.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/__/aiui/src/aiui/cJSON.cpp.i
 .PHONY : __/aiui/src/aiui/cJSON.cpp.i
 
 __/aiui/src/aiui/cJSON.s: __/aiui/src/aiui/cJSON.cpp.s
@@ -204,7 +204,7 @@ __/aiui/src/aiui/cJSON.s: __/aiui/src/aiui/cJSON.cpp.s
 
 # target to generate assembly for a file
 __/aiui/src/aiui/cJSON.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/__/aiui/src/aiui/cJSON.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/__/aiui/src/aiui/cJSON.cpp.s
 .PHONY : __/aiui/src/aiui/cJSON.cpp.s
 
 src/brain.o: src/brain.cpp.o
@@ -213,7 +213,7 @@ src/brain.o: src/brain.cpp.o
 
 # target to build an object file
 src/brain.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/src/brain.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/src/brain.cpp.o
 .PHONY : src/brain.cpp.o
 
 src/brain.i: src/brain.cpp.i
@@ -222,7 +222,7 @@ src/brain.i: src/brain.cpp.i
 
 # target to preprocess a source file
 src/brain.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/src/brain.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/src/brain.cpp.i
 .PHONY : src/brain.cpp.i
 
 src/brain.s: src/brain.cpp.s
@@ -231,7 +231,7 @@ src/brain.s: src/brain.cpp.s
 
 # target to generate assembly for a file
 src/brain.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/src/brain.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/brain/CMakeFiles/brain.dir/build.make ihome/brain/CMakeFiles/brain.dir/src/brain.cpp.s
 .PHONY : src/brain.cpp.s
 
 # Help Target
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

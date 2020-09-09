@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/renxl/work/share/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/renxl/work/share/catkin_ws/build
+CMAKE_BINARY_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include ihome/airkiss/CMakeFiles/airkiss.dir/depend.make
@@ -58,17 +58,17 @@ include ihome/airkiss/CMakeFiles/airkiss.dir/progress.make
 include ihome/airkiss/CMakeFiles/airkiss.dir/flags.make
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/main.cpp.o: ihome/airkiss/CMakeFiles/airkiss.dir/flags.make
-ihome/airkiss/CMakeFiles/airkiss.dir/src/main.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/main.cpp.o"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/main.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/main.cpp
+ihome/airkiss/CMakeFiles/airkiss.dir/src/main.cpp.o: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/main.cpp.o"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/main.cpp.o -c /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/main.cpp
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/airkiss.dir/src/main.cpp.i"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/main.cpp > CMakeFiles/airkiss.dir/src/main.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/main.cpp > CMakeFiles/airkiss.dir/src/main.cpp.i
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/airkiss.dir/src/main.cpp.s"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/main.cpp -o CMakeFiles/airkiss.dir/src/main.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/main.cpp -o CMakeFiles/airkiss.dir/src/main.cpp.s
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/main.cpp.o.requires:
 
@@ -82,17 +82,17 @@ ihome/airkiss/CMakeFiles/airkiss.dir/src/main.cpp.o.provides.build: ihome/airkis
 
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.o: ihome/airkiss/CMakeFiles/airkiss.dir/flags.make
-ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/app.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.o"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/app.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/app.cpp
+ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.o: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/app.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.o"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/app.cpp.o -c /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/app.cpp
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/airkiss.dir/src/app.cpp.i"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/app.cpp > CMakeFiles/airkiss.dir/src/app.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/app.cpp > CMakeFiles/airkiss.dir/src/app.cpp.i
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/airkiss.dir/src/app.cpp.s"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/app.cpp -o CMakeFiles/airkiss.dir/src/app.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/app.cpp -o CMakeFiles/airkiss.dir/src/app.cpp.s
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.o.requires:
 
@@ -106,17 +106,17 @@ ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.o.provides.build: ihome/airkiss
 
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/airkiss.cpp.o: ihome/airkiss/CMakeFiles/airkiss.dir/flags.make
-ihome/airkiss/CMakeFiles/airkiss.dir/src/airkiss.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/airkiss.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/airkiss.cpp.o"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/airkiss.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/airkiss.cpp
+ihome/airkiss/CMakeFiles/airkiss.dir/src/airkiss.cpp.o: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/airkiss.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/airkiss.cpp.o"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/airkiss.cpp.o -c /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/airkiss.cpp
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/airkiss.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/airkiss.dir/src/airkiss.cpp.i"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/airkiss.cpp > CMakeFiles/airkiss.dir/src/airkiss.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/airkiss.cpp > CMakeFiles/airkiss.dir/src/airkiss.cpp.i
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/airkiss.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/airkiss.dir/src/airkiss.cpp.s"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/airkiss.cpp -o CMakeFiles/airkiss.dir/src/airkiss.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/airkiss.cpp -o CMakeFiles/airkiss.dir/src/airkiss.cpp.s
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/airkiss.cpp.o.requires:
 
@@ -130,17 +130,17 @@ ihome/airkiss/CMakeFiles/airkiss.dir/src/airkiss.cpp.o.provides.build: ihome/air
 
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/common.cpp.o: ihome/airkiss/CMakeFiles/airkiss.dir/flags.make
-ihome/airkiss/CMakeFiles/airkiss.dir/src/common.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/common.cpp.o"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/common.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/common.cpp
+ihome/airkiss/CMakeFiles/airkiss.dir/src/common.cpp.o: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/common.cpp.o"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/common.cpp.o -c /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/common.cpp
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/airkiss.dir/src/common.cpp.i"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/common.cpp > CMakeFiles/airkiss.dir/src/common.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/common.cpp > CMakeFiles/airkiss.dir/src/common.cpp.i
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/airkiss.dir/src/common.cpp.s"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/common.cpp -o CMakeFiles/airkiss.dir/src/common.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/common.cpp -o CMakeFiles/airkiss.dir/src/common.cpp.s
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/common.cpp.o.requires:
 
@@ -154,17 +154,17 @@ ihome/airkiss/CMakeFiles/airkiss.dir/src/common.cpp.o.provides.build: ihome/airk
 
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/osdep.cpp.o: ihome/airkiss/CMakeFiles/airkiss.dir/flags.make
-ihome/airkiss/CMakeFiles/airkiss.dir/src/osdep.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/osdep.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/osdep.cpp.o"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/osdep.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/osdep.cpp
+ihome/airkiss/CMakeFiles/airkiss.dir/src/osdep.cpp.o: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/osdep.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/osdep.cpp.o"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/osdep.cpp.o -c /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/osdep.cpp
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/osdep.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/airkiss.dir/src/osdep.cpp.i"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/osdep.cpp > CMakeFiles/airkiss.dir/src/osdep.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/osdep.cpp > CMakeFiles/airkiss.dir/src/osdep.cpp.i
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/osdep.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/airkiss.dir/src/osdep.cpp.s"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/osdep.cpp -o CMakeFiles/airkiss.dir/src/osdep.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/osdep.cpp -o CMakeFiles/airkiss.dir/src/osdep.cpp.s
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/osdep.cpp.o.requires:
 
@@ -178,17 +178,17 @@ ihome/airkiss/CMakeFiles/airkiss.dir/src/osdep.cpp.o.provides.build: ihome/airki
 
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/linux.cpp.o: ihome/airkiss/CMakeFiles/airkiss.dir/flags.make
-ihome/airkiss/CMakeFiles/airkiss.dir/src/linux.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/linux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/linux.cpp.o"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/linux.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/linux.cpp
+ihome/airkiss/CMakeFiles/airkiss.dir/src/linux.cpp.o: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/linux.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/linux.cpp.o"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/linux.cpp.o -c /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/linux.cpp
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/linux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/airkiss.dir/src/linux.cpp.i"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/linux.cpp > CMakeFiles/airkiss.dir/src/linux.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/linux.cpp > CMakeFiles/airkiss.dir/src/linux.cpp.i
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/linux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/airkiss.dir/src/linux.cpp.s"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/linux.cpp -o CMakeFiles/airkiss.dir/src/linux.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/linux.cpp -o CMakeFiles/airkiss.dir/src/linux.cpp.s
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/linux.cpp.o.requires:
 
@@ -202,17 +202,17 @@ ihome/airkiss/CMakeFiles/airkiss.dir/src/linux.cpp.o.provides.build: ihome/airki
 
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.o: ihome/airkiss/CMakeFiles/airkiss.dir/flags.make
-ihome/airkiss/CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/radiotap-parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.o"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/radiotap-parser.cpp
+ihome/airkiss/CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.o: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/radiotap-parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.o"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.o -c /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/radiotap-parser.cpp
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.i"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/radiotap-parser.cpp > CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/radiotap-parser.cpp > CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.i
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.s"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/radiotap-parser.cpp -o CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/radiotap-parser.cpp -o CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.s
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.o.requires:
 
@@ -226,17 +226,17 @@ ihome/airkiss/CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.o.provides.build: i
 
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/wifi_scan.cpp.o: ihome/airkiss/CMakeFiles/airkiss.dir/flags.make
-ihome/airkiss/CMakeFiles/airkiss.dir/src/wifi_scan.cpp.o: /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/wifi_scan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/wifi_scan.cpp.o"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/wifi_scan.cpp.o -c /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/wifi_scan.cpp
+ihome/airkiss/CMakeFiles/airkiss.dir/src/wifi_scan.cpp.o: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/wifi_scan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ihome/airkiss/CMakeFiles/airkiss.dir/src/wifi_scan.cpp.o"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/airkiss.dir/src/wifi_scan.cpp.o -c /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/wifi_scan.cpp
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/wifi_scan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/airkiss.dir/src/wifi_scan.cpp.i"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/wifi_scan.cpp > CMakeFiles/airkiss.dir/src/wifi_scan.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/wifi_scan.cpp > CMakeFiles/airkiss.dir/src/wifi_scan.cpp.i
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/wifi_scan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/airkiss.dir/src/wifi_scan.cpp.s"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/share/catkin_ws/src/ihome/airkiss/src/wifi_scan.cpp -o CMakeFiles/airkiss.dir/src/wifi_scan.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss/src/wifi_scan.cpp -o CMakeFiles/airkiss.dir/src/wifi_scan.cpp.s
 
 ihome/airkiss/CMakeFiles/airkiss.dir/src/wifi_scan.cpp.o.requires:
 
@@ -263,40 +263,40 @@ airkiss_OBJECTS = \
 # External object files for target airkiss
 airkiss_EXTERNAL_OBJECTS =
 
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/main.cpp.o
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.o
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/airkiss.cpp.o
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/common.cpp.o
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/osdep.cpp.o
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/linux.cpp.o
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.o
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/wifi_scan.cpp.o
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/build.make
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/libroscpp.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/librosconsole.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/librostime.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/libcpp_common.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/renxl/work/share/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable /home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss"
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/airkiss.dir/link.txt --verbose=$(VERBOSE)
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/main.cpp.o
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/app.cpp.o
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/airkiss.cpp.o
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/common.cpp.o
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/osdep.cpp.o
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/linux.cpp.o
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/radiotap-parser.cpp.o
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/src/wifi_scan.cpp.o
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/build.make
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/libroscpp.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/librosconsole.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/librostime.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /opt/ros/kinetic/lib/libcpp_common.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss: ihome/airkiss/CMakeFiles/airkiss.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss"
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/airkiss.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ihome/airkiss/CMakeFiles/airkiss.dir/build: /home/renxl/work/share/catkin_ws/devel/lib/airkiss/airkiss
+ihome/airkiss/CMakeFiles/airkiss.dir/build: /home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/airkiss/airkiss
 
 .PHONY : ihome/airkiss/CMakeFiles/airkiss.dir/build
 
@@ -312,10 +312,10 @@ ihome/airkiss/CMakeFiles/airkiss.dir/requires: ihome/airkiss/CMakeFiles/airkiss.
 .PHONY : ihome/airkiss/CMakeFiles/airkiss.dir/requires
 
 ihome/airkiss/CMakeFiles/airkiss.dir/clean:
-	cd /home/renxl/work/share/catkin_ws/build/ihome/airkiss && $(CMAKE_COMMAND) -P CMakeFiles/airkiss.dir/cmake_clean.cmake
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss && $(CMAKE_COMMAND) -P CMakeFiles/airkiss.dir/cmake_clean.cmake
 .PHONY : ihome/airkiss/CMakeFiles/airkiss.dir/clean
 
 ihome/airkiss/CMakeFiles/airkiss.dir/depend:
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renxl/work/share/catkin_ws/src /home/renxl/work/share/catkin_ws/src/ihome/airkiss /home/renxl/work/share/catkin_ws/build /home/renxl/work/share/catkin_ws/build/ihome/airkiss /home/renxl/work/share/catkin_ws/build/ihome/airkiss/CMakeFiles/airkiss.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renxl/work/samba-share/ihome-robot/catkin_ws/src /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/airkiss /home/renxl/work/samba-share/ihome-robot/catkin_ws/build /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/airkiss/CMakeFiles/airkiss.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ihome/airkiss/CMakeFiles/airkiss.dir/depend
 

@@ -1,2 +1,2 @@
 ihome/airkiss:ihome/aiui:ihome/brain:ihome/eye:ihome/ptz-ctl:ihome/robot_msgs:ihome/webView:ihome/wechat
--DCATKIN_DEVEL_PREFIX=/home/renxl/work/share/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/renxl/work/share/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/renxl/work/samba-share/ihome-robot/catkin_ws/install -G Unix Makefiles

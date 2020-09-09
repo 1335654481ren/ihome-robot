@@ -1,8 +1,8 @@
-# Install script for directory: /home/renxl/work/share/catkin_ws/src/ihome/webView
+# Install script for directory: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/webView
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/renxl/work/share/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/renxl/work/samba-share/ihome-robot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/build/ihome/webView/catkin_generated/installspace/webView.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/webView/catkin_generated/installspace/webView.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webView/cmake" TYPE FILE FILES
-    "/home/renxl/work/share/catkin_ws/build/ihome/webView/catkin_generated/installspace/webViewConfig.cmake"
-    "/home/renxl/work/share/catkin_ws/build/ihome/webView/catkin_generated/installspace/webViewConfig-version.cmake"
+    "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/webView/catkin_generated/installspace/webViewConfig.cmake"
+    "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/webView/catkin_generated/installspace/webViewConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webView" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/src/ihome/webView/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webView" TYPE FILE FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/webView/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/webView/webView"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/webView" TYPE EXECUTABLE FILES "/home/renxl/work/share/catkin_ws/devel/lib/webView/webView")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/webView" TYPE EXECUTABLE FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/webView/webView")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/webView/webView" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/webView/webView")
     file(RPATH_CHANGE

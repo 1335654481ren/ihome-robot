@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "ptz-ctl"
-PROJECT_SPACE_DIR = "/home/renxl/work/share/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/renxl/work/samba-share/ihome-robot/catkin_ws/install"
 PROJECT_VERSION = "0.0.0"

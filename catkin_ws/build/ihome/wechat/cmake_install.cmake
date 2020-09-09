@@ -1,8 +1,8 @@
-# Install script for directory: /home/renxl/work/share/catkin_ws/src/ihome/wechat
+# Install script for directory: /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/wechat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/renxl/work/share/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/renxl/work/samba-share/ihome-robot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/build/ihome/wechat/catkin_generated/installspace/wechat.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/wechat/catkin_generated/installspace/wechat.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wechat/cmake" TYPE FILE FILES
-    "/home/renxl/work/share/catkin_ws/build/ihome/wechat/catkin_generated/installspace/wechatConfig.cmake"
-    "/home/renxl/work/share/catkin_ws/build/ihome/wechat/catkin_generated/installspace/wechatConfig-version.cmake"
+    "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/wechat/catkin_generated/installspace/wechatConfig.cmake"
+    "/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/wechat/catkin_generated/installspace/wechatConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wechat" TYPE FILE FILES "/home/renxl/work/share/catkin_ws/src/ihome/wechat/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wechat" TYPE FILE FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/wechat/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/wechat/wechat"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/wechat" TYPE EXECUTABLE FILES "/home/renxl/work/share/catkin_ws/devel/lib/wechat/wechat")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/wechat" TYPE EXECUTABLE FILES "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib/wechat/wechat")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/wechat/wechat" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/wechat/wechat")
     file(RPATH_CHANGE

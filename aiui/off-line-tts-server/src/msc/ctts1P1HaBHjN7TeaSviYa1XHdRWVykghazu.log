@@ -1,0 +1,25 @@
+============================================================
+Time  2019/08/26 10:42:33 576 
+============================================================
+[2019/08/26 10:42:33 577] tts        555  SYS_MSG_REGCB param0 =  msp_status_cb  param1 =  func(142dc830) 
+[2019/08/26 10:42:33 577] config     42   use general cloud  
+[2019/08/26 10:42:33 579] tts_cloud  1414 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(142dc830) 
+[2019/08/26 10:42:33 579] tts        527  TTS_MSG_SSB  
+[2019/08/26 10:42:33 579] tts        338  params =  engine_type = local,voice_name=xiaoyan, text_encoding = UTF8, tts_res_path = fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2  
+[2019/08/26 10:42:33 579] tts        369  ssb|use local  
+[2019/08/26 10:42:33 579] tts        313  local_session_begin  
+[2019/08/26 10:42:33 579] tts        533  TTS_MSG_SYN  0  
+[2019/08/26 10:42:33 580] tts        404  synth|use local  
+[2019/08/26 10:42:33 580] tts        536  TTS_MSG_GETAUDIO  0  
+[2019/08/26 10:42:33 580] tts        429  get audio|use local  
+[2019/08/26 10:42:33 580] tts        471  0  nil  1  
+[2019/08/26 10:42:33 580] tts        536  TTS_MSG_GETAUDIO  0  
+[2019/08/26 10:42:33 580] tts        429  get audio|use local  
+[2019/08/26 10:42:33 580] tts        471  0  nil  1  
+[2019/08/26 10:42:33 581] tts        292  11203  0  
+[2019/08/26 10:42:33 581] tts        299  TTS_LOCAL_CB_END,  2  
+[2019/08/26 10:42:33 581] tts        536  TTS_MSG_GETAUDIO  11203  
+[2019/08/26 10:42:33 581] tts        539  TTS_MSG_SSE  
+[2019/08/26 10:42:33 581] tts        493  sse|use local  
+[2019/08/26 10:42:33 581] tts        509  tts exit  
+[2019/08/26 10:42:33 581] tts        546  SYS_MSG_UNLOAD  

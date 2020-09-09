@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/robot_msgs_generate_messages_eus"
-  "/home/renxl/work/share/catkin_ws/devel/share/roseus/ros/robot_msgs/msg/Ear.l"
-  "/home/renxl/work/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Speak.l"
-  "/home/renxl/work/share/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Head.l"
-  "/home/renxl/work/share/catkin_ws/devel/share/roseus/ros/robot_msgs/manifest.l"
+  "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/share/roseus/ros/robot_msgs/msg/Ear.l"
+  "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Head.l"
+  "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/share/roseus/ros/robot_msgs/srv/Speak.l"
+  "/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/share/roseus/ros/robot_msgs/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/renxl/work/share/catkin_ws/src/ihome/wechat/src/wechat.cpp
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/wechat/src/wechat.cpp
 stdio.h
 -
 

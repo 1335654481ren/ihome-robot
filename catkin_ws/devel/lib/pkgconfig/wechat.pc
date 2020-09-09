@@ -1,8 +1,8 @@
-prefix=/home/renxl/work/share/catkin_ws/devel
+prefix=/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel
 
 Name: wechat
 Description: Description of wechat
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/renxl/work/share/catkin_ws/devel/lib 
+Libs: -L/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib 
 Requires: 

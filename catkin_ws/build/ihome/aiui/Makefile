@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/renxl/work/share/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/renxl/work/share/catkin_ws/build
+CMAKE_BINARY_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/share/catkin_ws/build/CMakeFiles /home/renxl/work/share/catkin_ws/build/ihome/aiui/CMakeFiles/progress.marks
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/share/catkin_ws/build/CMakeFiles 0
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/aiui/CMakeFiles/progress.marks
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/clean
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/preinstall
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/preinstall
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ihome/aiui/CMakeFiles/say.dir/rule:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/CMakeFiles/say.dir/rule
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/CMakeFiles/say.dir/rule
 .PHONY : ihome/aiui/CMakeFiles/say.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ say: ihome/aiui/CMakeFiles/say.dir/rule
 
 # fast build rule for target.
 say/fast:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/say.dir/build.make ihome/aiui/CMakeFiles/say.dir/build
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/say.dir/build.make ihome/aiui/CMakeFiles/say.dir/build
 .PHONY : say/fast
 
 # Convenience name for target.
 ihome/aiui/CMakeFiles/ear.dir/rule:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/CMakeFiles/ear.dir/rule
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/CMakeFiles/ear.dir/rule
 .PHONY : ihome/aiui/CMakeFiles/ear.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ ear: ihome/aiui/CMakeFiles/ear.dir/rule
 
 # fast build rule for target.
 ear/fast:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/ear.dir/build.make ihome/aiui/CMakeFiles/ear.dir/build
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/ear.dir/build.make ihome/aiui/CMakeFiles/ear.dir/build
 .PHONY : ear/fast
 
 # Convenience name for target.
 ihome/aiui/CMakeFiles/nodejs_socket.dir/rule:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/CMakeFiles/nodejs_socket.dir/rule
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/CMakeFiles/nodejs_socket.dir/rule
 .PHONY : ihome/aiui/CMakeFiles/nodejs_socket.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ nodejs_socket: ihome/aiui/CMakeFiles/nodejs_socket.dir/rule
 
 # fast build rule for target.
 nodejs_socket/fast:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/nodejs_socket.dir/build.make ihome/aiui/CMakeFiles/nodejs_socket.dir/build
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/nodejs_socket.dir/build.make ihome/aiui/CMakeFiles/nodejs_socket.dir/build
 .PHONY : nodejs_socket/fast
 
 # Convenience name for target.
 ihome/aiui/CMakeFiles/aiui.dir/rule:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/CMakeFiles/aiui.dir/rule
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/aiui/CMakeFiles/aiui.dir/rule
 .PHONY : ihome/aiui/CMakeFiles/aiui.dir/rule
 
 # Convenience name for target.
@@ -222,7 +222,7 @@ aiui: ihome/aiui/CMakeFiles/aiui.dir/rule
 
 # fast build rule for target.
 aiui/fast:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/build
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/build
 .PHONY : aiui/fast
 
 src/aiui/aiui.o: src/aiui/aiui.cpp.o
@@ -231,7 +231,7 @@ src/aiui/aiui.o: src/aiui/aiui.cpp.o
 
 # target to build an object file
 src/aiui/aiui.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.o
 .PHONY : src/aiui/aiui.cpp.o
 
 src/aiui/aiui.i: src/aiui/aiui.cpp.i
@@ -240,7 +240,7 @@ src/aiui/aiui.i: src/aiui/aiui.cpp.i
 
 # target to preprocess a source file
 src/aiui/aiui.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.i
 .PHONY : src/aiui/aiui.cpp.i
 
 src/aiui/aiui.s: src/aiui/aiui.cpp.s
@@ -249,7 +249,7 @@ src/aiui/aiui.s: src/aiui/aiui.cpp.s
 
 # target to generate assembly for a file
 src/aiui/aiui.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui.cpp.s
 .PHONY : src/aiui/aiui.cpp.s
 
 src/aiui/aiui2json.o: src/aiui/aiui2json.cpp.o
@@ -258,7 +258,7 @@ src/aiui/aiui2json.o: src/aiui/aiui2json.cpp.o
 
 # target to build an object file
 src/aiui/aiui2json.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.o
 .PHONY : src/aiui/aiui2json.cpp.o
 
 src/aiui/aiui2json.i: src/aiui/aiui2json.cpp.i
@@ -267,7 +267,7 @@ src/aiui/aiui2json.i: src/aiui/aiui2json.cpp.i
 
 # target to preprocess a source file
 src/aiui/aiui2json.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.i
 .PHONY : src/aiui/aiui2json.cpp.i
 
 src/aiui/aiui2json.s: src/aiui/aiui2json.cpp.s
@@ -276,7 +276,7 @@ src/aiui/aiui2json.s: src/aiui/aiui2json.cpp.s
 
 # target to generate assembly for a file
 src/aiui/aiui2json.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/aiui2json.cpp.s
 .PHONY : src/aiui/aiui2json.cpp.s
 
 src/aiui/cJSON.o: src/aiui/cJSON.cpp.o
@@ -285,7 +285,7 @@ src/aiui/cJSON.o: src/aiui/cJSON.cpp.o
 
 # target to build an object file
 src/aiui/cJSON.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.o
 .PHONY : src/aiui/cJSON.cpp.o
 
 src/aiui/cJSON.i: src/aiui/cJSON.cpp.i
@@ -294,7 +294,7 @@ src/aiui/cJSON.i: src/aiui/cJSON.cpp.i
 
 # target to preprocess a source file
 src/aiui/cJSON.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.i
 .PHONY : src/aiui/cJSON.cpp.i
 
 src/aiui/cJSON.s: src/aiui/cJSON.cpp.s
@@ -303,7 +303,7 @@ src/aiui/cJSON.s: src/aiui/cJSON.cpp.s
 
 # target to generate assembly for a file
 src/aiui/cJSON.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/cJSON.cpp.s
 .PHONY : src/aiui/cJSON.cpp.s
 
 src/aiui/gzlib.o: src/aiui/gzlib.cpp.o
@@ -312,7 +312,7 @@ src/aiui/gzlib.o: src/aiui/gzlib.cpp.o
 
 # target to build an object file
 src/aiui/gzlib.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.o
 .PHONY : src/aiui/gzlib.cpp.o
 
 src/aiui/gzlib.i: src/aiui/gzlib.cpp.i
@@ -321,7 +321,7 @@ src/aiui/gzlib.i: src/aiui/gzlib.cpp.i
 
 # target to preprocess a source file
 src/aiui/gzlib.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.i
 .PHONY : src/aiui/gzlib.cpp.i
 
 src/aiui/gzlib.s: src/aiui/gzlib.cpp.s
@@ -330,7 +330,7 @@ src/aiui/gzlib.s: src/aiui/gzlib.cpp.s
 
 # target to generate assembly for a file
 src/aiui/gzlib.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/gzlib.cpp.s
 .PHONY : src/aiui/gzlib.cpp.s
 
 src/aiui/main.o: src/aiui/main.cpp.o
@@ -339,7 +339,7 @@ src/aiui/main.o: src/aiui/main.cpp.o
 
 # target to build an object file
 src/aiui/main.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.o
 .PHONY : src/aiui/main.cpp.o
 
 src/aiui/main.i: src/aiui/main.cpp.i
@@ -348,7 +348,7 @@ src/aiui/main.i: src/aiui/main.cpp.i
 
 # target to preprocess a source file
 src/aiui/main.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.i
 .PHONY : src/aiui/main.cpp.i
 
 src/aiui/main.s: src/aiui/main.cpp.s
@@ -357,7 +357,7 @@ src/aiui/main.s: src/aiui/main.cpp.s
 
 # target to generate assembly for a file
 src/aiui/main.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/main.cpp.s
 .PHONY : src/aiui/main.cpp.s
 
 src/aiui/uart.o: src/aiui/uart.cpp.o
@@ -366,7 +366,7 @@ src/aiui/uart.o: src/aiui/uart.cpp.o
 
 # target to build an object file
 src/aiui/uart.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.o
 .PHONY : src/aiui/uart.cpp.o
 
 src/aiui/uart.i: src/aiui/uart.cpp.i
@@ -375,7 +375,7 @@ src/aiui/uart.i: src/aiui/uart.cpp.i
 
 # target to preprocess a source file
 src/aiui/uart.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.i
 .PHONY : src/aiui/uart.cpp.i
 
 src/aiui/uart.s: src/aiui/uart.cpp.s
@@ -384,7 +384,7 @@ src/aiui/uart.s: src/aiui/uart.cpp.s
 
 # target to generate assembly for a file
 src/aiui/uart.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/aiui/uart.cpp.s
 .PHONY : src/aiui/uart.cpp.s
 
 src/listen.o: src/listen.cpp.o
@@ -393,7 +393,7 @@ src/listen.o: src/listen.cpp.o
 
 # target to build an object file
 src/listen.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/ear.dir/build.make ihome/aiui/CMakeFiles/ear.dir/src/listen.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/ear.dir/build.make ihome/aiui/CMakeFiles/ear.dir/src/listen.cpp.o
 .PHONY : src/listen.cpp.o
 
 src/listen.i: src/listen.cpp.i
@@ -402,7 +402,7 @@ src/listen.i: src/listen.cpp.i
 
 # target to preprocess a source file
 src/listen.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/ear.dir/build.make ihome/aiui/CMakeFiles/ear.dir/src/listen.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/ear.dir/build.make ihome/aiui/CMakeFiles/ear.dir/src/listen.cpp.i
 .PHONY : src/listen.cpp.i
 
 src/listen.s: src/listen.cpp.s
@@ -411,7 +411,7 @@ src/listen.s: src/listen.cpp.s
 
 # target to generate assembly for a file
 src/listen.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/ear.dir/build.make ihome/aiui/CMakeFiles/ear.dir/src/listen.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/ear.dir/build.make ihome/aiui/CMakeFiles/ear.dir/src/listen.cpp.s
 .PHONY : src/listen.cpp.s
 
 src/nodejs_socket.o: src/nodejs_socket.cpp.o
@@ -420,7 +420,7 @@ src/nodejs_socket.o: src/nodejs_socket.cpp.o
 
 # target to build an object file
 src/nodejs_socket.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/nodejs_socket.dir/build.make ihome/aiui/CMakeFiles/nodejs_socket.dir/src/nodejs_socket.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/nodejs_socket.dir/build.make ihome/aiui/CMakeFiles/nodejs_socket.dir/src/nodejs_socket.cpp.o
 .PHONY : src/nodejs_socket.cpp.o
 
 src/nodejs_socket.i: src/nodejs_socket.cpp.i
@@ -429,7 +429,7 @@ src/nodejs_socket.i: src/nodejs_socket.cpp.i
 
 # target to preprocess a source file
 src/nodejs_socket.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/nodejs_socket.dir/build.make ihome/aiui/CMakeFiles/nodejs_socket.dir/src/nodejs_socket.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/nodejs_socket.dir/build.make ihome/aiui/CMakeFiles/nodejs_socket.dir/src/nodejs_socket.cpp.i
 .PHONY : src/nodejs_socket.cpp.i
 
 src/nodejs_socket.s: src/nodejs_socket.cpp.s
@@ -438,7 +438,7 @@ src/nodejs_socket.s: src/nodejs_socket.cpp.s
 
 # target to generate assembly for a file
 src/nodejs_socket.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/nodejs_socket.dir/build.make ihome/aiui/CMakeFiles/nodejs_socket.dir/src/nodejs_socket.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/nodejs_socket.dir/build.make ihome/aiui/CMakeFiles/nodejs_socket.dir/src/nodejs_socket.cpp.s
 .PHONY : src/nodejs_socket.cpp.s
 
 src/say.o: src/say.cpp.o
@@ -447,7 +447,7 @@ src/say.o: src/say.cpp.o
 
 # target to build an object file
 src/say.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/say.dir/build.make ihome/aiui/CMakeFiles/say.dir/src/say.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/say.dir/build.make ihome/aiui/CMakeFiles/say.dir/src/say.cpp.o
 .PHONY : src/say.cpp.o
 
 src/say.i: src/say.cpp.i
@@ -456,7 +456,7 @@ src/say.i: src/say.cpp.i
 
 # target to preprocess a source file
 src/say.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/say.dir/build.make ihome/aiui/CMakeFiles/say.dir/src/say.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/say.dir/build.make ihome/aiui/CMakeFiles/say.dir/src/say.cpp.i
 .PHONY : src/say.cpp.i
 
 src/say.s: src/say.cpp.s
@@ -465,7 +465,7 @@ src/say.s: src/say.cpp.s
 
 # target to generate assembly for a file
 src/say.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/say.dir/build.make ihome/aiui/CMakeFiles/say.dir/src/say.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/say.dir/build.make ihome/aiui/CMakeFiles/say.dir/src/say.cpp.s
 .PHONY : src/say.cpp.s
 
 src/tts_local/ekho.o: src/tts_local/ekho.cpp.o
@@ -474,7 +474,7 @@ src/tts_local/ekho.o: src/tts_local/ekho.cpp.o
 
 # target to build an object file
 src/tts_local/ekho.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.o
 .PHONY : src/tts_local/ekho.cpp.o
 
 src/tts_local/ekho.i: src/tts_local/ekho.cpp.i
@@ -483,7 +483,7 @@ src/tts_local/ekho.i: src/tts_local/ekho.cpp.i
 
 # target to preprocess a source file
 src/tts_local/ekho.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.i
 .PHONY : src/tts_local/ekho.cpp.i
 
 src/tts_local/ekho.s: src/tts_local/ekho.cpp.s
@@ -492,7 +492,7 @@ src/tts_local/ekho.s: src/tts_local/ekho.cpp.s
 
 # target to generate assembly for a file
 src/tts_local/ekho.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/ekho.cpp.s
 .PHONY : src/tts_local/ekho.cpp.s
 
 src/tts_local/tts_local.o: src/tts_local/tts_local.cpp.o
@@ -501,7 +501,7 @@ src/tts_local/tts_local.o: src/tts_local/tts_local.cpp.o
 
 # target to build an object file
 src/tts_local/tts_local.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.o
 .PHONY : src/tts_local/tts_local.cpp.o
 
 src/tts_local/tts_local.i: src/tts_local/tts_local.cpp.i
@@ -510,7 +510,7 @@ src/tts_local/tts_local.i: src/tts_local/tts_local.cpp.i
 
 # target to preprocess a source file
 src/tts_local/tts_local.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.i
 .PHONY : src/tts_local/tts_local.cpp.i
 
 src/tts_local/tts_local.s: src/tts_local/tts_local.cpp.s
@@ -519,7 +519,7 @@ src/tts_local/tts_local.s: src/tts_local/tts_local.cpp.s
 
 # target to generate assembly for a file
 src/tts_local/tts_local.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/aiui/CMakeFiles/aiui.dir/build.make ihome/aiui/CMakeFiles/aiui.dir/src/tts_local/tts_local.cpp.s
 .PHONY : src/tts_local/tts_local.cpp.s
 
 # Help Target
@@ -583,6 +583,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

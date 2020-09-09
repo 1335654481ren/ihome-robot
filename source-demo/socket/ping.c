@@ -33,9 +33,9 @@ int go_ping(char *svrip)
         return -1;
 }
 
-void main()
+void main(int argc, char **argv)
 {
-	char *ip = "192.168.1.1";
+	char *ip = "8.8.8.8";
 	if(go_ping(ip) == 0){
 		printf("network :%s is ok!\n",ip);
 	}else{

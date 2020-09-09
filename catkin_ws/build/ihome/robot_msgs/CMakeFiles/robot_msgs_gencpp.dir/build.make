@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/renxl/work/share/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/renxl/work/share/catkin_ws/build
+CMAKE_BINARY_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/build
 
 # Utility rule file for robot_msgs_gencpp.
 
@@ -63,10 +63,10 @@ ihome/robot_msgs/CMakeFiles/robot_msgs_gencpp.dir/build: robot_msgs_gencpp
 .PHONY : ihome/robot_msgs/CMakeFiles/robot_msgs_gencpp.dir/build
 
 ihome/robot_msgs/CMakeFiles/robot_msgs_gencpp.dir/clean:
-	cd /home/renxl/work/share/catkin_ws/build/ihome/robot_msgs && $(CMAKE_COMMAND) -P CMakeFiles/robot_msgs_gencpp.dir/cmake_clean.cmake
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs && $(CMAKE_COMMAND) -P CMakeFiles/robot_msgs_gencpp.dir/cmake_clean.cmake
 .PHONY : ihome/robot_msgs/CMakeFiles/robot_msgs_gencpp.dir/clean
 
 ihome/robot_msgs/CMakeFiles/robot_msgs_gencpp.dir/depend:
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renxl/work/share/catkin_ws/src /home/renxl/work/share/catkin_ws/src/ihome/robot_msgs /home/renxl/work/share/catkin_ws/build /home/renxl/work/share/catkin_ws/build/ihome/robot_msgs /home/renxl/work/share/catkin_ws/build/ihome/robot_msgs/CMakeFiles/robot_msgs_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renxl/work/samba-share/ihome-robot/catkin_ws/src /home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/robot_msgs /home/renxl/work/samba-share/ihome-robot/catkin_ws/build /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/robot_msgs/CMakeFiles/robot_msgs_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ihome/robot_msgs/CMakeFiles/robot_msgs_gencpp.dir/depend
 

@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dbabd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dbabd.dir/build.make CMakeFiles/cmTC_dbabd.dir/build
-make[1]: Entering directory '/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dbabd.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_dbabd.dir/CheckSymbolExists.c.o   -c /home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_dbabd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbabd.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_dbabd.dir/CheckSymbolExists.c.o  -o cmTC_dbabd -rdynamic 
-CMakeFiles/cmTC_dbabd.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_fe5be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe5be.dir/build.make CMakeFiles/cmTC_fe5be.dir/build
+make[1]: Entering directory '/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe5be.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_fe5be.dir/CheckSymbolExists.c.o   -c /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fe5be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe5be.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fe5be.dir/CheckSymbolExists.c.o  -o cmTC_fe5be -rdynamic 
+CMakeFiles/cmTC_fe5be.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_dbabd.dir/build.make:97: recipe for target 'cmTC_dbabd' failed
-make[1]: *** [cmTC_dbabd] Error 1
-make[1]: Leaving directory '/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_dbabd/fast' failed
-make: *** [cmTC_dbabd/fast] Error 2
+CMakeFiles/cmTC_fe5be.dir/build.make:97: recipe for target 'cmTC_fe5be' failed
+make[1]: *** [cmTC_fe5be] Error 1
+make[1]: Leaving directory '/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fe5be/fast' failed
+make: *** [cmTC_fe5be/fast] Error 2
 
-File /home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,44 +34,44 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_83b7e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_83b7e.dir/build.make CMakeFiles/cmTC_83b7e.dir/build
-make[1]: Entering directory '/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_83b7e.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_83b7e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_83b7e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83b7e.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_83b7e.dir/CheckFunctionExists.c.o  -o cmTC_83b7e -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_49aa9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49aa9.dir/build.make CMakeFiles/cmTC_49aa9.dir/build
+make[1]: Entering directory '/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49aa9.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_49aa9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_49aa9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49aa9.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_49aa9.dir/CheckFunctionExists.c.o  -o cmTC_49aa9 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_83b7e.dir/build.make:97: recipe for target 'cmTC_83b7e' failed
-make[1]: *** [cmTC_83b7e] Error 1
-make[1]: Leaving directory '/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_83b7e/fast' failed
-make: *** [cmTC_83b7e/fast] Error 2
+CMakeFiles/cmTC_49aa9.dir/build.make:97: recipe for target 'cmTC_49aa9' failed
+make[1]: *** [cmTC_49aa9] Error 1
+make[1]: Leaving directory '/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_49aa9/fast' failed
+make: *** [cmTC_49aa9/fast] Error 2
 
 
 Determining if the Q_WS_WIN exist failed with the following output:
-Change Dir: /home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b6210/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b6210.dir/build.make CMakeFiles/cmTC_b6210.dir/build
-make[1]: Entering directory '/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b6210.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_b6210.dir/CheckSymbolExists.cxx.o -c /home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_3dda6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3dda6.dir/build.make CMakeFiles/cmTC_3dda6.dir/build
+make[1]: Entering directory '/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3dda6.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_3dda6.dir/CheckSymbolExists.cxx.o -c /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
    return ((int*)(&Q_WS_WIN))[argc];
                    ^
-CMakeFiles/cmTC_b6210.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b6210.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_b6210.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_b6210/fast' failed
-make: *** [cmTC_b6210/fast] Error 2
+CMakeFiles/cmTC_3dda6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3dda6.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3dda6.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3dda6/fast' failed
+make: *** [cmTC_3dda6/fast] Error 2
 
-File /home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -87,24 +87,24 @@ int main(int argc, char** argv)
 }
 
 Determining if the Q_WS_QWS exist failed with the following output:
-Change Dir: /home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_91dfd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_91dfd.dir/build.make CMakeFiles/cmTC_91dfd.dir/build
-make[1]: Entering directory '/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_91dfd.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_91dfd.dir/CheckSymbolExists.cxx.o -c /home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_d95d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d95d1.dir/build.make CMakeFiles/cmTC_d95d1.dir/build
+make[1]: Entering directory '/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d95d1.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_d95d1.dir/CheckSymbolExists.cxx.o -c /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
    return ((int*)(&Q_WS_QWS))[argc];
                    ^
-CMakeFiles/cmTC_91dfd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_91dfd.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_91dfd.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_91dfd/fast' failed
-make: *** [cmTC_91dfd/fast] Error 2
+CMakeFiles/cmTC_d95d1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d95d1.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d95d1.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d95d1/fast' failed
+make: *** [cmTC_d95d1/fast] Error 2
 
-File /home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -120,24 +120,24 @@ int main(int argc, char** argv)
 }
 
 Determining if the Q_WS_MAC exist failed with the following output:
-Change Dir: /home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0d693/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0d693.dir/build.make CMakeFiles/cmTC_0d693.dir/build
-make[1]: Entering directory '/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0d693.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_0d693.dir/CheckSymbolExists.cxx.o -c /home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_efd46/fast"
+/usr/bin/make -f CMakeFiles/cmTC_efd46.dir/build.make CMakeFiles/cmTC_efd46.dir/build
+make[1]: Entering directory '/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_efd46.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_efd46.dir/CheckSymbolExists.cxx.o -c /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
    return ((int*)(&Q_WS_MAC))[argc];
                    ^
-CMakeFiles/cmTC_0d693.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0d693.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_0d693.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_0d693/fast' failed
-make: *** [cmTC_0d693/fast] Error 2
+CMakeFiles/cmTC_efd46.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_efd46.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_efd46.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_efd46/fast' failed
+make: *** [cmTC_efd46/fast] Error 2
 
-File /home/renxl/work/share/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 

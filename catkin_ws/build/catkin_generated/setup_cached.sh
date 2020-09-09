@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/renxl/work/share/catkin_ws/build"
+export LD_LIBRARY_PATH="/home/renxl/work/samba-share/ihome-robot/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:/home/renxl/work/samba-share/hobot-sdk/adasHDFSTools/tools/hadoop-3.1.1/lib/native:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server"
+export PWD="/home/renxl/work/samba-share/ihome-robot/catkin_ws/build"

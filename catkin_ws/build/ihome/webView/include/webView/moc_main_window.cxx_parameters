@@ -4,7 +4,7 @@
 -I/usr/include/qt4
 -I/usr/include/qt4/QtGui
 -I/usr/include/qt4/QtCore
--I/home/renxl/work/share/catkin_ws/build/ihome/webView
+-I/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/webView
 -DROS_BUILD_SHARED_LIBS=1
 -DROS_PACKAGE_NAME="webView"
 -DROSCONSOLE_BACKEND_LOG4CXX
@@ -13,5 +13,5 @@
 -DQT_CORE_LIB
 -DQT_NO_KEYWORDS
 -o
-/home/renxl/work/share/catkin_ws/build/ihome/webView/include/webView/moc_main_window.cxx
-/home/renxl/work/share/catkin_ws/src/ihome/webView/include/webView/main_window.hpp
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/webView/include/webView/moc_main_window.cxx
+/home/renxl/work/samba-share/ihome-robot/catkin_ws/src/ihome/webView/include/webView/main_window.hpp

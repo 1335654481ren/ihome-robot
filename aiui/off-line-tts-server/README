@@ -1,0 +1,26 @@
+﻿README for Linux_aisound
+-----------------------
+
+bin：
+|-- msc
+    |-- msc.cfg（作用：msc调试、生成msc日志）
+	|-- res
+		|--tts（合成资源文件）
+		
+doc：
+|-- iFlytek MSC Reference Manual（API文档，HTML格式）
+
+include：调用SDK所需头文件
+
+libs：
+|-- x86
+	|-- libmsc.so（32位动态库）
+|-- x64
+	|-- libmsc.so（64位动态库）
+
+samples：
+|-- tts_sample（语音合成示例）
+	|-- tts_sample.c
+	|-- Makefile
+	|-- 32bit_make.sh
+	|-- 64bit_make.sh

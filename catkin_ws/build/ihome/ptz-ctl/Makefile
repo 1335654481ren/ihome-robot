@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/renxl/work/share/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/renxl/work/share/catkin_ws/build
+CMAKE_BINARY_DIR = /home/renxl/work/samba-share/ihome-robot/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/share/catkin_ws/build/CMakeFiles /home/renxl/work/share/catkin_ws/build/ihome/ptz-ctl/CMakeFiles/progress.marks
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/ptz-ctl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/share/catkin_ws/build/CMakeFiles 0
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/ihome/ptz-ctl/CMakeFiles/progress.marks
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/ptz-ctl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/renxl/work/samba-share/ihome-robot/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/ptz-ctl/clean
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/ptz-ctl/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/ptz-ctl/preinstall
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/ptz-ctl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/ptz-ctl/preinstall
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/ptz-ctl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/rule:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/rule
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/rule
 .PHONY : ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ ptz-ctl: ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/rule
 
 # fast build rule for target.
 ptz-ctl/fast:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build.make ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build.make ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build
 .PHONY : ptz-ctl/fast
 
 src/ptz-ctl.o: src/ptz-ctl.cpp.o
@@ -186,7 +186,7 @@ src/ptz-ctl.o: src/ptz-ctl.cpp.o
 
 # target to build an object file
 src/ptz-ctl.cpp.o:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build.make ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.o
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build.make ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.o
 .PHONY : src/ptz-ctl.cpp.o
 
 src/ptz-ctl.i: src/ptz-ctl.cpp.i
@@ -195,7 +195,7 @@ src/ptz-ctl.i: src/ptz-ctl.cpp.i
 
 # target to preprocess a source file
 src/ptz-ctl.cpp.i:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build.make ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.i
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build.make ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.i
 .PHONY : src/ptz-ctl.cpp.i
 
 src/ptz-ctl.s: src/ptz-ctl.cpp.s
@@ -204,7 +204,7 @@ src/ptz-ctl.s: src/ptz-ctl.cpp.s
 
 # target to generate assembly for a file
 src/ptz-ctl.cpp.s:
-	cd /home/renxl/work/share/catkin_ws/build && $(MAKE) -f ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build.make ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.s
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(MAKE) -f ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/build.make ihome/ptz-ctl/CMakeFiles/ptz-ctl.dir/src/ptz-ctl.cpp.s
 .PHONY : src/ptz-ctl.cpp.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/renxl/work/share/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/renxl/work/samba-share/ihome-robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
